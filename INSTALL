@@ -1,0 +1,19 @@
+Al-Anvar Installation
+
+Requirements
+============
+
+Al-Anvar requires QT 4.7 or higher to be installed .
+to install qt library type :
+
+sudo apt-get install libqt4-dev libphonon-dev  g++ qt4-qmake
+
+
+Quick Guide
+===========
+
+Al-Anvar is built and installed using qmake. Go to main directory and type:
+
+   qmake (or qmake-qt4)
+   make
+   sudo make install

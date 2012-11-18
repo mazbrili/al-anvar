@@ -1,0 +1,64 @@
+    Al-Anvar, a Quran Study Software
+    Copyright (C) 2011-2012 S. Hosein Hoseini
+
+    Email: <etrate14@gmail.com>,
+	WWW:   <http://al-anvar.sourceforge.net>
+	
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.
+
+    -------------------------------------------------------------------------
+
+Al-Anvar is a cross-platform Quran Study Software. It uses "Tanzil.net" and "Zekr.org" database as its database,
+It has lots of features:
+
+    -Text of the Quran
+    -Adding different translations of the Quran
+    -Adding interpretation of the Quran
+    -Direct download and install for translations and interpretations and so on through program
+    -Comparison between translations
+    -Comparison between interpretations
+    -Putting note in the following of each verse
+    -Classifying the subject for verses of the Quran (with classifying the subject possibility by user)
+    -Repeated verses
+    -Related verses in terms of subject
+    -Reading online Quran (with storing downloaded files) and offline by different readers of the Quran from website http://everyayah.com
+    -Repeat adjustment of reading of verses
+    -reading verses in the range a chapter (sura) or a division or a component.
+    -Advanced search
+    -Presenting chapters or chapters on different tabs
+    -Saving with Html, PDF and ODF formats
+    -Changing the font and color and size of the text and translations of the Quran and also font, style and themes of software separately
+
+
+=================== Requirments ===================================
+Windows:
+To compile and install Al-Anvar on your system, you have to install the Qt Windows SDK from
+www.qtsoftware.com.
+
+Linux:
+To compile and install Al-Anvar on your system, Be sure you have installed the Qt4 development packages.
+Its name maybe libqt4-dev, libphonon-dev or similar.
+ 
+
+Mac OS X:
+To compile and install Al-Anvar on your system, you have to install the Qt Mac SDK from
+www.qtsoftware.com and Mac SDK from developer.apple.com
+
+
+=================== Compile ========================================
+
+  cd  main directory
+  qmake (or qmake-qt4)
+  make
+

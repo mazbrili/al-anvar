@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>anvar</class>
+ <widget class="QMainWindow" name="anvar">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1019</width>
+    <height>571</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Serif</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>AL-Anvar</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <property name="locale">
+   <locale language="English" country="UnitedStates"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout_3">
+    <item>
+     <widget class="QTabWidget" name="tabWidgetQuran">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tabAdSearch">
+       <attribute name="title">
+        <string>quran search</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_9">
+        <item>
+         <widget class="QSplitter" name="splitter">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <widget class="QTableView" name="tableResultQ">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="horizontalScrollBarPolicy">
+            <enum>Qt::ScrollBarAlwaysOff</enum>
+           </property>
+           <property name="editTriggers">
+            <set>QAbstractItemView::NoEditTriggers</set>
+           </property>
+           <property name="dragDropOverwriteMode">
+            <bool>false</bool>
+           </property>
+           <property name="alternatingRowColors">
+            <bool>true</bool>
+           </property>
+           <property name="selectionBehavior">
+            <enum>QAbstractItemView::SelectRows</enum>
+           </property>
+           <property name="wordWrap">
+            <bool>false</bool>
+           </property>
+           <property name="cornerButtonEnabled">
+            <bool>true</bool>
+           </property>
+           <attribute name="horizontalHeaderVisible">
+            <bool>false</bool>
+           </attribute>
+           <attribute name="horizontalHeaderHighlightSections">
+            <bool>true</bool>
+           </attribute>
+           <attribute name="verticalHeaderHighlightSections">
+            <bool>true</bool>
+           </attribute>
+          </widget>
+          <widget class="QTextEdit" name="textEditShowQ"/>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tabSearchRoot">
+       <attribute name="title">
+        <string>root</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_10">
+        <item>
+         <widget class="QSplitter" name="splitter_2">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <widget class="QTableView" name="tableResultRoot">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="horizontalScrollBarPolicy">
+            <enum>Qt::ScrollBarAlwaysOff</enum>
+           </property>
+           <property name="editTriggers">
+            <set>QAbstractItemView::NoEditTriggers</set>
+           </property>
+           <property name="alternatingRowColors">
+            <bool>true</bool>
+           </property>
+           <property name="selectionBehavior">
+            <enum>QAbstractItemView::SelectRows</enum>
+           </property>
+          </widget>
+          <widget class="QTextEdit" name="textEditShowRoot"/>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1019</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuTools">
+    <property name="title">
+     <string>tools</string>
+    </property>
+    <addaction name="actionOptions"/>
+    <addaction name="actionBackup"/>
+    <addaction name="actionLayoutChapter"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>help</string>
+    </property>
+    <addaction name="actionHomePage"/>
+    <addaction name="actionNewsLetter"/>
+    <addaction name="actionUpdates"/>
+    <addaction name="separator"/>
+    <addaction name="actionAbout"/>
+    <addaction name="actionHelp"/>
+   </widget>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>file</string>
+    </property>
+    <addaction name="actionSave"/>
+    <addaction name="actionPrint"/>
+    <addaction name="actionSavepdf"/>
+    <addaction name="actionExit"/>
+   </widget>
+   <widget class="QMenu" name="menuAdonse">
+    <property name="title">
+     <string>addonse</string>
+    </property>
+    <addaction name="actionAddonsPage"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuTools"/>
+   <addaction name="menuAdonse"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <widget class="QDockWidget" name="dockWidget">
+   <property name="minimumSize">
+    <size>
+     <width>340</width>
+     <height>267</height>
+    </size>
+   </property>
+   <property name="features">
+    <set>QDockWidget::DockWidgetClosable</set>
+   </property>
+   <attribute name="dockWidgetArea">
+    <number>1</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents_2">
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QToolBox" name="toolBoxQuran">
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="currentIndex">
+        <number>2</number>
+       </property>
+       <widget class="QWidget" name="page">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>322</width>
+          <height>382</height>
+         </rect>
+        </property>
+        <attribute name="label">
+         <string>Quran list</string>
+        </attribute>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_2">
+           <item>
+            <widget class="QLabel" name="labelSort">
+             <property name="text">
+              <string>Sort by:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QComboBox" name="comboBoxSortBy">
+             <property name="maximumSize">
+              <size>
+               <width>160</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <property name="currentIndex">
+              <number>-1</number>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QTreeWidget" name="quranTree">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="horizontalScrollBarPolicy">
+            <enum>Qt::ScrollBarAlwaysOff</enum>
+           </property>
+           <property name="alternatingRowColors">
+            <bool>true</bool>
+           </property>
+           <attribute name="headerVisible">
+            <bool>false</bool>
+           </attribute>
+           <column>
+            <property name="text">
+             <string notr="true">1</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>2</string>
+            </property>
+           </column>
+          </widget>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout">
+           <item>
+            <layout class="QGridLayout" name="gridLayout">
+             <item row="0" column="0">
+              <widget class="QLabel" name="labelJuz">
+               <property name="text">
+                <string>juz</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QComboBox" name="comboBoxJuz"/>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="labelHizb">
+               <property name="text">
+                <string>hizb</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QComboBox" name="comboBoxHizb"/>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer_4">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="page_4">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>322</width>
+          <height>382</height>
+         </rect>
+        </property>
+        <attribute name="label">
+         <string>Topices</string>
+        </attribute>
+        <layout class="QVBoxLayout" name="verticalLayout_6">
+         <item>
+          <layout class="QVBoxLayout" name="layout_Subject"/>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="page_5">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>306</width>
+          <height>457</height>
+         </rect>
+        </property>
+        <attribute name="label">
+         <string>Search</string>
+        </attribute>
+        <layout class="QVBoxLayout" name="verticalLayout_8">
+         <item>
+          <widget class="QTabWidget" name="tabWidgetSearch">
+           <property name="currentIndex">
+            <number>0</number>
+           </property>
+           <widget class="QWidget" name="tab_5">
+            <attribute name="title">
+             <string>advanced search</string>
+            </attribute>
+            <layout class="QVBoxLayout" name="verticalLayout_4">
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_3">
+               <item>
+                <widget class="QGroupBox" name="groupBoxAdQ">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>16777215</height>
+                  </size>
+                 </property>
+                 <property name="title">
+                  <string>Advanced Search</string>
+                 </property>
+                 <layout class="QVBoxLayout" name="verticalLayout_7">
+                  <item>
+                   <widget class="Line" name="line_2">
+                    <property name="orientation">
+                     <enum>Qt::Horizontal</enum>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="labelCom">
+                    <property name="text">
+                     <string>use (/) for several words</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <layout class="QVBoxLayout" name="verticalLayout_13">
+                    <item>
+                     <widget class="QLabel" name="labelAnd">
+                      <property name="text">
+                       <string>any of these words:</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLineEdit" name="lineAndQ"/>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="labelAndAfter">
+                      <property name="text">
+                       <string>any of these words(sequence):</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLineEdit" name="lineAndAfterQ"/>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="labelNot">
+                      <property name="text">
+                       <string>none of these words:</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLineEdit" name="lineNotQ"/>
+                    </item>
+                    <item>
+                     <layout class="QVBoxLayout" name="verticalLayout_15">
+                      <item>
+                       <widget class="QCheckBox" name="checkBoxWholeQ">
+                        <property name="text">
+                         <string>whole word</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QCheckBox" name="checkBoxHamziQ">
+                        <property name="text">
+                         <string>match hamza</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <widget class="Line" name="line">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <layout class="QVBoxLayout" name="verticalLayout_11">
+                      <item>
+                       <widget class="QRadioButton" name="radioInQuran">
+                        <property name="text">
+                         <string>in quran</string>
+                        </property>
+                        <property name="checked">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QRadioButton" name="radioInTr">
+                        <property name="text">
+                         <string>in tr</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_7">
+                      <item>
+                       <widget class="QPushButton" name="pushSearchQ">
+                        <property name="text">
+                         <string>Search</string>
+                        </property>
+                        <property name="icon">
+                         <iconset resource="rc.qrc">
+                          <normaloff>:/images/find-icon.png</normaloff>:/images/find-icon.png</iconset>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <spacer name="horizontalSpacer_6">
+                        <property name="orientation">
+                         <enum>Qt::Horizontal</enum>
+                        </property>
+                        <property name="sizeHint" stdset="0">
+                         <size>
+                          <width>40</width>
+                          <height>20</height>
+                         </size>
+                        </property>
+                       </spacer>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="labelResultQ">
+                      <property name="layoutDirection">
+                       <enum>Qt::LeftToRight</enum>
+                      </property>
+                      <property name="text">
+                       <string>Result:0</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <spacer name="verticalSpacer">
+                      <property name="orientation">
+                       <enum>Qt::Vertical</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>20</width>
+                        <height>40</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+               <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_4"/>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="tab_6">
+            <attribute name="title">
+             <string>root</string>
+            </attribute>
+            <layout class="QVBoxLayout" name="verticalLayout_5">
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_12">
+               <item>
+                <layout class="QHBoxLayout" name="Layout_Search_Tolj">
+                 <item>
+                  <widget class="QLineEdit" name="line_SearchRoot"/>
+                 </item>
+                 <item>
+                  <spacer name="horizontalSpacer_3">
+                   <property name="orientation">
+                    <enum>Qt::Horizontal</enum>
+                   </property>
+                   <property name="sizeHint" stdset="0">
+                    <size>
+                     <width>40</width>
+                     <height>20</height>
+                    </size>
+                   </property>
+                  </spacer>
+                 </item>
+                </layout>
+               </item>
+               <item>
+                <widget class="QListWidget" name="list_Quran_Root">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>16777215</height>
+                  </size>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="labelQuranRootResult">
+                 <property name="text">
+                  <string>TextLabel</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </widget>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionLayoutChapter"/>
+   <addaction name="actionMoshafView"/>
+   <addaction name="actionSave"/>
+   <addaction name="actionSavepdf"/>
+   <addaction name="actionPrint"/>
+   <addaction name="actionSearch"/>
+   <addaction name="actionAddonsPage"/>
+   <addaction name="actionOptions"/>
+   <addaction name="actionHelp"/>
+   <addaction name="actionAbout"/>
+   <addaction name="actionExit"/>
+  </widget>
+  <action name="actionAbout">
+   <property name="icon">
+    <iconset resource="rc.qrc">
+     <normaloff>:/images/about.png</normaloff>:/images/about.png</iconset>
+   </property>
+   <property name="text">
+    <string>about</string>
+   </property>
+  </action>
+  <action name="actionAddonsPage">
+   <property name="icon">
+    <iconset resource="rc.qrc">
+     <normaloff>:/images/addones.png</normaloff>:/images/addones.png</iconset>
+   </property>
+   <property name="text">
+    <string>addons Page</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+A</string>
+   </property>
+  </action>
+  <action name="actionOptions">
+   <property name="icon">
+    <iconset resource="rc.qrc">
+     <normaloff>:/images/configureToolbar-icon.png</normaloff>:/images/configureToolbar-icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>options..</string>
+   </property>
+  </action>
+  <action name="actionSave">
+   <property name="icon">
+    <iconset resource="rc.qrc">
+     <normaloff>:/images/filesave.png</normaloff>:/images/filesave.png</iconset>
+   </property>
+   <property name="text">
+    <string>Save</string>
+   </property>
+  </action>
+  <action name="actionPrint">
+   <property name="icon">
+    <iconset resource="rc.qrc">
+     <normaloff>:/images/fileprint.png</normaloff>:/images/fileprint.png</iconset>
+   </property>
+   <property name="text">
+    <string>print</string>
+   </property>
+  </action>
+  <action name="actionSavepdf">
+   <property name="icon">
+    <iconset resource="rc.qrc">
+     <normaloff>:/images/exportpdf.png</normaloff>:/images/exportpdf.png</iconset>
+   </property>
+   <property name="text">
+    <string>savepdf</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="icon">
+    <iconset resource="rc.qrc">
+     <normaloff>:/images/exit-icon.png</normaloff>:/images/exit-icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>exit</string>
+   </property>
+  </action>
+  <action name="actionBackup">
+   <property name="icon">
+    <iconset resource="rc.qrc">
+     <normaloff>:/images/backup.png</normaloff>:/images/backup.png</iconset>
+   </property>
+   <property name="text">
+    <string>Backup</string>
+   </property>
+  </action>
+  <action name="actionLayoutChapter">
+   <property name="icon">
+    <iconset resource="rc.qrc">
+     <normaloff>:/images/layoutdelete.png</normaloff>:/images/layoutdelete.png</iconset>
+   </property>
+   <property name="text">
+    <string>layoutChapter</string>
+   </property>
+  </action>
+  <action name="actionHelp">
+   <property name="icon">
+    <iconset resource="rc.qrc">
+     <normaloff>:/images/help.png</normaloff>:/images/help.png</iconset>
+   </property>
+   <property name="text">
+    <string>Help</string>
+   </property>
+   <property name="shortcut">
+    <string>F1</string>
+   </property>
+  </action>
+  <action name="actionUpdate">
+   <property name="icon">
+    <iconset resource="rc.qrc">
+     <normaloff>:/images/Download.png</normaloff>:/images/Download.png</iconset>
+   </property>
+   <property name="text">
+    <string>update</string>
+   </property>
+  </action>
+  <action name="actionHomePage">
+   <property name="icon">
+    <iconset resource="rc.qrc">
+     <normaloff>:/images/homepage.png</normaloff>:/images/homepage.png</iconset>
+   </property>
+   <property name="text">
+    <string>HomePage</string>
+   </property>
+  </action>
+  <action name="actionNewsLetter">
+   <property name="icon">
+    <iconset resource="rc.qrc">
+     <normaloff>:/images/newsletter.png</normaloff>:/images/newsletter.png</iconset>
+   </property>
+   <property name="text">
+    <string>NewsLetter</string>
+   </property>
+  </action>
+  <action name="actionUpdates">
+   <property name="icon">
+    <iconset resource="rc.qrc">
+     <normaloff>:/images/update.png</normaloff>:/images/update.png</iconset>
+   </property>
+   <property name="text">
+    <string>Check for updates</string>
+   </property>
+  </action>
+  <action name="actionSearch">
+   <property name="icon">
+    <iconset resource="rc.qrc">
+     <normaloff>:/images/find-icon.png</normaloff>:/images/find-icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>search</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+F</string>
+   </property>
+  </action>
+  <action name="actionMoshafView">
+   <property name="icon">
+    <iconset resource="rc.qrc">
+     <normaloff>:/images/app.png</normaloff>:/images/app.png</iconset>
+   </property>
+   <property name="text">
+    <string>MoshafView</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="rc.qrc"/>
+ </resources>
+ <connections/>
+</ui>

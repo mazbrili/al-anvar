@@ -1,0 +1,8 @@
+QTextEdit,QListWidget
+{
+     color: rgb(0, 0, 0);
+     background-attachment: fixed;
+     background-position: center center;
+     background-repeat: none;  
+	 background-image:url(:/images/bg.png); 
+}

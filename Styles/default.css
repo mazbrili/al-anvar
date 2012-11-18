@@ -1,0 +1,91 @@
+QTextEdit,QListWidget
+{
+     color: rgb(0, 0, 0);
+     background-color:qlineargradient(spread:reflect, x1:0.5, y1:0, x2:0.5, y2:1, stop:0 rgba(255, 255, 255, 255), stop:0.5 rgba(227, 255, 214, 255), stop:1 rgba(255, 255, 255, 255));
+     background-attachment: fixed;
+     background-position: center center;
+     background-repeat: none;  
+	 background-image:url(:/images/bg.png); 
+}
+
+QTreeView,QGroupBox,QTableWidget,QListView,QListWidget
+{
+
+background-color:qlineargradient(spread:pad, x1:0.521, y1:0, x2:0.494, y2:0.301, stop:0 rgba(250, 252, 253, 255), stop:1 rgba(239, 247, 248, 255));
+
+border-width: 1px;
+border-style: outset;
+border-radius: 3px;
+border-color: rgb(130, 130, 130);
+}
+
+QToolBox::tab,QTabBar::tab:!selected
+{
+background-color:qlineargradient(spread:pad, x1:0.515737, y1:0, x2:0.499, y2:1, stop:0 rgba(250, 252, 253, 255), stop:0.184211 rgba(220, 240, 240, 255), stop:0.826316 rgba(220, 240, 240, 255), stop:1 rgba(250, 252, 253, 255));
+
+border-width: 1px;
+border-style: outset;
+border-radius: 3px;
+border-color: rgb(130, 130, 130);
+}
+
+QTabBar::tab:selected,QToolBox::tab:selected,QTabBar::tab:hover,QToolBox::tab:hover
+{
+background-color:rgb(255, 252, 248);
+}
+
+QTabBar::tab:!selected{
+
+padding:5px;
+}
+QTabBar::tab:selected,QTabBar::tab:hover
+{
+
+padding:5px;
+}
+QTabBar::tab
+{
+border: 1px solid #C4C4C3;
+border-bottom-color: #C2C7CB;
+border-top-left-radius: 4px;
+border-top-right-radius: 4px;
+padding-left: 2px;
+padding-right: 2px;
+}
+QToolBox::tab {
+     border-radius: 5px;
+     color: black;
+
+}
+QToolBox {
+   
+     icon-size: 30px
+}
+
+QGroupBox,QDockWidget
+{
+border: 1px solid gray;
+border-radius: 5px;
+margin-top: 1ex;
+}
+QGroupBox::title
+{
+subcontrol-origin: margin;
+subcontrol-position: top center;
+padding: 0 3px;
+background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+stop: 0 #FFOECE, stop: 1 #FFFFFF);
+}
+
+
+QHeaderView::section 
+{
+     background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                                       stop:0 #616161, stop: 0.5 #505050,
+                                       stop: 0.6 #434343, stop:1 #656565);
+     color: white;
+     padding-left: 4px;
+     border: 1px solid #6c6c6c;
+}
+
+ 

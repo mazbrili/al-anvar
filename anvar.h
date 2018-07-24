@@ -25,11 +25,24 @@
 #define ANVAR_H
 
 #include <QMainWindow>
+#include <QScrollBar>
+#include <QToolBar>
+#include <QProgressBar>
+#include <QFormLayout>
+#include <QStyleFactory>
+#include <QPrintDialog>
+#include <QPrinter>
+#include <QFontDialog>
+#include <QTextDocument>
+#include <QTextEdit>
+#include <QStandardPaths>
+#include <QDesktopWidget>
 #include "setting.h"
 #include "quranwidget.h"
 #include "helpWindow.h"
 #include "ayeexplor.h"
 #include "addons.h"
+
 
 namespace Ui {
     class anvar;

@@ -26,6 +26,7 @@
 
 
 #include <QMainWindow>
+#include <QTextBrowser>
 #include "findreplace.h"
 
 
@@ -33,7 +34,7 @@ class HelpWindow : public QMainWindow
 {
     Q_OBJECT
 public:
-    HelpWindow( const QString home, QWidget* parent = 0, Qt::WFlags flags = 0) : QMainWindow( parent, flags )
+    HelpWindow( const QString home, QWidget* parent = 0, Qt::WindowFlags flags = 0) : QMainWindow( parent, flags )
     {
 
         setWindowTitle(tool.trlang("Help"));

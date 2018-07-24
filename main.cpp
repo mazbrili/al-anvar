@@ -24,6 +24,7 @@
 #include "anvar.h"
 #include "tools.h"
 #include "langdialog.h"
+#include <QStandardPaths>
 
 
 int main(int argc, char *argv[])
@@ -33,10 +34,10 @@ int main(int argc, char *argv[])
     app.setApplicationName( "Al-Anvar" );
     QFontDatabase::addApplicationFont(":/redist/ScheherazadeRegOT.ttf"); 
     QFontDatabase::addApplicationFont(":/redist/noorehira.ttf");//noorehira
-    if(!QFile::exists(QDesktopServices::storageLocation(QDesktopServices::FontsLocation)+"/noorehira.ttf"))
+    if(!QFile::exists(QStandardPaths::StandardLocation(QStandardPaths::FontsLocation)+"/noorehira.ttf"))
     {
-        QFile::copy(":/redist/noorehira.ttf",QDesktopServices::storageLocation(QDesktopServices::FontsLocation)+"/noorehira.ttf");
-        QFile::copy(":/redist/ScheherazadeRegOT.ttf",QDesktopServices::storageLocation(QDesktopServices::FontsLocation)+"/ScheherazadeRegOT.ttf");
+        QFile::copy(":/redist/noorehira.ttf",QStandardPaths::StandardLocation(QStandardPaths::FontsLocation)+"/noorehira.ttf");
+        QFile::copy(":/redist/ScheherazadeRegOT.ttf",QStandardPaths::StandardLocation(QStandardPaths::FontsLocation)+"/ScheherazadeRegOT.ttf");
     }
 
 

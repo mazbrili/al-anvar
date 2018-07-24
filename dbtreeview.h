@@ -25,7 +25,8 @@
 
 #include "dbmodel.h"
 #include "adddirdialog.h"
-
+#include <QToolBar>
+#include <QCompleter>
 /*
 CREATE TABLE IF NOT EXISTS Books (id NUMERIC, Name TEXT, Parent_ID NUMERIC, Type NUMERIC, rating NUMERIC, ordering NUMERIC, Date DATE, BookId NUMERIC,peroperty TEXT);
 CREATE TABLE IF NOT EXISTS BooksValue (id NUMERIC, idText NUMERIC, Text TEXT, Page TEXT,BookId NUMERIC);

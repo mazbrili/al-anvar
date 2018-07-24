@@ -27,6 +27,8 @@
 #include <QNetworkAccessManager>
 #include <QNetworkReply>
 #include <QAbstractTextDocumentLayout>
+#include <QProgressBar>
+#include <QLabel>
 
 
 class Downloader : public QObject

@@ -24,6 +24,8 @@
 #include "anvar.h"
 #include "ui_anvar.h"
 #include "moshafwidget.h"
+#include <QStandardPaths>
+#include <QPrintPreviewWidget>
 
 anvar::anvar(QWidget *parent) :
     QMainWindow(parent),
@@ -1036,7 +1038,8 @@ void anvar::AcSave(){
 
 
     QString fn = QFileDialog::getSaveFileName(this, tool.trlang("Save as.."),
-                                              QDesktopServices::storageLocation(QDesktopServices::HomeLocation), tr("HTML-Files (*.htm *.html);;ODF files (*.odt);;All Files (*)"));
+    //                                          QDesktopServices::storageLocation(QDesktopServices::HomeLocation), tr("HTML-Files (*.htm *.html);;ODF files (*.odt);;All Files (*)"));
+                                                QStandardPaths::writableLocation(QStandardPaths::HomeLocation), tr("HTML-Files (*.htm *.html);;ODF files (*.odt);;All Files (*)"));   
     if (fn.isEmpty())
         return ;
     if (! (fn.endsWith(".odt", Qt::CaseInsensitive) || fn.endsWith(".htm", Qt::CaseInsensitive) || fn.endsWith(".html", Qt::CaseInsensitive)) )
@@ -1062,13 +1065,15 @@ void anvar::AcPrint(){
     dlg->setWindowTitle(tool.trlang("Print"));
     if (dlg->exec() == QDialog::Accepted) {
         QTextEdit *Save = new QTextEdit;
-
+        //*Save = new QTextEdit(this);
+        QTextEdit *textEdit = new QTextEdit(this);
         QString SaveText;
         for(int i=0;i<listWidgetPrint->count();i++)
             SaveText+=listWidgetPrint->item(i)->text()+"\n";
 
          Save->setText(SaveText);
          Save->print(&printer);
+
     }
     delete dlg;
 
@@ -1077,7 +1082,7 @@ void anvar::AcPrint(){
 void anvar::AcPdf(){
 
     QString fileName = QFileDialog::getSaveFileName(this, tool.trlang("Save as pdf"),
-                                                    QDesktopServices::storageLocation(QDesktopServices::HomeLocation), "*.pdf");
+                                                    QStandardPaths::writableLocation(QStandardPaths::HomeLocation), "*.pdf");
     if (!fileName.isEmpty()) {
         if (QFileInfo(fileName).suffix().isEmpty())
             fileName.append(".pdf");
@@ -1228,7 +1233,7 @@ void anvar::installAddonsFormFile()
 }
 void anvar::BackupOfSubjectAndComment(){
 
-    QString BackupName =   QFileDialog::getSaveFileName(this, tool.trlang("Backup"),QDesktopServices::storageLocation(QDesktopServices::HomeLocation)  );
+    QString BackupName =   QFileDialog::getSaveFileName(this, tool.trlang("Backup"),QStandardPaths::writableLocation(QStandardPaths::HomeLocation)  );
     if(BackupName.isNull())
         return;
     QStringList table;

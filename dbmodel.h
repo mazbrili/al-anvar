@@ -23,7 +23,7 @@
 #ifndef DBMODEL_H
 #define DBMODEL_H
 
-
+#include <QTreeWidgetItem>
 #include "database.h"
 #include "dbsearch.h"
 #include "editordering.h"

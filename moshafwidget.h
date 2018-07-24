@@ -2,6 +2,7 @@
 #define MOSHAFWIDGET_H
 
 #include <QWidget>
+#include <QAction>
 #include "database.h"
 #include "ui_moshafwidget.h"
 #include "player.h"

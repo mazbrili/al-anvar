@@ -23,6 +23,7 @@
 
 
 #include "setting.h"
+#include <QFontDialog>
 
 Setting::Setting(QWidget *parent) :
     QDialog(parent)

@@ -22,7 +22,8 @@
  ***************************************************************************/
 #ifndef QURANWIDGET_H
 #define QURANWIDGET_H
-
+#include <QProgressBar>
+#include <QAction>
 #include "database.h"
 #include "player.h"
 #include "findreplace.h"

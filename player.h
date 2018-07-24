@@ -27,16 +27,17 @@
 #include "database.h"
 #include "Downloader.h"
 #include "ui_player.h"
-#include <SeekSlider>
-#include <VolumeSlider>
-#include <BackendCapabilities>
-#include <MediaSource>
-#include <MediaObject>
-#include <AudioOutput>
-#include <VolumeSlider>
-#include <VideoPlayer>
-#include <VideoWidget>
-#include <SeekSlider>
+#include <phonon4qt5/phonon/SeekSlider>
+#include <phonon4qt5/phonon/VolumeSlider>
+#include <phonon4qt5/phonon/BackendCapabilities>
+#include <phonon4qt5/phonon/MediaSource>
+#include <phonon4qt5/phonon/MediaObject>
+#include <phonon4qt5/phonon/AudioOutput>
+#include <phonon4qt5/phonon/VolumeSlider>
+#include <phonon4qt5/phonon/VideoPlayer>
+#include <phonon4qt5/phonon/VideoWidget>
+#include <phonon4qt5/phonon/SeekSlider>
+#include <QProgressBar>
 
 
 

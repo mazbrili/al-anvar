@@ -29,17 +29,23 @@
 #include <QNetworkAccessManager>
 #include <QNetworkReply>
 #include <QAbstractTextDocumentLayout>
-#include <BackendCapabilities>
-#include <MediaSource>
-#include <MediaObject>
-#include <AudioOutput>
-#include <VolumeSlider>
-#include <VideoPlayer>
-#include <VideoWidget>
-#include <SeekSlider>
-#include <SeekSlider>
-#include <VolumeSlider>
+#include <QMessageBox>
+#include <QFileDialog>
+#include <QBoxLayout>
+#include <QHBoxLayout>
+#include <QApplication>
+#include <phonon4qt5/phonon/BackendCapabilities>
+#include <phonon4qt5/phonon/MediaSource>
+#include <phonon4qt5/phonon/MediaObject>
+#include <phonon4qt5/phonon/AudioOutput>
+#include <phonon4qt5/phonon/VolumeSlider>
+#include <phonon4qt5/phonon/VideoPlayer>
+#include <phonon4qt5/phonon/VideoWidget>
+#include <phonon4qt5/phonon/SeekSlider>
+#include <phonon4qt5/phonon/SeekSlider>
+#include <phonon4qt5/phonon/VolumeSlider>
 #include "./sendermail/SmtpMime"
+#include <QStandardPaths>
 
 
 class tools : public QObject
@@ -289,8 +295,9 @@ public:
      }
      void ZipOpen(QString OpenedData=""){
          if (OpenedData=="")
-          OpenedData =  QFileDialog::getOpenFileName(0,"Open",QDesktopServices::storageLocation(QDesktopServices::HomeLocation));
-
+          //OpenedData =  QFileDialog::getOpenFileName(0,"Open",QDesktopServices::storageLocation(QDesktopServices::HomeLocation));
+	     OpenedData =  QFileDialog::getOpenFileName(0,"Open",QStandardPaths::writableLocation(QStandardPaths::HomeLocation));
+	
          if (OpenedData.isNull()) return;
          Zip(OpenedData,pathData+"/temp.zip");
          QFile file(OpenedData);
@@ -303,7 +310,7 @@ public:
      }
      void UnZipList(){
 
-          QStringList filelist =  QFileDialog::getOpenFileNames(0,"Open",QDesktopServices::storageLocation(QDesktopServices::HomeLocation));
+          QStringList filelist =  QFileDialog::getOpenFileNames(0,"Open",QStandardPaths::writableLocation(QStandardPaths::HomeLocation));
 
          if (filelist.isEmpty()) return;
          foreach(QString OpenedData,filelist){
@@ -316,8 +323,8 @@ public:
      }
      void ZipList(){
 
-          QStringList filelist =  QFileDialog::getOpenFileNames(0,"Open",QDesktopServices::storageLocation(QDesktopServices::HomeLocation));
-
+         // QStringList filelist =  QFileDialog::getOpenFileNames(0,"Open",QDesktopServices::storageLocation(QDesktopServices::HomeLocation));
+         QStringList filelist =  QFileDialog::getOpenFileNames(0,"Open",QStandardPaths::writableLocation(QStandardPaths::HomeLocation));
          if (filelist.isEmpty()) return;
          foreach(QString OpenedData,filelist){
          QFile file(OpenedData);

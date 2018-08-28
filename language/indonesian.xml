@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <language author="" version="0.2.5">
+    <locale AUTHOR="" NAME="Indonesia" VERSION="AL-ANVAR-0.2.5"  ID="id" />
+      <words>
+		<text id="Align" value="Left" />
+
+<!-- Main Words -->
+
+		<text id="About" value="Tentang" />
+		<text id="Abouttxt" value="Al-Anvar adalah asisten gratis sumber terbuka Quran bagi para peneliti Al-Quran. Pencarian lanjutan, pengindeksan akar kata, pengindeksan ayat acak dan pembacaan online/offline,adalah beberapa fitur dari versi ini. Sebagian besar terjemahan Al Qur'an, dalam bahasa yang berbeda, juga tersedia. Kami mengucapkan terima kasih khusus dan terima kasih kepada tanzil.net dan zekr.org untuk bahan teks dan juga ke everyayah.com untuk bacaan. " />
+		<text id="Add Feuilleton" value="Tambahkan Catatan kaki" />    
+		<text id="Add Subject" value="Tambahkan topik..." />    
+		<text id="Add a Point" value="Catatan saya" />
+		<text id="Add selected words to unwanted list" value="Tambahkan kata-kata yang dipilih ke daftar yang tidak diinginkan" />    
+		<text id="Add-ons Page" value="Add-ons" />
+		<text id="Add-ons list was not updated Successfully" value="Daftar Add-on TIDAK dapat diperbarui!" />
+		<text id="Add-ons list was updated Successfully" value="Daftar Add-on berhasil diperbarui!" />
+		<text id="Add-ons" value="Add-ons" />
+		<text id="Address" value="Alamat" />    
+		<text id="Advanced Search" value="Pencarian Lanjutan" />
+		<text id="Are you sure to Remove This Verse From" value="Apakah Anda yakin untuk Hapus Ini Ayat Dari" />    
+		<text id="Are you sure to Remove those Subjects:" value="Anda yakin ingin menghapus topik berikut?" />
+		<text id="Are you sure to Restore  Backup ?" value="Anda yakin ingin memulihkan cadangan?" />
+		<text id="Backup Subjects and Notes" value="Ambil cadangan dari topik dan catatan" />
+		<text id="Backup was create Successfully" value="Cadangan berhasil!" />
+		<text id="Backup was not create Successfully" value="Proses pencadangan TIDAK berhasil diselesaikan!" />
+		<text id="Backup" value="Backup" />
+		<text id="Books Search" value="Search in the library" />
+		<text id="Both" value="Both" />    
+		<text id="Cancel" value="Cancel" />
+		<text id="Change Fonts" value="Change Fonts" />    
+		<text id="Chapter" value="Chapter" />
+		<text id="Close" value="Close" />    
+		<text id="Color of the Quran" value="Text color for the Quran" />    
+		<text id="Color of the Translation" value="Text color for the translation" />  
+		<text id="DataBase Dir" value="Database directory" />
+		<text id="Audio Dir" value="Audio directory" />
+		<text id="Date" value="Date" />    
+		<text id="Delete Permantly Selecteds" value="Delete Permantly Selecteds" />    
+		<text id="Descent" value="Descent" />
+		<text id="Double Clicked to" value="Double-click " />
+		<text id="Download And Install" value="Download and Install" />
+		<text id="Downloding" value="Downloading..." />    
+		<text id="Edit Ordering" value="Edit ordering" />
+		<text id="EmptyTrash " value="Empty trash" />    
+		<text id="Exit" value="Exit" />
+		<text id="File Name" value="Filename" />
+		<text id="File" value="File" />
+		<text id="Find" value="Find" />
+		<text id="Font of the Quran" value="Text font for Quran" />    
+		<text id="Font of the Software" value="Interface text font" />    
+		<text id="Font of the Translation" value="Text font for the translation" />    
+		<text id="Get Add-ons" value="Get add-ons" />
+		<text id="Help" value="Help" />
+		<text id="Hide chapter layout" value="Hide the sidebar" />
+		<text id="Hizb" value="Hizb" />    
+		<text id="Install Add-ons" value="Install add-ons" />
+		<text id="Interpretation" value="Commentries" />
+		<text id="Language of the Program" value="Program language" />    
+		<text id="Make As Folder" value="Make as folder" />
+		<text id="Match Alifhamza" value="Match alifhamza" />
+		<text id="Match Case" value="Match case" />
+		<text id="Match the e'rab" value="Match e'rabs" />
+		<text id="Merge Subject" value="Merge topic" />
+		<text id="Move Subject" value="Move topic to: " />    
+		<text id="Move To Trash" value="Move to trash" />
+		<text id="Name" value="Name" />
+		<text id="Need Restart" value="Need restart" />
+		<text id="Next" value="Next" />
+		<text id="Ok" value="Ok" />
+		<text id="Options.." value="Preferences..." />
+		<text id="Ordering" value="Order" />    
+		<text id="Page" value="Page" />
+		<text id="Play via Phonon" value="Play with Al-anver internal player" />
+		<text id="Playback" value="Player" />
+		<text id="Playing Icon" value="Play icon" />
+		<text id="Preferences" value="Preferences" />
+		<text id="Previous" value="Previous" />
+		<text id="Print" value="Print" />
+		<text id="Pro" value="Professional" />
+		<text id="Qur'an Only" value="Qur'an only" />
+		<text id="Qur'an Translation was Installed Successfully" value="Translation successfully installed!" />
+		<text id="Qur'an Translations" value="Qur'an translations" />    
+		<text id="Quran Root" value="Root" />    
+		<text id="Quran Search" value="Quran" />    
+		<text id="Quran setting" value="Content display" />
+		<text id="Quran" value="Quran" />
+		<text id="Reciter" value="Reciter" />
+		<text id="Regular expression" value="Regular expression " />    
+		<text id="Remarking Icon" value="My notes" />
+		<text id="Repeat" value="Repeat" />    
+		<text id="Restore Seleteds" value="Restore Seleteds" />
+		<text id="Results" value="Results" />
+		<text id="Save as pdf" value="Save as pdf" />
+		<text id="Save as.." value="Save as..." />
+		<text id="Save the Point" value="Save" />
+		<text id="Search Result :" value="Search results:" />
+		<text id="Search in Translation" value="Search in translation" />    
+		<text id="Search in current text" value="Search in the current text" />
+		<text id="Search in the Qur'an" value="Search in Qur'an" />
+		<text id="Search" value="Search" />
+		<text id="Section" value="Juz" />
+		<text id="Select for Move" value="Select for Move" />    
+		<text id="Select from the available subjects" value="Select from the available topics" />    
+		<text id="Select the Interpretation" value="Commentary:" />
+		<text id="Select the Translation" value="Translation:" />    
+		<text id="Set Top Level" value="Set Top Level item" />
+		<text id="Show Trash" value="Show Trash" />
+		<text id="Show and Edit the Notes" value="My notes" />
+		<text id="Show chapter layout" value="Show the sidebar" />
+		<text id="Show the Verses" value="Show the Verses" />    
+		<text id="Verses" value="Verses" />
+		<text id="Similar Verses" value="Related topics: " />    
+		<text id="Similar Words" value="Similar Words" />
+		<text id="Size" value="Size" />
+		<text id="Some Preferences need for restart Al-Anvar to apply." value="For some of changes to be applied, Al-Anvar should be restarted." />
+		<text id="Style" value="Style" />
+		<text id="Subject :" value="Topic:" />
+		<text id="Subject List:" value="Topic List:" />
+		<text id="Subject of the Verses" value="Topics" />
+		<text id="Subject of this Verse:" value="Topic of this Verse:" />    
+		<text id="Subjects" value="Topics" />
+		<text id="Theme and color" value="Theme and color" />    
+		<text id="text" value="text" />    
+		<text id="This Backup was Installed Successfully" value="Backup successfully restored!" />
+		<text id="This File is not Recognized as an add-on for the program" value="Invalid add-on file" />
+		<text id="This Interpretation has already been Installed" value="Interpretation already installed!" />
+		<text id="This Interpretation was Installed Successfully" value="Interpretation successfully installed!" />
+		<text id="This Translaton has already been Installed" value="Translaton already installed!" />    
+		<text id="Those Subjects:" value="the following topics:" />
+		<text id="Title" value="Title" />
+		<text id="Tools" value="Tools" />
+		<text id="Translation Only" value="Translation only" />
+		<text id="Trash" value="Trash" />
+		<text id="Until Verse:" value="to " />
+		<text id="Update Add-ons list" value="Update add-on list" />
+		<text id="Use external program:" value="Use external player:" />
+		<text id="Verse" value="Verse" />
+		<text id="Verses" value="Verses" />
+		<text id="Version" value="Version" />
+		<text id="Warning" value="Warning" />
+		<text id="add subject to Verse" value="to tag the verse(s) with the keyword." />
+		<text id="all Current Subject and Comment will be lost.." value="Current tagging and commenting data will be lost!" />
+		<text id="all these words" value="All these words:" />    
+		<text id="all these words(sequence)" value="All these words, sequence preserved:" />
+		<text id="audio" value="Audio" />
+		<text id="for split words use / or ," value="To separate between words, use slash (/)" />
+		<text id="index" value="index" />    
+		<text id="interface" value="Interface" />    
+		<text id="list of the Chapters" value="Chapters" />
+		<text id="list of the Section" value="Sections" />
+		<text id="list of the Hizb" value="Hizbs" />
+		<text id="none of these words" value="None of these words:" />
+		<text id="remove from Verse" value="remove the tag from the verse(s)." />
+		<text id="update" value="Update" />
+		<text id="will Move to " value="will move with" />    
+		<text id="will merge to" value="will merge with" />    
+		<text id="madani" value="Madani" />
+		<text id="makki" value="Makki" />
+		<text id="default" value="Default" />
+		<text id="simple" value="Simple" />  
+		<text id="Pro" value="Modern" />
+		<text id="Lang" value="language" />          
+		<text id="Quran Translations" value="Quran Translations" />          
+		<text id="langprog" value="language" /> 
+		<text id="Point was not saved Successfully." value="notes NOT saved successfully!" />
+		<text id="Do you want to save your changes?" value="Save your changes?" />
+		<text id="The Point has been modified." value="The notes were modified." />
+		<text id="Research tools" value="Research tools" />
+		<text id="Save" value="Save" />  
+		<text id="Next verse" value="Next verse" />
+  		<text id="Previous verse" value="Previous verse" />   
+  		<text id="For Subscribe to our Newsletters and Email Updates" value="Subscribe for newsletters and email updates." />   
+  		<text id="click here" value="Click here" />   
+  		<text id="Site" value="Site" />   
+  		<text id="Email" value="Email" /> 
+		<text id="Filter by current Similar Words" value="Filter on these words" />   
+  		<text id="Delete filter and show all" value="Delete filter and show all" /> 
+		<text id="Sort chapters by:" value="Sort chapters by:" />  
+		<text id="Orginal" value="Orginal" /> 
+		<text id="Maximum verse" value="Verse count (descendingly)" /> 
+		<text id="Least verse" value="Verse count (ascendingly)" /> 
+		<text id="Check for updates" value="Check for the latest version" /> 
+		<text id="Latest version is avalible" value="The latest version is available." /> 
+		<text id="click here to download Latest version" value="Click here to download." /> 
+		<text id="Al-Anvar is up to date ;" value="Al-Anver is now up-to-date!" /> 
+		<text id="check update failed" value="Update checking failed!" /> 
+		<text id="Play" value="Play" /> 
+		<text id="Quran Border" value="Show Quran Border" /> 
+		<text id="repeat with:" value="repeat playing with " /> 		
+		<text id="need Explanations" value="Send questions"/>
+		<text id="send" value="send"/>               
+		<text id="Tel Me More about this verse:" value="Tel Me More about this verse:"/>                
+		<text id="bodytext" value="questions:"/>            
+		<text id="subjct" value="subjct:"/>
+		<text id="your mail" value="Email:"/>
+		<text id="your name" value="Name:"/>
+		<text id="SendMail" value="Send Mail"/>
+		<text id="SendMail ok." value="Sent."/>
+		<text id="Mail sending failed." value="Mail sending failed."/>
+		<text id="Authentificated" value="Authentificated"/>
+		<text id="Authentification Failed." value="Authentification Failed."/>
+		<text id="Connected" value="Connected"/>
+		<text id="Connection Failed." value="Connection Failed."/>		
+		<text id="MoshafView" value="Show as Moshaf"/>
+		<text id="moshaf" value="Moshaf"/>
+		<text id="Result astekhare" value="Result astekhare"/>
+		<text id="export xml" value="export xml"/>
+		<text id="done." value="done."/>
+		<text id="added before" value="added before"/>
+		
+		<text id="add folder" value="add folder"/>
+		<text id="update tree" value="update list"/>
+		<text id="export all to xml" value="export all to xml"/>
+		<text id="export selected to xml" value="export selected to xml"/>
+		<text id="first list" value="first list"/>
+		<text id="child of" value="child of: "/>
+		<text id="Books" value="‌Books" />      
+		<text id="Next Page" value="Next Page" />
+		<text id="Back Page" value="Previous Page" />   
+		<text id="Biblegraphi" value="Biblegraphi" />
+
+
+		
+
+  
+
+
+<!-- Chapters Name -->
+
+		<text id="Al-Fātiḥaħ" value="Al-Fātiḥaħ" />
+		<text id="Al-Baqaraħ" value="Al-Baqaraħ" />
+		<text id="'Āli `Imrān" value="'Āli `Imrān" />
+		<text id="An-Nisā'" value="An-Nisā'" />
+		<text id="Al-Mā'idaħ" value="Al-Mā'idaħ" />
+		<text id="Al-'An`ām" value="Al-'An`ām" />
+		<text id="Al-'A`rāf" value="Al-'A`rāf" />
+		<text id="Al-'Anfāl" value="Al-'Anfāl" />
+		<text id="At-Tawbaħ" value="At-Tawbaħ" />
+		<text id="Yūnus" value="Yūnus" />
+		<text id="Hūd" value="Hūd" />
+		<text id="Yūsuf" value="Yūsuf" />
+		<text id="Ar-Ra`d" value="Ar-Ra`d" />
+		<text id="'Ibrāhīm" value="'Ibrāhīm" />
+		<text id="Al-Ḥijr" value="Al-Ḥijr" />
+		<text id="An-Naḥl" value="An-Naḥl" />
+		<text id="Al-'Isrā'" value="Al-'Isrā'" />
+		<text id="Al-Kahf" value="Al-Kahf" />
+		<text id="Maryam" value="Maryam" />
+		<text id="Ṭā-Hā" value="Ṭā-Hā" />
+		<text id="Al-'Aɱbiyā'" value="Al-'Aɱbiyā'" />
+		<text id="Al-Ḥajj" value="Al-Ḥajj" />
+		<text id="Al-Mu'minūn" value="Al-Mu'minūn" />
+		<text id="An-Nūr" value="An-Nūr" />
+		<text id="Al-Furqān" value="Al-Furqān" />
+		<text id="Ash-Shu`arā'" value="Ash-Shu`arā'" />
+		<text id="An-Naml" value="An-Naml" />
+		<text id="Al-Qaṣaṣ" value="Al-Qaṣaṣ" />
+		<text id="Al-`Ankabūt" value="Al-`Ankabūt" />
+		<text id="Ar-Rūm" value="Ar-Rūm" />
+		<text id="Luqmān" value="Luqmān" />
+		<text id="As-Sajdaħ" value="As-Sajdaħ" />
+		<text id="Al-'Aḥzāb" value="Al-'Aḥzāb" />
+		<text id="Saba'" value="Saba'" />
+		<text id="Fāṭir" value="Fāṭir" />
+		<text id="Yā-Sīn" value="Yā-Sīn" />
+		<text id="Aṣ-Ṣāffāt" value="Aṣ-Ṣāffāt" />
+		<text id="Ṣād" value="Ṣād" />
+		<text id="Az-Zumar" value="Az-Zumar" />
+		<text id="Ghāfir" value="Ghāfir" />
+		<text id="Fuṣṣilat" value="Fuṣṣilat" />
+		<text id="Ash-Shūraá" value="Ash-Shūraá" />
+		<text id="Az-Zukhruf" value="Az-Zukhruf" />
+		<text id="Ad-Dukhān" value="Ad-Dukhān" />
+		<text id="Al-Jāthiyaħ" value="Al-Jāthiyaħ" />
+		<text id="Al-'Aḥqāf" value="Al-'Aḥqāf" />
+		<text id="Muḥammad" value="Muḥammad" />
+		<text id="Al-Fatḥ" value="Al-Fatḥ" />
+		<text id="Al-Ḥujurāt" value="Al-Ḥujurāt" />
+		<text id="Qāf" value="Qāf" />
+		<text id="Adh-Dhāriyāt" value="Adh-Dhāriyāt" />
+		<text id="Aṭ-Ṭūr" value="Aṭ-Ṭūr" />
+		<text id="An-Najm" value="An-Najm" />
+		<text id="Al-Qamar" value="Al-Qamar" />
+		<text id="Ar-Raḥmān" value="Ar-Raḥmān" />
+		<text id="Al-Wāqi`aħ" value="Al-Wāqi`aħ" />
+		<text id="Al-Ḥadīd" value="Al-Ḥadīd" />
+		<text id="Al-Mujādalaħ" value="Al-Mujādalaħ" />
+		<text id="Al-Ḥashr" value="Al-Ḥashr" />
+		<text id="Al-Mumtaḥanaħ" value="Al-Mumtaḥanaħ" />
+		<text id="Aṣ-Ṣaff" value="Aṣ-Ṣaff" />
+		<text id="Al-Jumu`aħ" value="Al-Jumu`aħ" />
+		<text id="Al-Munāfiqūn" value="Al-Munāfiqūn" />
+		<text id="At-Taghābun" value="At-Taghābun" />
+		<text id="Aṭ-Ṭalāq" value="Aṭ-Ṭalāq" />
+		<text id="At-Taḥrīm" value="At-Taḥrīm" />
+		<text id="Al-Mulk" value="Al-Mulk" />
+		<text id="Al-Qalam" value="Al-Qalam" />
+		<text id="Al-Ḥāqqaħ" value="Al-Ḥāqqaħ" />
+		<text id="Al-Ma`ārij" value="Al-Ma`ārij" />
+		<text id="Nūḥ" value="Nūḥ" />
+		<text id="Al-Jinn" value="Al-Jinn" />
+		<text id="Al-Muzzammil" value="Al-Muzzammil" />
+		<text id="Al-Muddaththir" value="Al-Muddaththir" />
+		<text id="Al-Qiyāmaħ" value="Al-Qiyāmaħ" />
+		<text id="Al-'Insān" value="Al-'Insān" />
+		<text id="Al-Mursalāt" value="Al-Mursalāt" />
+		<text id="An-Naba'" value="An-Naba'" />
+		<text id="An-Nāzi`āt" value="An-Nāzi`āt" />
+		<text id="`Abasa" value="`Abasa" />
+		<text id="At-Takwīr" value="At-Takwīr" />
+		<text id="Al-'Infiṭār" value="Al-'Infiṭār" />
+		<text id="Al-Muṭaffifīn" value="Al-Muṭaffifīn" />
+		<text id="Al-'Inshiqāq" value="Al-'Inshiqāq" />
+		<text id="Al-Burūj" value="Al-Burūj" />
+		<text id="Aṭ-Ṭāriq" value="Aṭ-Ṭāriq" />
+		<text id="Al-'A`laá" value="Al-'A`laá" />
+		<text id="Al-Ghāshiyaħ" value="Al-Ghāshiyaħ" />
+		<text id="Al-Fajr" value="Al-Fajr" />
+		<text id="Al-Balad" value="Al-Balad" />
+		<text id="Ash-Shams" value="Ash-Shams" />
+		<text id="Al-Layl" value="Al-Layl" />
+		<text id="Aḍ-Ḍuḥaá" value="Aḍ-Ḍuḥaá" />
+		<text id="Ash-Sharḥ" value="Ash-Sharḥ" />
+		<text id="At-Tīn" value="At-Tīn" />
+		<text id="Al-`Alaq" value="Al-`Alaq" />
+		<text id="Al-Qadr" value="Al-Qadr" />
+		<text id="Al-Bayyinaħ" value="Al-Bayyinaħ" />
+		<text id="Az-Zalzalaħ" value="Az-Zalzalaħ" />
+		<text id="Al-`Ādiyāt" value="Al-`Ādiyāt" />
+		<text id="Al-Qāri`aħ" value="Al-Qāri`aħ" />
+		<text id="At-Takāthur" value="At-Takāthur" />
+		<text id="Al-`Aṣr" value="Al-`Aṣr" />
+		<text id="Al-Humazaħ" value="Al-Humazaħ" />
+		<text id="Al-Fīl" value="Al-Fīl" />
+		<text id="Quraysh" value="Quraysh" />
+		<text id="Al-Mā`ūn" value="Al-Mā`ūn" />
+		<text id="Al-Kawthar" value="Al-Kawthar" />
+		<text id="Al-Kāfirūn" value="Al-Kāfirūn" />
+		<text id="An-Naṣr" value="An-Naṣr" />
+		<text id="Al-Masad" value="Al-Masad" />
+		<text id="Al-'Ikhlāṣ" value="Al-'Ikhlāṣ" />
+		<text id="Al-Falaq" value="Al-Falaq" />
+		<text id="An-Nās" value="An-Nās" />
+
+<!-- Subjects -->
+
+		<text id="عقل" value="Intellect"/>
+		<text id="علم و حکمت" value="Science and Wisdom"/>
+		<text id="توحید" value="Monotheism"/>
+		<text id="عدل" value="Justice"/>
+		<text id="معاد" value="Resurrection or Day of JudgmentIntellect"/>
+		<text id="نبوت" value="Prophecy"/>
+		<text id="ولایت" value="Sainthood"/>
+		<text id="موجودات" value="Creatures"/>
+		<text id="ایمان و فضائل" value="Faith and virtues"/>
+		<text id="کفر و رذائل" value="Blasphemy and vices"/>
+		<text id="حقوق و آداب معاشرت" value="Rights and etiquette"/>
+		<text id="کتب آسمانی" value="Scriptures"/>
+		<text id="ذکر و دعا" value="Commemoration of god and prayer"/>
+		<text id="احکام , عبادات" value="Commandments, worships"/>
+		<text id="تعقل و ارزش آن" value="Intellection and its value"/>
+		<text id="چگونگی تعقل" value="How to thinking"/>
+		<text id="شرع و عقل" value="Religious law and Intellect"/>
+		<text id="مذمت تقلید کورکورانه" value="Scorn for blind imitation"/>
+		<text id="الهامات غیبی" value="Occult inspiration"/>
+		<text id="اختلافات علماء" value="Scholars disputes"/>
+		<text id="حکمت" value="Wisdom"/>
+		<text id="صفات و خصوصیات علماء" value="Scholars traits and characteristics"/>
+		<text id="راسخون در علم" value="Firmly rooted in knowledge"/>
+		<text id="اثبات توحید" value="Monotheism proof"/>
+		<text id="احتجاجات قرآنی" value="Giving logical proof of Quran"/>
+		<text id="احتجاجات بر نفی تثلیث و اولوهیت مسیح" value="Giving logical proof to deny the Trinity and Christ divine"/>
+		<text id="احتجاجات حضرت ابراهیم" value="Giving logical proof of Ibrahim"/>
+		<text id="احتجاج علیه بت پرستان" value="Giving logical proof against idol worshipers"/>
+		<text id="احتجاجات حضرت نوح" value="Giving logical proof of Noah presence"/>
+		<text id="احتجاجات حضرت هود" value="Giving logical proof of Houd presence"/>
+		<text id="شفاعت" value="Intercession"/>
+		<text id="اعتقاد به شفاعت شرک نیست" value="Belief to Intercession is not dualism"/>
+		<text id="شفیعان روز قیامت" value="Intercessors resurrection day"/>
+		<text id="شفاعت شوندگان" value="Intercessors"/>
+		<text id="احتجاج بر توحید خداوند" value="Giving logical proof on the monotheism of God"/>
+		<text id="احتجاجات بر ربوبیت خداوند" value="Giving logical proof on supernal condition of divinity"/>
+		<text id="احتجاجات بر وحدانیت خداوند" value="Giving logical proof on uniqueness of god"/>
+		<text id="نشانه ها و آیات تکوینی" value="Ontological Signs and verses"/>
+		<text id="ولایت الهی" value="Divine Sainthood"/>
+		<text id="خلقت آسمانهاو زمین" value="Creation of heavens and land"/>
+		<text id="خلقت انسانها و جانداران و گیاهان" value="Creation of humans and animals and plants"/>
+		<text id="فطرت" value="Nature"/>
+		<text id="فطرت و خداشناسی" value="Nature and theology"/>
+		<text id="فطرت هدایتگر" value="Nature navigation"/>
+		<text id="صفات جمالیه" value="Attributes of beauty"/>
+		<text id="صفات جلالیه" value="Attributes of majestic"/>
+		<text id="صفات رحیمه" value="Attributes of merciful"/>
+		<text id="علم خداوند" value="God Science"/>
+		<text id="قدرت خداوند" value="God's power"/>
+		<text id="اسماء الهی" value="Divine Names"/>
+		<text id="جبر و اختیار" value="Compulsion and choice"/>
+		<text id="عدالت الهی" value="Divine Justice"/>
+		<text id="قضا و قدر" value="Divine ordination"/>
+		<text id="هدایت و اضلال الهی" value="Divine guidance and obliquity"/>
+		<text id="امتحان و ابتلا" value="Test and tribulation"/>
+		<text id="حق" value="Real"/>
+		<text id="باطل" value="Void"/>
+		<text id="هدف خلقت" value="The purpose of creation"/>
+		<text id="حبط و تکفیر" value="Commination ​​and atone"/>
+		<text id="عفو و غفران خداوند" value="Lordship pardon or remission and forgiveness"/>
+		<text id="کسانیکه توبه آنان قبول نمیشود" value="Those will not accept their repentance"/>
+		<text id="سنت های الهی" value="Divine traditions"/>
+		<text id="توبه و آمرزش الهی" value="Divine Repentance and Forgiveness"/>
+		<text id="شرایط توبه" value="Conditions of Repentance"/>
+		<text id="معارف قرآنی" value="Quranic higher teachings"/>
+		<text id="حیات" value="Life"/>
+		<text id="احتجاج با قوم یهود" value="Giving logical proof with the Jewish people"/>
+		<text id="قیامت" value="Resurrection"/>
+		<text id="بهشت" value="paradise or heaven"/>
+		<text id="دوزخ" value="Hell"/>
+		<text id="علائم قیامت" value="Signs of Resurrection"/>
+		<text id="استدلال بر معاد" value="Reasoning on the resurrection"/>
+		<text id="احتجاج بر معاد" value="Giving logical proof on Resurrection or Day of Judgment"/>
+		<text id="احوال و اوصاف قیامت" value="Situations and descriptions of resurrection"/>
+		<text id="اسماء قیامت" value="Names of Resurrection"/>
+		<text id="وصف حال  مجرمین در قیامت" value="Situation of Offenders in Resurrection"/>
+		<text id="ظهور و تجسم اعمال در قیامت" value="Visualize and emergence of affairs in Resurrection"/>
+		<text id="صراط" value="Path"/>
+		<text id="عرش و کرسی و حاملین آن" value="Throne and seat and its carriers"/>
+		<text id="مشاجرات دوزخیان با یکدیگر" value="plutonian disputes with each other"/>
+		<text id="گفتگوی بهشتیان با یکدیگر" value="Heaven people dialogue with each other"/>
+		<text id="شیطان" value="Satan or Devil"/>
+		<text id="سخن شیطان با پیروانش" value="Devil speaking with his followers"/>
+		<text id="پیروان شیطان" value="Followers of Satan"/>
+		<text id="شیطان" value="Satan"/>
+		<text id="وصف حال مومنین در قیامت" value="Situation of believers in Resurrection"/>
+		<text id="وصف حال مومنین در بهشت" value="Situation of believers in Paradise"/>
+		<text id="وصف حال مجرمین در دورزخ" value="Situation of Offenders in hell"/>
+		<text id="وصف عذابهای دوزخ" value="Description of hell torments"/>
+		<text id="وصف نعمتهای بهشتی" value="Description of Heavenly blessings"/>
+		<text id="میزان و محاسبه اعمال" value="Calculate and amount of affairs"/>
+		<text id="حالات حشر" value="Mustering States"/>
+		<text id="خلود و جاودانگی در آخرت" value="Abiding and immortality in the last world"/>
+		<text id="سخنان بین اهل جهنم و بهشت" value="Speeches Between Heaven and Hell people"/>
+		<text id="داستانهای قرآنی" value="Quranic Stories"/>
+		<text id="ارسال رسل" value="Sending prophets "/>
+		<text id="هدف ارسال رسل و انبیاء" value="Goal for sending prophets"/>
+		<text id="آداب معاشرت انبیاء با مردم" value="Prophets Etiquette with people"/>
+		<text id="معجرات انبیاء" value="Miracles of prophets"/>
+		<text id="عصمت انبیاء" value="Infallibility of prophets"/>
+		<text id="قصه آدم و حوا (ع)" value="The story of Adam and Eve (On whom be peace)"/>
+		<text id="موارد گمراه کنندگی شیطان" value="Examples of evil Misleading"/>
+		<text id="داستان هابیل و قابیل" value="The story of Cain and Abel"/>
+		<text id="قصه حضرت ادریس(ع)" value="The story of Idris presence (on whom be peace)"/>
+		<text id="داستان حضرت نوح (ع)" value="The story of Noah presence (on whom be peace)"/>
+		<text id="قصه حضرت هود (ع) و قوم عاد" value="The Story of Houd presence (on whom be peace) and Aad people"/>
+		<text id="قصه حضرت صالح (ع) و قوم ایشان" value="The story of Saleh presence (on whom be peace) and his people"/>
+		<text id="قصه حضرت ابراهیم (ع)" value="The story of Ibrahim presence (on whom be peace)"/>
+		<text id="قصه لوط (ع) و قوم ایشان" value="The story of Lout (on whom be peace) and his people"/>
+		<text id="قصه ذی القرنین" value="The story of Zulqarnain"/>
+		<text id="قصه حضرات یعقوب و یوسف (ع)" value="The story of Jacob and Joseph presences (on whom be peace)"/>
+		<text id="قصه حضرت ایوب (ع)" value="The story of job presence (on whom be peace)"/>
+		<text id="قصه حضرت شعیب (ع)و قوم ایکه" value="The story of Shoaib presence (on whom be peace) and Ikeh people"/>
+		<text id="داستانهای حضرت موسی و هارون (ع)" value="Stories of Moses and Aaron presence (on whom be peace)"/>
+		<text id="حضرت موسی (ع)" value="Musa presence (on whom be peace)"/>
+		<text id="قصه قارون" value="Gharoun story"/>
+		<text id="داستانهای بنی اسرائیل" value="Israel Stories"/>
+		<text id="داستان حضرت خضر(ع)" value="The story of Khazr(on whom be peace)"/>
+		<text id="قصه بلعم باعورا" value="The story of"/>
+		<text id="داستان حضرت اسماعیل" value="The story of Ismail presence"/>
+		<text id="داستان یسع و ذالکفل" value="The story of Al-Yasha and Zulkifl"/>
+		<text id="وصایای لقمان حکیم" value="Advice of sage Loghman"/>
+		<text id="قصه طالوت" value="The story of Talut"/>
+		<text id="قصه حضرت داوود(ع)" value="The story of David (on whom be peace)"/>
+		<text id="قصه حضرت سلیمان (ع)" value="The story of Prophet Solomon (on whom be peace)"/>
+		<text id="قصه سبأ" value="The story of Saba"/>
+		<text id="قصه اصحاب رس" value="The story of advocate Ras"/>
+		<text id="قصه حضرات زکریا و یحیی(ع)" value="The story of Zakaria and John presences (on whom be peace)"/>
+		<text id="داستان حضرت مریم (س)" value="The story of Margaret presence"/>
+		<text id="قصه حضرت عیسی (ع)" value="The story of Jesus presence (on whom be peace)"/>
+		<text id="قرآن" value="Quran"/>
+		<text id="قصه حضرت یونس (ع)" value="The story of Yunus presence (on whom be peace)"/>
+		<text id="قصه اصحاب کهف" value="The story of Kahf advocates"/>
+		<text id="قصه اخدود" value="The story of the people of the pit"/>
+		<text id="قصه مجوس و اصحاب صابئین" value="The story of Magus tale and Sabein advocate"/>
+		<text id="قصه تبع" value="The story of the people Tubba"/>
+		<text id="احواب عرب جاهلی و اصحاب فیل" value="Arab Council ignorant and elephant companions"/>
+		<text id="پیامبر اسلام (ص)" value="Prophet of Islam (Muhammad presence) (PBUH)"/>
+		<text id="معراج پیامبر" value="Prophet ascension"/>
+		<text id="جنگ های پیامبر" value="Prophet Wars"/>
+		<text id="احنجاجات حضرت محمد (ص)" value="Giving logical proof Prophet Muhammad presence (PBUH)"/>
+		<text id="خویشاوندان پیامبر(ص)" value="Relatives of the Prophet (PBUH)"/>
+		<text id="فضائل پیامبر(ص)" value="Virtues of the Prophet (PBUH)"/>
+		<text id="امامت" value="Pontificate"/>
+		<text id="مهدویت" value="Mahdism"/>
+		<text id="رجعت" value="Return"/>
+		<text id="اهل بیت ـ علیهم السلام ـ" value="The Household of the Holy Prophet (pbuh)"/>
+		<text id="خلقت عالم" value="Creation of the Universe"/>
+		<text id="قلم و لوح محفوظ" value="Protected tablet and pen"/>
+		<text id="شب و روز سنین و شهور" value="Night and day and ages and Months"/>
+		<text id="طبیعت و باد و باران" value="Nature and wind and rain"/>
+		<text id="حقیقت و نفس انسان" value="Truth and human soul"/>
+		<text id="جن" value="Elf or jinn"/>
+		<text id="اولیاءالله" value="friends of God"/>
+		<text id="متقین" value="God fearing or pious people"/>
+		<text id="خاشعین" value="Submissive or humble people"/>
+		<text id="حب و بغض" value="Love and tears(spite)"/>
+		<text id="محبت خداوند" value="God affection"/>
+		<text id="بغض خداوند" value="God's tears(spite)"/>
+		<text id="چیزهایی که باید دوست داشت" value="Things need to be loved"/>
+		<text id="چیزهایی که نباید دوست داشت" value="Things not liked"/>
+		<text id="قلب" value="Heart"/>
+		<text id="صبر" value="Patience"/>
+		<text id="تقوی" value="( Pietism )God fearing or God wariness"/>
+		<text id="خوف و رجا" value="Fear and hope"/>
+		<text id="شکر" value="Gratitude"/>
+		<text id="توکل" value="Reliance on God or Trust in God"/>
+		<text id="تفکر" value="Thinking or meditation"/>
+		<text id="هوای نفس" value="Sensual desire or passion"/>
+		<text id="منافقین" value="Hypocrites"/>
+		<text id="مستضعفین" value="Indigents or Poor"/>
+		<text id="ریا" value="Hypocrisy"/>
+		<text id="یأس" value="Despair or hopelessness"/>
+		<text id="محبت به دنیا" value="Love to the world"/>
+		<text id="تکبر" value="( pride)Pretending greatness"/>
+		<text id="غرور" value="Pride"/>
+		<text id="حب مال" value="Love of worldly wealth"/>
+		<text id="حب دنیا" value="Love of the world"/>
+		<text id="گناهان" value="Sins"/>
+		<text id="اعمال نیک" value="Good deeds or affairs"/>
+		<text id="احترام به پدر و مادر و صله رحم" value="Respect for parents and"/>
+		<text id="انفاق" value="Generosity"/>
+		<text id="احسان" value="Beneficence or good-doing"/>
+		<text id="یتیمان و مستمندان" value="Orphans and needy(poor) people"/>
+		<text id="وفای بعهد" value="Fulfillment of the covenant(Troth)"/>
+		<text id="غیبت" value="Calumny or Absence"/>
+		<text id="دوستی با کفار" value="Friendship with infidels"/>
+		<text id="آداب قرآنی" value="Quranic etiquette"/>
+		<text id="اعجاز قرآن" value="Miracle of Quran"/>
+		<text id="اوصاف قرآن" value="descriptions of Quran"/>
+		<text id="نسخ ، محکم و متشابه" value="Abrogation, firm and similar"/>
+		<text id="یاد خدا" value="the remembrance of Allah"/>
+		<text id="ذکر و تسبیح موجودات" value="Commemoration of god and glorification beings"/>
+		<text id="دعاهای قرآنی" value="Quranic supplications"/>
+		<text id="طهارت" value="Purification"/>
+		<text id="نماز" value="Prayer"/>
+		<text id="احکام نماز" value="Properties of Ritual Prayer"/>
+		<text id="ارکان و خصوصیات نماز" value="Cornerstones or Pillars and characteristics of Ritual Prayer"/>
+		<text id="زکات" value="Giving alms"/>
+		<text id="خمس" value="Quint or One fifth"/>
+		<text id="روزه" value="Fast"/>
+		<text id="حج ،مکه و مسجد الحرام" value="Hajj, Mecca and the holy mosque"/>
+		<text id="جنگ و جهاد" value="War and Jihad"/>
+		<text id="امربه معروف و نهی از منکر" value="Religious injunctions to do good and prohibited from denying"/>
+		<text id="کسب و درآمد" value="Business and income"/>
+		<text id="ذبح" value="killing of an animal or Slaughter"/>
+		<text id="وصیت" value="Will or testament"/>
+		<text id="خانواده: ازدواج، طلاق، زناشوئی، تربیت فرزندان و ..." value="Family: Marriage, divorce, marriage, raising children and so on"/>
+		<text id="عتق" value="Emancipation or liberation"/>
+		<text id=" یمین و قسم" value="Oath and swear"/>
+		<text id="اطعمه و اشربه" value="( Sustentation and wine)"/>
+		<text id="غصب" value="Usurpation or Confiscation"/>
+		<text id="قضاوت" value="Judgment"/>
+		<text id="شهادت" value="Testimony"/>
+		<text id="ارث" value="Inheritance"/>
+		<text id="جنایات و قصاص" value="Crime and Punishment or penalty"/>
+		<text id=" حدود و تعزیرات" value="Limits or proper ranks and sentences"/>
+		<text id="ملائکه" value="Angels"/>
+		<text id="برزخ" value="Limbo(isthmus) or Intermediate world"/>
+		<text id="رأفت در اسلام" value="Forgiving in Islam"/>
+		<text id="مثل های قرآنی" value="Quranic examples or likenesses"/>
+		<text id="اجل" value="Death"/>
+		<text id="انسان" value="Man"/>
+		<text id="جامعه و اجتماع" value="Society and community"/>
+		<text id="روابط اجتماعی" value="Social relations"/>
+		<text id=" اغنیا و فقرا (فقر و غنا)" value="Rich and the poor people(Poverty and Rich)"/>
+		<text id="ارتباط مومن و کافر" value="relation between believers and infidels or non believing"/>
+		<text id="ظالم و مظلوم" value="Oppressor and oppressed"/>
+		<text id="عدالت اجتماعی" value="Social Justice"/>
+		<text id="اسلام" value="Islam"/>
+		<text id="حقیقت اسلام" value="Truth of Islam"/>
+		<text id="برتری اسلام" value="Superiority of Islam"/>
+		<text id="حقانیت اسلام" value="Islamic legitimacy"/>
+		<text id="مدح شدگان" value="Eulogizers"/>
+		<text id="لعن و ذم شدگان" value="Those Imprecated"/>
+		<text id="ادیان" value="Religions"/>
+		<text id="مسیحیت" value="Christianity"/>
+		<text id="یهود" value="Jewish"/>
+		<text id="سایر ادیان" value="Other religions"/>
+		<text id="شهادت" value="Testimony"/>
+		<text id="استضعاف و استکبار" value="Debilitate and Claiming to be too great(arrogance)"/>
+		<text id="حیوانات" value="Animals"/>
+		<text id="پزشکی" value="Medical"/>
+		<text id="نجوم" value="Astronomy"/>
+		<text id="مراحل خلقت انسان" value="Stages of human creation"/>
+		<text id="کسانیکه توبه شان پذیرفته میشود" value="Those who are accepted their Repentance"/>
+		<text id="اصحاب پیامبر(ص)" value="Advocates of the Prophet (PBUH)"/>
+		<text id="قبله" value="Direction of prayer or Kiblah"/>
+		<text id="مسجد" value="Mosque"/>
+		<text id="جهل" value="Ignorance"/>
+		<text id="فضیلت علم" value="Knowledge Excellence"/>
+		<text id="آداب معاشرت" value="Etiquette"/>
+		<text id="روش تبلیغ" value="Advertisement method"/>
+		<text id="بهداشت روحی" value="Mental health"/>
+		<text id="بهداشت روانی" value="psychological Health"/>
+		<text id="استدراج" value="Reaching a conclusion"/>
+		<text id="پیشگویی های قرآن" value="Predictions of Quran"/>
+		<text id="احکام سیاسی" value="Political judgments or decrees"/>
+		<text id="نعمت های مادی" value="Material blessings"/>
+		<text id="اقسام توحید" value="Kinds of Monotheism"/>
+		<text id="نعمت های معنوی" value="Supersensory blessings"/>
+		<text id="وحی" value="Revelation(oracle)"/>
+		<text id="معجزات" value="Miracles"/>
+		<text id="وظایف انبیاء" value="Duties of Prophets"/>
+		<text id="هدایت و گمراهی" value="guidance and Obliquity"/>
+		<text id="عوامل هدایت" value="Guidance factors"/>
+		<text id="آثار هدایت" value="Guidance effects"/>
+		<text id="انفاق" value="Generosity"/>
+		<text id="پیامبران" value="Prophets"/>
+		<text id="سلیمان" value="Soloman"/>
+		<text id="سایر پیامبران" value="Other prophets"/>
+		<text id="علوم" value="Sciences"/>
+		<text id="حقوق بندگی" value="Servitude rights"/>
+		<text id="سایر صفات الهی" value="Other divine attributes"/>
+		<text id="حروف مقطعه" value="Muqatta'at"/>
+		<text id="کافران" value="Unbelievers"/>
+		<text id="مهربرقلوب" value="Affection on heart"/>
+		<text id="صراط مستقیم" value="The right path"/>
+		<text id="رستگاران" value="salvations"/>
+		<text id="خدعه و نیرنگ" value="Deceit and trickery"/>
+		<text id="فساد و اهل فساد" value="Depravity and corruption people"/>
+		<text id="استهزاء" value="Ridicule"/>
+		<text id="معامله" value="Transaction"/>
+		<text id="آیات و نشانه های الهی" value="Divine Signs(verses) and Symptoms"/>
+		<text id="مومنین" value="Believers"/>
+		<text id="فاسقین" value="Paramours"/>
+		<text id="زیانکاران" value="Losers"/>
+		<text id=" اصناف مردم  و برخی شخصیتها" value="People orders and some characters"/>
+		<text id="برتری و کرامت انسان" value="Excellence and human dignity"/>
+		<text id="بنی اسرائیل" value="Israel"/>
+		<text id="اهمیت نماز" value="The importance of prayer"/>
+		<text id="زکات" value="Giving alms(zakat)"/>
+		<text id="سفارش به تعقل" value="Order to Intellection"/>
+		<text id="عقوبت های دنیوی" value="Worldly punishments"/>
+		<text id="کارهایی که سبب دوزخ رفتن میشود" value="Things that cause people enter to hell"/>
+		<text id="کارهایی که سبب ورود به بهشت میشود" value="Things that cause people enter to heaven(paradise)"/>
+		<text id="آداب و معارشت با مردم" value="Customs and behavior with people"/>
+		<text id="حیات دنیا" value="Life of world"/>
+		<text id="حضرت عیسی" value="Jesus"/>
+		<text id="کفر" value="Blasphemy"/>
+		<text id="آثار کفر" value="Effects Of blasphemy"/>
+		<text id="مرگ" value="Death"/>
+		<text id="اهمیت قٰرآن" value="The importance of the Quran"/>
+		<text id="سحر" value="Magic or Sorcery"/>
+		<text id="سایر سنت های الهی" value="Other(spiritual) divine traditions"/>
+		<text id="برهان" value="Proof"/>
+		<text id="اسحاق" value="Isaac"/>
+		<text id="اسماعيل" value="Esmaeil"/>
+		<text id="أعراف" value="Al-Araf (The Heights)"/>
+		<text id="انجيل" value="Gospel"/>
+		<text id="ايوب" value="Job"/>
+		<text id="بخل" value="Stinginess"/>
+		<text id=" بلا و آزمایش" value="Trial and testing"/>
+		<text id=" توبه" value="Repentance"/>
+		<text id=" تورات" value="Torah"/>
+		<text id="ثمود" value="Thamud"/>
+		<text id="جالوت" value="Goliath"/>
+		<text id="جدال" value="Battle"/>
+		<text id="مجرمین" value="Offenders"/>
+		<text id="بهشت" value="Heaven"/>
+		<text id="جهنم" value="Hell"/>
+		<text id="اجابت الهی" value="God acceptance"/>
+		<text id="احتجاج" value="( Sophistry) Giving a logical proof"/>
+		<text id=" حدود الهی" value="Divine limits"/>
+		<text id="عسر و حرج" value="Hardships"/>
+		<text id=" حرص و طمع" value="Greed and voracity"/>
+		<text id="حسد" value="Envy"/>
+		<text id="دنیا" value="World"/>
+		<text id=" حجاب و عفاف" value="Veil And temperance(chastity)"/>
+		<text id=" حسرت" value="Regret"/>
+		<text id=" حلم و بردباری" value="Meekness and patience"/>
+		<text id="اخبات" value="humble"/>
+		<text id="خشوع" value="Humility"/>
+		<text id="خشیت" value="dread"/>
+		<text id="خضوع" value="Prostrate"/>
+		<text id="خلود" value="Abiding"/>
+		<text id="اخلاص" value="Sincerity"/>
+		<text id="شراب" value="Wine"/>
+		<text id="خوف" value="horror"/>
+		<text id="خيب" value="Despair"/>
+		<text id="داود" value="David"/>
+		<text id="هلاک شدگان" value="Those destructed( perishes)"/>
+		<text id=" رجس و پلیدی" value="uncleanness and Demons"/>
+		<text id="زبور" value="Psalms"/>
+		<text id="زراعت" value="Agriculture"/>
+		<text id="زكريا" value="Zakaria"/>
+		<text id="تزکیه" value="Refinement"/>
+		<text id=" سجده" value="Prostrate"/>
+		<text id="اسراف" value="Squander"/>
+		<text id="دزدی" value="Theft"/>
+		<text id="شعيب" value="Shoaib"/>
+		<text id="شفاعت" value="Intercession"/>
+		<text id="شهوت" value="Lust"/>
+		<text id="صالح" value="Saleh"/>
+		<text id="صدق و راستی" value="Truth and honesty"/>
+		<text id="چشم پوشی" value="Ignore(Waiver)"/>
+		<text id="طالوت" value="Talut"/>
+		<text id=" تعجب" value="Surprise"/>
+		<text id="عصیان" value="Sin"/>
+		<text id="دریا" value="Sea"/>
+		<text id="بکاء" value="Sob"/>
+		<text id=" غضب الهی" value="Divine wrath"/>
+		<text id="فتنه" value="Intrigue"/>
+		<text id="فحشا و منکرات" value="Filthiness and denier, wrong"/>
+		<text id=" فرح و شادی" value="Happy and Joy"/>
+		<text id="قرض دادن" value="Lend"/>
+		<text id="ماه" value="Month"/>
+		<text id="اولو الالباب" value="(Alallalbab)Those endowed with understanding"/>
+		<text id="لقمان" value="Luqman"/>
+		<text id=" لهو و لعب" value="Frivolity"/>
+		<text id="لوط" value="Lout"/>
+		<text id="ماجوج" value="Magog"/>
+		<text id="ماروت" value="Marout"/>
+		<text id="مريم" value="Margaret"/>
+		<text id="منت الهی" value="Grace divine"/>
+		<text id="آرزو و تمنی" value="Wish and desire"/>
+		<text id="مرگ" value="Death"/>
+		<text id="ستارگان" value="Stars"/>
+		<text id="خالصی و یک رویی" value="Genuine and sincere"/>
+		<text id="انابه" value="repentance"/>
+		<text id="نوح" value="Noah"/>
+		<text id="هاروت" value="Harout"/>
+		<text id="هارون" value="Aaron"/>
+		<text id="هامان" value="Haman"/>
+		<text id=" هجرت" value="Migration"/>
+		<text id=" هدایت" value="Guidance"/>
+		<text id="خاری و ذلت گناهکاران" value="Contempt and guiltiest (ignominy of guiltiest)"/>
+		<text id="هود" value="Houd"/>
+		<text id="وسواس" value="Obsession"/>
+		<text id=" وعظ و نصیحت" value="Preaching and exhortation"/>
+		<text id="ياجوج" value="Gog"/>
+		<text id="يحيى" value="John"/>
+		<text id="يعقوب" value="Jacob"/>
+		<text id="اهل یقین" value="certainty people"/>
+		<text id="يهود" value="Jewish"/>
+		<text id="يوسف" value="Joseph"/>
+		<text id="يونس" value="Jonah"/>
+		<text id="یأس و نومیدی" value="Despair"/>
+		<text id="ابراهيم" value="Ibrahim"/>
+		<text id="حالات روانی انسان" value="Psychological states of human"/>
+		<text id="حزن و اندوه" value="Grief and sorrow"/>
+		<text id="گریه و اشک" value="Sob and tear"/>
+		<text id="زندگی مادی انسانی" value="Corporeal life of human"/>
+		<text id="حزب و گروه" value="Party and Group"/>
+		<text id="یقین" value="Certainty"/>
+		<text id="اضطرار" value="Compulsion"/>
+		<text id="ربا" value="Gavel"/>
+
+<!-- Reciter -->
+
+		<text id="Al-Minshawi" value="Al-Minshawi" />
+		<text id="Al-Ghamdi" value="Al-Ghamdi" />
+		<text id="Al-Shatri" value="Al-Shatri" />
+		<text id="Al-Afasy" value="Al-Afasy" />
+		<text id="Al-Shuraim" value="Al-Shuraim" />
+		<text id="Ayyub" value="Ayyub" />
+		<text id="Al-Ajmy" value="Al-Ajmy" />
+		<text id="Al-Hudhaifi" value="Al-Hudhaifi" />
+		<text id="Abdulbasit" value="Abdulbasit" />
+		<text id="Al-Husary" value="Al-Husary'Husary" />
+		<text id="Abdullah Basfar" value="Abdullah Basfar" />
+		<text id="Abdul Rahman Al-Sudais" value="Abdul Rahman Al-Sudais" />
+		<text id="Maher Al-Muaiqly" value="Maher Al-Muaiqly" />
+		<text id="At-Tablawi" value="At-Tablawi" />
+		<text id="Ar-Refai" value="Ar-Refai" />
+		<text id="Al-Akhdar" value="Al-Akhdar" />
+		<text id="Shahriar Parhizgar" value="Shahriar Parhizgar" />
+		<text id="Fooladvand-Hedayatfar" value="Fooladvand-Hedayatfar" />
+		<text id="Makarem-Kabiri" value="Makarem-Kabiri" />
+
+      </words>
+</language>

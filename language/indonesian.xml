@@ -24,44 +24,44 @@
 		<text id="Backup Subjects and Notes" value="Ambil cadangan dari topik dan catatan" />
 		<text id="Backup was create Successfully" value="Cadangan berhasil!" />
 		<text id="Backup was not create Successfully" value="Proses pencadangan TIDAK berhasil diselesaikan!" />
-		<text id="Backup" value="Backup" />
-		<text id="Books Search" value="Search in the library" />
-		<text id="Both" value="Both" />    
-		<text id="Cancel" value="Cancel" />
-		<text id="Change Fonts" value="Change Fonts" />    
-		<text id="Chapter" value="Chapter" />
-		<text id="Close" value="Close" />    
-		<text id="Color of the Quran" value="Text color for the Quran" />    
+		<text id="Backup" value="Cadangan" />
+		<text id="Books Search" value="Cari di perpustakaan" />
+		<text id="Both" value="Keduanya" />    
+		<text id="Cancel" value="Batal" />
+		<text id="Change Fonts" value="Rubah Huruf" />    
+		<text id="Chapter" value="Juz" />
+		<text id="Close" value="Tutup" />    
+		<text id="Color of the Quran" value="Warna teks untuk Quran" />    
 		<text id="Color of the Translation" value="Text color for the translation" />  
-		<text id="DataBase Dir" value="Database directory" />
-		<text id="Audio Dir" value="Audio directory" />
-		<text id="Date" value="Date" />    
-		<text id="Delete Permantly Selecteds" value="Delete Permantly Selecteds" />    
-		<text id="Descent" value="Descent" />
+		<text id="DataBase Dir" value="Direktori basis data" />
+		<text id="Audio Dir" value="Direktori audio" />
+		<text id="Date" value="Tanggal" />    
+		<text id="Delete Permantly Selecteds" value="Hapus permanent yang terpilih" />    
+		<text id="Descent" value="Keturunan" />
 		<text id="Double Clicked to" value="Double-click " />
 		<text id="Download And Install" value="Download and Install" />
 		<text id="Downloding" value="Downloading..." />    
 		<text id="Edit Ordering" value="Edit ordering" />
 		<text id="EmptyTrash " value="Empty trash" />    
 		<text id="Exit" value="Exit" />
-		<text id="File Name" value="Filename" />
-		<text id="File" value="File" />
-		<text id="Find" value="Find" />
-		<text id="Font of the Quran" value="Text font for Quran" />    
-		<text id="Font of the Software" value="Interface text font" />    
-		<text id="Font of the Translation" value="Text font for the translation" />    
-		<text id="Get Add-ons" value="Get add-ons" />
-		<text id="Help" value="Help" />
-		<text id="Hide chapter layout" value="Hide the sidebar" />
+		<text id="File Name" value="NamaBerkas" />
+		<text id="File" value="Berkas" />
+		<text id="Find" value="Temukan" />
+		<text id="Font of the Quran" value="Huruf teks Quran" />    
+		<text id="Font of the Software" value="Huruf teks Perangkat Halus" />    
+		<text id="Font of the Translation" value="Huruf teks untuk terjemahan" />    
+		<text id="Get Add-ons" value="Dapatkan add-ons" />
+		<text id="Help" value="Tolong" />
+		<text id="Hide chapter layout" value="Sembunyikan sidebar layout" />
 		<text id="Hizb" value="Hizb" />    
 		<text id="Install Add-ons" value="Install add-ons" />
-		<text id="Interpretation" value="Commentries" />
+		<text id="Interpretation" value="Interpretasi" />
 		<text id="Language of the Program" value="Program language" />    
-		<text id="Make As Folder" value="Make as folder" />
-		<text id="Match Alifhamza" value="Match alifhamza" />
-		<text id="Match Case" value="Match case" />
-		<text id="Match the e'rab" value="Match e'rabs" />
-		<text id="Merge Subject" value="Merge topic" />
+		<text id="Make As Folder" value="Buat sebagai Pelipat" />
+		<text id="Match Alifhamza" value="Cocokkan alifhamza" />
+		<text id="Match Case" value="cocokkan besar kecil" />
+		<text id="Match the e'rab" value="cocokan i'rob" />
+		<text id="Merge Subject" value="Gabungkan topik" />
 		<text id="Move Subject" value="Move topic to: " />    
 		<text id="Move To Trash" value="Move to trash" />
 		<text id="Name" value="Name" />

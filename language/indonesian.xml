@@ -32,18 +32,18 @@
 		<text id="Chapter" value="Juz" />
 		<text id="Close" value="Tutup" />    
 		<text id="Color of the Quran" value="Warna teks untuk Quran" />    
-		<text id="Color of the Translation" value="Text color for the translation" />  
+		<text id="Color of the Translation" value="Warna teks untuk terjemahan" />  
 		<text id="DataBase Dir" value="Direktori basis data" />
 		<text id="Audio Dir" value="Direktori audio" />
 		<text id="Date" value="Tanggal" />    
 		<text id="Delete Permantly Selecteds" value="Hapus permanent yang terpilih" />    
 		<text id="Descent" value="Keturunan" />
 		<text id="Double Clicked to" value="Double-click " />
-		<text id="Download And Install" value="Download and Install" />
-		<text id="Downloding" value="Downloading..." />    
-		<text id="Edit Ordering" value="Edit ordering" />
-		<text id="EmptyTrash " value="Empty trash" />    
-		<text id="Exit" value="Exit" />
+		<text id="Download And Install" value="Unduh dan pasang" />
+		<text id="Downloding" value="Unduh..." />    
+		<text id="Edit Ordering" value="Sunting urutan" />
+		<text id="EmptyTrash " value="Kosongkan sampah" />    
+		<text id="Exit" value="Keluar" />
 		<text id="File Name" value="NamaBerkas" />
 		<text id="File" value="Berkas" />
 		<text id="Find" value="Temukan" />
@@ -88,15 +88,15 @@
 		<text id="Reciter" value="Reciter" />
 		<text id="Regular expression" value="Regular expression " />    
 		<text id="Remarking Icon" value="My notes" />
-		<text id="Repeat" value="Repeat" />    
-		<text id="Restore Seleteds" value="Restore Seleteds" />
-		<text id="Results" value="Results" />
-		<text id="Save as pdf" value="Save as pdf" />
-		<text id="Save as.." value="Save as..." />
-		<text id="Save the Point" value="Save" />
-		<text id="Search Result :" value="Search results:" />
-		<text id="Search in Translation" value="Search in translation" />    
-		<text id="Search in current text" value="Search in the current text" />
+		<text id="Repeat" value="Ulang" />    
+		<text id="Restore Seleteds" value="Kembalikan yang dipilih" />
+		<text id="Results" value="Hasil" />
+		<text id="Save as pdf" value="Simpan sebagai pdf" />
+		<text id="Save as.." value="Simpan sebagai..." />
+		<text id="Save the Point" value="Simpan" />
+		<text id="Search Result :" value="Hasil Pencarian:" />
+		<text id="Search in Translation" value="Cari di terjemahan" />    
+		<text id="Search in current text" value="Cari di teks ini" />
 		<text id="Search in the Qur'an" value="Search in Qur'an" />
 		<text id="Search" value="Search" />
 		<text id="Section" value="Juz" />
@@ -113,17 +113,17 @@
 		<text id="Similar Verses" value="topik berkaitan: " />    
 		<text id="Similar Words" value="Kata-kata mirip" />
 		<text id="Size" value="Size" />
-		<text id="Some Preferences need for restart Al-Anvar to apply." value="For some of changes to be applied, Al-Anvar should be restarted." />
+		<text id="Some Preferences need for restart Al-Anvar to apply." value="Untuk beberapa preferensi,Al-anvar harus restart untuk diterapkan." />
 		<text id="Style" value="Style" />
-		<text id="Subject :" value="Topic:" />
-		<text id="Subject List:" value="Topic List:" />
-		<text id="Subject of the Verses" value="Topics" />
+		<text id="Subject :" value="Topik:" />
+		<text id="Subject List:" value="Daftar topik:" />
+		<text id="Subject of the Verses" value="Topik ayat" />
 		<text id="Subject of this Verse:" value="Topic of this Verse:" />    
-		<text id="Subjects" value="Topics" />
+		<text id="Subjects" value="Topik" />
 		<text id="Theme and color" value="Tema dan warna" />    
 		<text id="text" value="text" />    
 		<text id="This Backup was Installed Successfully" value="Pencadangan Ini telah dipasang dengan Sukses!" />
-		<text id="This File is not Recognized as an add-on for the program" value="Invalid add-on file" />
+		<text id="This File is not Recognized as an add-on for the program" value="Berkas Add-on tidak valid" />
 		<text id="This Interpretation has already been Installed" value="Tafsiran telah terpasang!" />
 		<text id="This Interpretation was Installed Successfully" value="Tafsiran sukses terpasang!" />
 		<text id="This Translaton has already been Installed" value="Translaton already installed!" />    
@@ -150,24 +150,24 @@
 		<text id="list of the Chapters" value="Chapters" />
 		<text id="list of the Section" value="Sections" />
 		<text id="list of the Hizb" value="Hizbs" />
-		<text id="none of these words" value="None of these words:" />
-		<text id="remove from Verse" value="remove the tag from the verse(s)." />
+		<text id="none of these words" value="Tak satu pun dari kata-kata ini:" />
+		<text id="remove from Verse" value="hapus tag dari ayat(-ayat) tersebut." />
 		<text id="update" value="Update" />
 		<text id="will Move to " value="will move with" />    
 		<text id="will merge to" value="will merge with" />    
-		<text id="madani" value="Madani" />
-		<text id="makki" value="Makki" />
+		<text id="madani" value="Madaniyah" />
+		<text id="makki" value="Makkiyah" />
 		<text id="default" value="Default" />
 		<text id="simple" value="Simple" />  
 		<text id="Pro" value="Modern" />
-		<text id="Lang" value="language" />          
-		<text id="Quran Translations" value="Quran Translations" />          
-		<text id="langprog" value="language" /> 
-		<text id="Point was not saved Successfully." value="notes NOT saved successfully!" />
-		<text id="Do you want to save your changes?" value="Save your changes?" />
-		<text id="The Point has been modified." value="The notes were modified." />
-		<text id="Research tools" value="Research tools" />
-		<text id="Save" value="Save" />  
+		<text id="Lang" value="Bahasa" />          
+		<text id="Quran Translations" value="penerjemahan Quran" />          
+		<text id="langprog" value="bahasa" /> 
+		<text id="Point was not saved Successfully." value="catatan TIDAK berhasil disimpan!" />
+		<text id="Do you want to save your changes?" value="simpan perubahan?" />
+		<text id="The Point has been modified." value="Catatan sudah dimodifikasi." />
+		<text id="Research tools" value="Alat Riset" />
+		<text id="Save" value="Simpan" />  
 		<text id="Next verse" value="Next verse" />
   		<text id="Previous verse" value="Previous verse" />   
   		<text id="For Subscribe to our Newsletters and Email Updates" value="Subscribe for newsletters and email updates." />   
@@ -688,70 +688,70 @@
 		<text id="داود" value="David"/>
 		<text id="هلاک شدگان" value="Those destructed( perishes)"/>
 		<text id=" رجس و پلیدی" value="uncleanness and Demons"/>
-		<text id="زبور" value="Psalms"/>
-		<text id="زراعت" value="Agriculture"/>
+		<text id="زبور" value="Zabur"/>
+		<text id="زراعت" value="Pertanian"/>
 		<text id="زكريا" value="Zakaria"/>
-		<text id="تزکیه" value="Refinement"/>
-		<text id=" سجده" value="Prostrate"/>
-		<text id="اسراف" value="Squander"/>
-		<text id="دزدی" value="Theft"/>
-		<text id="شعيب" value="Shoaib"/>
-		<text id="شفاعت" value="Intercession"/>
-		<text id="شهوت" value="Lust"/>
+		<text id="تزکیه" value="Tazkiyah"/>
+		<text id=" سجده" value="Sujud"/>
+		<text id="اسراف" value="Berlebihan"/>
+		<text id="دزدی" value="Mencuri"/>
+		<text id="شعيب" value="Syuaib"/>
+		<text id="شفاعت" value="Syafaat"/>
+		<text id="شهوت" value="Syahwat"/>
 		<text id="صالح" value="Saleh"/>
-		<text id="صدق و راستی" value="Truth and honesty"/>
-		<text id="چشم پوشی" value="Ignore(Waiver)"/>
+		<text id="صدق و راستی" value="Kebenaran dan kejujuran"/>
+		<text id="چشم پوشی" value="Pengabaian"/>
 		<text id="طالوت" value="Talut"/>
-		<text id=" تعجب" value="Surprise"/>
-		<text id="عصیان" value="Sin"/>
-		<text id="دریا" value="Sea"/>
-		<text id="بکاء" value="Sob"/>
-		<text id=" غضب الهی" value="Divine wrath"/>
-		<text id="فتنه" value="Intrigue"/>
-		<text id="فحشا و منکرات" value="Filthiness and denier, wrong"/>
-		<text id=" فرح و شادی" value="Happy and Joy"/>
-		<text id="قرض دادن" value="Lend"/>
-		<text id="ماه" value="Month"/>
-		<text id="اولو الالباب" value="(Alallalbab)Those endowed with understanding"/>
+		<text id=" تعجب" value="Kagum"/>
+		<text id="عصیان" value="Dosa"/>
+		<text id="دریا" value="Laut"/>
+		<text id="بکاء" value="Tangis"/>
+		<text id=" غضب الهی" value="Murka Alloh"/>
+		<text id="فتنه" value="Fitnah"/>
+		<text id="فحشا و منکرات" value="Kerusakan dan kemungkaran"/>
+		<text id=" فرح و شادی" value="Kebahadiaan dan kenikmatan"/>
+		<text id="قرض دادن" value="Pinjam-meminjam"/>
+		<text id="ماه" value="Bulan"/>
+		<text id="اولو الالباب" value="(Ululalbab)Mereka yang memiliki pemahaman"/>
 		<text id="لقمان" value="Luqman"/>
-		<text id=" لهو و لعب" value="Frivolity"/>
-		<text id="لوط" value="Lout"/>
-		<text id="ماجوج" value="Magog"/>
-		<text id="ماروت" value="Marout"/>
-		<text id="مريم" value="Margaret"/>
-		<text id="منت الهی" value="Grace divine"/>
+		<text id=" لهو و لعب" value="Canda dan permainan"/>
+		<text id="لوط" value="luth"/>
+		<text id="ماجوج" value="Ma'juj"/>
+		<text id="ماروت" value="Marut"/>
+		<text id="مريم" value="Maryam"/>
+		<text id="منت الهی" value="Berkah ilahi"/>
 		<text id="آرزو و تمنی" value="Wish and desire"/>
-		<text id="مرگ" value="Death"/>
-		<text id="ستارگان" value="Stars"/>
-		<text id="خالصی و یک رویی" value="Genuine and sincere"/>
-		<text id="انابه" value="repentance"/>
-		<text id="نوح" value="Noah"/>
-		<text id="هاروت" value="Harout"/>
+		<text id="مرگ" value="Kematian"/>
+		<text id="ستارگان" value="Bintang"/>
+		<text id="خالصی و یک رویی" value="Ikhlas dan tulus"/>
+		<text id="انابه" value="Taubat"/>
+		<text id="نوح" value="Nuh"/>
+		<text id="هاروت" value="Harut"/>
 		<text id="هارون" value="Aaron"/>
 		<text id="هامان" value="Haman"/>
-		<text id=" هجرت" value="Migration"/>
-		<text id=" هدایت" value="Guidance"/>
-		<text id="خاری و ذلت گناهکاران" value="Contempt and guiltiest (ignominy of guiltiest)"/>
-		<text id="هود" value="Houd"/>
-		<text id="وسواس" value="Obsession"/>
-		<text id=" وعظ و نصیحت" value="Preaching and exhortation"/>
-		<text id="ياجوج" value="Gog"/>
-		<text id="يحيى" value="John"/>
-		<text id="يعقوب" value="Jacob"/>
-		<text id="اهل یقین" value="certainty people"/>
-		<text id="يهود" value="Jewish"/>
-		<text id="يوسف" value="Joseph"/>
-		<text id="يونس" value="Jonah"/>
-		<text id="یأس و نومیدی" value="Despair"/>
+		<text id=" هجرت" value="Hijrah"/>
+		<text id=" هدایت" value="Hidayah"/>
+		<text id="خاری و ذلت گناهکاران" value="Orang-orang yang berdosa dan mati"/>
+		<text id="هود" value="Huud"/>
+		<text id="وسواس" value="Waswas"/>
+		<text id=" وعظ و نصیحت" value="Khotbah dan nasihat"/>
+		<text id="ياجوج" value="Ya'juj"/>
+		<text id="يحيى" value="Yunus"/>
+		<text id="يعقوب" value="Ya'qub"/>
+		<text id="اهل یقین" value="Orang yang yakin"/>
+		<text id="يهود" value="Yahudi"/>
+		<text id="يوسف" value="Yusuf"/>
+		<text id="يونس" value="Yunus"/>
+		<text id="یأس و نومیدی" value="Kekecewaan"/>
 		<text id="ابراهيم" value="Ibrahim"/>
-		<text id="حالات روانی انسان" value="Psychological states of human"/>
-		<text id="حزن و اندوه" value="Grief and sorrow"/>
-		<text id="گریه و اشک" value="Sob and tear"/>
-		<text id="زندگی مادی انسانی" value="Corporeal life of human"/>
-		<text id="حزب و گروه" value="Party and Group"/>
-		<text id="یقین" value="Certainty"/>
-		<text id="اضطرار" value="Compulsion"/>
-		<text id="ربا" value="Gavel"/>
+		<text id="حالات روانی انسان" value="Keadaan mental manusia"/>
+		<text id="حزن و اندوه" value="Dukacita dan kesedian"/>
+		<text id="گریه و اشک" value="Tangis dan airmata"/>
+		<text id="زندگی مادی انسانی" value="Kehidupan material manusia"/>
+		<text id="حزب و گروه" value="Golongan dan kelompok"/>
+		<text id="یقین" value="Keyakinan"/>
+		<text id="اضطرار" value="Urgensi"/>
+		<text id="ربا" value="Palu"/>
 
 <!-- Reciter -->
 

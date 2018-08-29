@@ -62,8 +62,8 @@
 		<text id="Match Case" value="cocokkan besar kecil" />
 		<text id="Match the e'rab" value="cocokan i'rob" />
 		<text id="Merge Subject" value="Gabungkan topik" />
-		<text id="Move Subject" value="Move topic to: " />    
-		<text id="Move To Trash" value="Move to trash" />
+		<text id="Move Subject" value="Pindahkan topik ke: " />    
+		<text id="Move To Trash" value="Pindahkan ke sampah" />
 		<text id="Name" value="Name" />
 		<text id="Need Restart" value="Need restart" />
 		<text id="Next" value="Next" />
@@ -71,19 +71,19 @@
 		<text id="Options.." value="Preferences..." />
 		<text id="Ordering" value="Order" />    
 		<text id="Page" value="Page" />
-		<text id="Play via Phonon" value="Play with Al-anver internal player" />
-		<text id="Playback" value="Player" />
-		<text id="Playing Icon" value="Play icon" />
-		<text id="Preferences" value="Preferences" />
-		<text id="Previous" value="Previous" />
-		<text id="Print" value="Print" />
+		<text id="Play via Phonon" value="Mainkan dengan internal player al-anvar" />
+		<text id="Playback" value="Pemutar" />
+		<text id="Playing Icon" value="Ikon Putar" />
+		<text id="Preferences" value="Preferensi" />
+		<text id="Previous" value="Sebelumnya" />
+		<text id="Print" value="Cetak" />
 		<text id="Pro" value="Professional" />
 		<text id="Qur'an Only" value="Qur'an only" />
-		<text id="Qur'an Translation was Installed Successfully" value="Translation successfully installed!" />
-		<text id="Qur'an Translations" value="Qur'an translations" />    
-		<text id="Quran Root" value="Root" />    
+		<text id="Qur'an Translation was Installed Successfully" value="Terjemahan sukses dipasang!" />
+		<text id="Qur'an Translations" value="Terjemahan Qur'an" />    
+		<text id="Quran Root" value="Akar" />    
 		<text id="Quran Search" value="Quran" />    
-		<text id="Quran setting" value="Content display" />
+		<text id="Quran setting" value="pengaturan Qurán" />
 		<text id="Quran" value="Quran" />
 		<text id="Reciter" value="Reciter" />
 		<text id="Regular expression" value="Regular expression " />    
@@ -100,18 +100,18 @@
 		<text id="Search in the Qur'an" value="Search in Qur'an" />
 		<text id="Search" value="Search" />
 		<text id="Section" value="Juz" />
-		<text id="Select for Move" value="Select for Move" />    
+		<text id="Select for Move" value="Pilih untuk pindahkan" />    
 		<text id="Select from the available subjects" value="Select from the available topics" />    
 		<text id="Select the Interpretation" value="Commentary:" />
 		<text id="Select the Translation" value="Translation:" />    
 		<text id="Set Top Level" value="Set Top Level item" />
 		<text id="Show Trash" value="Show Trash" />
-		<text id="Show and Edit the Notes" value="My notes" />
-		<text id="Show chapter layout" value="Show the sidebar" />
+		<text id="Show and Edit the Notes" value="Catatan Saya" />
+		<text id="Show chapter layout" value="Tampilkan sidebar" />
 		<text id="Show the Verses" value="Show the Verses" />    
 		<text id="Verses" value="Verses" />
-		<text id="Similar Verses" value="Related topics: " />    
-		<text id="Similar Words" value="Similar Words" />
+		<text id="Similar Verses" value="topik berkaitan: " />    
+		<text id="Similar Words" value="Kata-kata mirip" />
 		<text id="Size" value="Size" />
 		<text id="Some Preferences need for restart Al-Anvar to apply." value="For some of changes to be applied, Al-Anvar should be restarted." />
 		<text id="Style" value="Style" />
@@ -120,25 +120,25 @@
 		<text id="Subject of the Verses" value="Topics" />
 		<text id="Subject of this Verse:" value="Topic of this Verse:" />    
 		<text id="Subjects" value="Topics" />
-		<text id="Theme and color" value="Theme and color" />    
+		<text id="Theme and color" value="Tema dan warna" />    
 		<text id="text" value="text" />    
-		<text id="This Backup was Installed Successfully" value="Backup successfully restored!" />
+		<text id="This Backup was Installed Successfully" value="Pencadangan Ini telah dipasang dengan Sukses!" />
 		<text id="This File is not Recognized as an add-on for the program" value="Invalid add-on file" />
-		<text id="This Interpretation has already been Installed" value="Interpretation already installed!" />
-		<text id="This Interpretation was Installed Successfully" value="Interpretation successfully installed!" />
+		<text id="This Interpretation has already been Installed" value="Tafsiran telah terpasang!" />
+		<text id="This Interpretation was Installed Successfully" value="Tafsiran sukses terpasang!" />
 		<text id="This Translaton has already been Installed" value="Translaton already installed!" />    
 		<text id="Those Subjects:" value="the following topics:" />
 		<text id="Title" value="Title" />
 		<text id="Tools" value="Tools" />
-		<text id="Translation Only" value="Translation only" />
+		<text id="Translation Only" value="Hanya terjemahan" />
 		<text id="Trash" value="Trash" />
-		<text id="Until Verse:" value="to " />
-		<text id="Update Add-ons list" value="Update add-on list" />
-		<text id="Use external program:" value="Use external player:" />
-		<text id="Verse" value="Verse" />
-		<text id="Verses" value="Verses" />
-		<text id="Version" value="Version" />
-		<text id="Warning" value="Warning" />
+		<text id="Until Verse:" value="ke " />
+		<text id="Update Add-ons list" value="perbarui daftar Add-on" />
+		<text id="Use external program:" value="Gunakan pemutar eksternal:" />
+		<text id="Verse" value="Ayat" />
+		<text id="Verses" value="Ayat-ayat" />
+		<text id="Version" value="Versi" />
+		<text id="Warning" value="Peringatan" />
 		<text id="add subject to Verse" value="to tag the verse(s) with the keyword." />
 		<text id="all Current Subject and Comment will be lost.." value="Current tagging and commenting data will be lost!" />
 		<text id="all these words" value="All these words:" />    

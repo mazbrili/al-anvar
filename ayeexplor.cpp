@@ -57,26 +57,25 @@ AyeExplor::AyeExplor(DataBase *database,DBModelSubJectQuran *treeModel,QuranTree
      connect(Explanations_Combo, SIGNAL(currentIndexChanged(int)),this, SLOT(showValue(int)));
      connect(tr_Combo, SIGNAL(currentIndexChanged(int)),this, SLOT(showtr(int)));
      connect(SubjectTree,SIGNAL(doubleClicked(QModelIndex)),this,SLOT(addToSubjects()));
+     connect(SubjectTree,SIGNAL(addedItem(QModelIndex)),this,SLOT(addToSubjectsAtNoFound(QModelIndex)));
+
      connect(verseSubjects,SIGNAL(doubleClicked(QModelIndex)),this,SLOT(deleteSubject()));
      connect(verseSubjects,SIGNAL(droped()),this,SLOT(addToSubjectsDragDrop()));
      connect(treeAye, SIGNAL(clicked(QModelIndex)),this, SLOT(showAll()));
-     tr_Combo->setCurrentIndex(db->ReadSettings("translation",0).toInt());
      table->addAction(actionFilter);
      connect(actionFilter, SIGNAL(triggered()),this, SLOT(filterWord()));
      connect(radioQuran, SIGNAL(clicked()),this, SLOT(showAye()));
      connect(radioTr, SIGNAL(clicked()),this, SLOT(showAye()));
 
      actionFilter->setText(db->trlang("Filter by current Similar Words"));
-     radioQuran->setText(db->trlang("Qur'an Only"));
-     trLable->setText(db->trlang("Qur'an Translations"));
+     radioQuran->setText(db->trlang("Quran Only"));
+     trLable->setText(db->trlang("Quran Translations"));
      radioTr->setText(db->trlang("Translation Only"));
      label->setText(db->trlang("Show the Verses")+":");
      radioQuran->setChecked(db->ReadSettings("typeShowQuran",true).toBool());
      radioTr->setChecked(db->ReadSettings("typeShowQuran",false).toBool());
-
-
-
-
+     tr_Combo->setCurrentIndex(db->ReadSettings("trExplor",0).toInt());
+     Explanations_Combo->setCurrentIndex(db->ReadSettings("ExpExplor",0).toInt());
 
 }
 
@@ -191,6 +190,8 @@ void AyeExplor::showtr(int i)
     QString str =db->getDatastr("Select tr From "+tbName+"  Where id ='"+Id+"' ;");
     textTr->setPlainText(QString(" %1 - %2 : %3").arg(chapterName).arg(chapter).arg(verse)+
             " "+str);
+
+    db->WriteSettings("trExplor",i);
 }
 
 void AyeExplor::showAye()
@@ -380,6 +381,7 @@ void AyeExplor::showValue(int i)
 
     findExp->lineEditFind->setText(findExp->clearErab(verseText));
     findExp->findTypedText();
+    db->WriteSettings("ExpExplor",i);
 }
 
 
@@ -392,6 +394,26 @@ void AyeExplor::updateVerseTree()
     verseSubjects->setColumnHidden(1,true);
 }
 
+void AyeExplor::addToSubjectsAtNoFound(QModelIndex item)
+{
+
+    qDebug()<<"resiver";
+
+   QModelIndexList indexs= treeAye->selected();
+
+   foreach (QModelIndex index,indexs)
+   {
+   QString idVe =treeAye->model()->data(treeAye->model()->index(index.row(),1,index.parent())).toString();
+     if (SubjectTree->getCurrentText(4,item)=="1" and db->getDatastr("Select count(id) From Subjects Where ID_SUBJECT ='"+SubjectTree->getCurrentText(1,item)+"' And ID_VERSE  = '"+idVe+"' ")=="0")
+          {
+         db->insertsql("INSERT INTO Subjects VALUES("+db->GetNodeIdCode()+","+SubjectTree->getCurrentText(1,item)+","+idVe+");");
+         SubjectTree->treeModel_->itemFromIndex(item)->setIcon(QIcon(":/images/ok.png"));
+          }
+
+   }
+
+    updateVerseTree();
+}
 void AyeExplor::addToSubjects()
 {
    QModelIndex item =SubjectTree->currentIndex();

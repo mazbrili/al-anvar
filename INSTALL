@@ -16,4 +16,5 @@ Al-Anvar is built and installed using qmake. Go to main directory and type:
 
    qmake (or qmake-qt4)
    make
-   sudo make install
+   sudo make install 
+   al-anvar

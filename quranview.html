@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+       <script> 
+         function addClass( classname, element ) 
+         {
+           var cn = element.className;
+           if( cn.indexOf( classname ) != -1 ) 
+    	      return;    
+           if( cn != '' ) 
+    	      classname = ' '+classname;    
+          element.className = cn+classname;
+        }
+        
+        function removeClass( classname, element )
+        {
+          var cn = element.className;
+          var rxp = new RegExp( "\\s?\\b"+classname+"\\b", "g" );
+          cn = cn.replace( rxp, '' );
+          element.className = cn;
+       }
+       
+       var prevtd = '';
+       
+       function selectRow(v)
+       {
+          if (prevtd != '')
+          { 
+            var elemtLast = document.getElementById(prevtd);
+            removeClass("selectedAya",elemtLast);
+         }
+          var elemtNew = document.getElementById(v);
+          addClass("selectedAya",elemtNew);  
+          prevtd =v;
+          sampleQObject.getValue(v);
+      }
+      
+     function selectRowF(v)
+      {
+        var elemtNew = document.getElementById(v);
+        if (elemtNew == null) 
+           return false;
+ 
+        if (prevtd != '')
+        {         
+         var elemtLast = document.getElementById(prevtd);
+         removeClass("selectedAya",elemtLast);
+        }       
+         addClass("selectedAya",elemtNew); 
+         elemtNew.scrollIntoView(false);
+         prevtd =v;
+         sampleQObject.getValue(v);
+         return true;
+      }
+    </script>
+     
+    <style>
+      body
+    {
+	  direction: rtl;
+	  font-family: Tahoma,Tahoma, sans-serif, arial;
+	  font-size: 9pt;
+	  background:#e8edff;
+     }    
+     .selectedAya 
+    {
+	  margin: 3px;	
+	  color: #114211;	
+	  border-right: 4px solid #78b;
+	  border-left: 4px solid #78b;
+     }
+     .arabictext
+    {
+	 direction:rtl;
+	 font-family:_arabictext_family_;
+	 font-size:_arabictext_size_pt;
+    }
+    .trtext
+    {
+	direction:_trtext_direction_;
+	font-family:_trtext_family_;
+	font-size:_trtext_size_pt;
+    }
+    .arabictext:hover,.trtext:hover
+    {
+       background: #d0dafd;
+       color: #339;
+    }
+    
+    </style>
+  </head>
+  <body dir="rtl" >
+    _Quran_Value_
+  </body>
+ 
+</html>

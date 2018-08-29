@@ -23,7 +23,6 @@
 
 
 #include "setting.h"
-#include <QFontDialog>
 
 Setting::Setting(QWidget *parent) :
     QDialog(parent)
@@ -142,10 +141,9 @@ void Setting::on_Btn_ChangeColor_clicked()
 {
       if(radioButtonQuranFC->isChecked())
         QuranColor();
-    else  if(radioButtonTrFC->isChecked())
+    else
         trColor();
-      else if(radioButtonBooksFC)
-           bookColor();
+
 }
 
 void Setting::setFontColorPer()
@@ -163,16 +161,11 @@ void Setting::setFontColorPer()
         pFont =fontchapter;
         pColor =colorQ.currentColor();
     }
-    else  if(radioButtonTrFC->isChecked())
+    else
     {
         pFont =fontchapterTr;
         pColor =colorTr.currentColor();
-    }else if(radioButtonBooksFC)
-    {
-        pFont =fontBook;
-        pColor =colorBook.currentColor();
     }
-
     QTextCharFormat fmt;
     fmt.setForeground(pColor);
     fmt.setFont(pFont);
@@ -190,9 +183,7 @@ void Setting::on_Btn_ChangeFont_clicked()
         ProgFont();
     else  if(radioButtonQuranFC->isChecked())
         QuranFont();
-    else  if(radioButtonTrFC->isChecked())
+    else
         trFont();
-    else if(radioButtonBooksFC)
-         bookFont();
 
 }

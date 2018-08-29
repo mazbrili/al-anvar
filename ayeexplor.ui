@@ -158,7 +158,7 @@
      <item>
       <widget class="QTabWidget" name="tabWidget">
        <property name="currentIndex">
-        <number>3</number>
+        <number>1</number>
        </property>
        <widget class="QWidget" name="tabSubject">
         <attribute name="title">
@@ -234,6 +234,9 @@
              </property>
              <property name="shortcut">
               <string>Ctrl+S</string>
+             </property>
+             <property name="checkable">
+              <bool>false</bool>
              </property>
             </widget>
            </item>

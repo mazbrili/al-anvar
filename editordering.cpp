@@ -10,7 +10,6 @@ EditOrdering::EditOrdering(DataBase *database,QString sql_,QString tbName_,QWidg
     sql=sql_;
     upTable(sql);
     connect(view, SIGNAL(itemChanged(QTableWidgetItem*)),this, SLOT(setsort(QTableWidgetItem *)));
-    setWindowTitle(tr("Edit Sorting"));
 
 }
 

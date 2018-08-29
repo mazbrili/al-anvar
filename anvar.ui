@@ -25,101 +25,65 @@
    <locale language="English" country="UnitedStates"/>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <layout class="QHBoxLayout" name="horizontalLayout_3">
+   <layout class="QVBoxLayout" name="verticalLayout_14">
     <item>
-     <widget class="QTabWidget" name="tabWidgetQuran">
-      <property name="currentIndex">
-       <number>0</number>
-      </property>
-      <widget class="QWidget" name="tabAdSearch">
-       <attribute name="title">
-        <string>quran search</string>
-       </attribute>
-       <layout class="QVBoxLayout" name="verticalLayout_9">
-        <item>
-         <widget class="QSplitter" name="splitter">
-          <property name="orientation">
-           <enum>Qt::Horizontal</enum>
-          </property>
-          <widget class="QTableView" name="tableResultQ">
-           <property name="minimumSize">
-            <size>
-             <width>0</width>
-             <height>0</height>
-            </size>
-           </property>
-           <property name="horizontalScrollBarPolicy">
-            <enum>Qt::ScrollBarAlwaysOff</enum>
-           </property>
-           <property name="editTriggers">
-            <set>QAbstractItemView::NoEditTriggers</set>
-           </property>
-           <property name="dragDropOverwriteMode">
-            <bool>false</bool>
-           </property>
-           <property name="alternatingRowColors">
-            <bool>true</bool>
-           </property>
-           <property name="selectionBehavior">
-            <enum>QAbstractItemView::SelectRows</enum>
-           </property>
-           <property name="wordWrap">
-            <bool>false</bool>
-           </property>
-           <property name="cornerButtonEnabled">
-            <bool>true</bool>
-           </property>
-           <attribute name="horizontalHeaderVisible">
-            <bool>false</bool>
-           </attribute>
-           <attribute name="horizontalHeaderHighlightSections">
-            <bool>true</bool>
-           </attribute>
-           <attribute name="verticalHeaderHighlightSections">
-            <bool>true</bool>
-           </attribute>
-          </widget>
-          <widget class="QTextEdit" name="textEditShowQ"/>
-         </widget>
-        </item>
-       </layout>
-      </widget>
-      <widget class="QWidget" name="tabSearchRoot">
-       <attribute name="title">
-        <string>root</string>
-       </attribute>
-       <layout class="QVBoxLayout" name="verticalLayout_10">
-        <item>
-         <widget class="QSplitter" name="splitter_2">
-          <property name="orientation">
-           <enum>Qt::Horizontal</enum>
-          </property>
-          <widget class="QTableView" name="tableResultRoot">
-           <property name="minimumSize">
-            <size>
-             <width>0</width>
-             <height>0</height>
-            </size>
-           </property>
-           <property name="horizontalScrollBarPolicy">
-            <enum>Qt::ScrollBarAlwaysOff</enum>
-           </property>
-           <property name="editTriggers">
-            <set>QAbstractItemView::NoEditTriggers</set>
-           </property>
-           <property name="alternatingRowColors">
-            <bool>true</bool>
-           </property>
-           <property name="selectionBehavior">
-            <enum>QAbstractItemView::SelectRows</enum>
-           </property>
-          </widget>
-          <widget class="QTextEdit" name="textEditShowRoot"/>
-         </widget>
-        </item>
-       </layout>
-      </widget>
-     </widget>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QTabWidget" name="tabWidgetQuran">
+        <property name="currentIndex">
+         <number>0</number>
+        </property>
+        <widget class="QWidget" name="tabAdSearch">
+         <attribute name="title">
+          <string>quran search</string>
+         </attribute>
+         <layout class="QVBoxLayout" name="verticalLayout_9">
+          <item>
+           <widget class="QSplitter" name="splitter">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <widget class="QWebView" name="webViewQuranSearch">
+             <property name="contextMenuPolicy">
+              <enum>Qt::NoContextMenu</enum>
+             </property>
+             <property name="url">
+              <url>
+               <string>about:blank</string>
+              </url>
+             </property>
+            </widget>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="tabSearchRoot">
+         <attribute name="title">
+          <string>root</string>
+         </attribute>
+         <layout class="QVBoxLayout" name="verticalLayout_10">
+          <item>
+           <widget class="QSplitter" name="splitter_2">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <widget class="QWebView" name="webViewRootSearch">
+             <property name="url">
+              <url>
+               <string>about:blank</string>
+              </url>
+             </property>
+            </widget>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="introLayout"/>
+      </item>
+     </layout>
     </item>
    </layout>
   </widget>
@@ -129,7 +93,7 @@
      <x>0</x>
      <y>0</y>
      <width>1019</width>
-     <height>25</height>
+     <height>21</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuTools">
@@ -175,7 +139,7 @@
    <property name="minimumSize">
     <size>
      <width>340</width>
-     <height>267</height>
+     <height>269</height>
     </size>
    </property>
    <property name="features">
@@ -200,7 +164,7 @@
           <x>0</x>
           <y>0</y>
           <width>322</width>
-          <height>382</height>
+          <height>395</height>
          </rect>
         </property>
         <attribute name="label">
@@ -322,7 +286,7 @@
           <x>0</x>
           <y>0</y>
           <width>322</width>
-          <height>382</height>
+          <height>395</height>
          </rect>
         </property>
         <attribute name="label">
@@ -339,8 +303,8 @@
          <rect>
           <x>0</x>
           <y>0</y>
-          <width>306</width>
-          <height>457</height>
+          <width>305</width>
+          <height>435</height>
          </rect>
         </property>
         <attribute name="label">
@@ -395,7 +359,11 @@
                      </widget>
                     </item>
                     <item>
-                     <widget class="QLineEdit" name="lineAndQ"/>
+                     <widget class="QLineEdit" name="lineAnd">
+                      <property name="text">
+                       <string/>
+                      </property>
+                     </widget>
                     </item>
                     <item>
                      <widget class="QLabel" name="labelAndAfter">
@@ -405,7 +373,7 @@
                      </widget>
                     </item>
                     <item>
-                     <widget class="QLineEdit" name="lineAndAfterQ"/>
+                     <widget class="QLineEdit" name="lineAndAfter"/>
                     </item>
                     <item>
                      <widget class="QLabel" name="labelNot">
@@ -415,19 +383,19 @@
                      </widget>
                     </item>
                     <item>
-                     <widget class="QLineEdit" name="lineNotQ"/>
+                     <widget class="QLineEdit" name="lineNot"/>
                     </item>
                     <item>
                      <layout class="QVBoxLayout" name="verticalLayout_15">
                       <item>
-                       <widget class="QCheckBox" name="checkBoxWholeQ">
+                       <widget class="QCheckBox" name="checkBoxWhole">
                         <property name="text">
                          <string>whole word</string>
                         </property>
                        </widget>
                       </item>
                       <item>
-                       <widget class="QCheckBox" name="checkBoxHamziQ">
+                       <widget class="QCheckBox" name="checkBoxHamza">
                         <property name="text">
                          <string>match hamza</string>
                         </property>
@@ -445,19 +413,19 @@
                     <item>
                      <layout class="QVBoxLayout" name="verticalLayout_11">
                       <item>
-                       <widget class="QRadioButton" name="radioInQuran">
+                       <widget class="QLabel" name="labelSelectSearch">
                         <property name="text">
-                         <string>in quran</string>
-                        </property>
-                        <property name="checked">
-                         <bool>true</bool>
+                         <string>Select Search</string>
                         </property>
                        </widget>
                       </item>
                       <item>
-                       <widget class="QRadioButton" name="radioInTr">
-                        <property name="text">
-                         <string>in tr</string>
+                       <widget class="QComboBox" name="comboBoxSelectSearch">
+                        <property name="maximumSize">
+                         <size>
+                          <width>250</width>
+                          <height>16777215</height>
+                         </size>
                         </property>
                        </widget>
                       </item>
@@ -466,13 +434,23 @@
                     <item>
                      <layout class="QHBoxLayout" name="horizontalLayout_7">
                       <item>
-                       <widget class="QPushButton" name="pushSearchQ">
+                       <widget class="QPushButton" name="quranSearch">
                         <property name="text">
                          <string>Search</string>
                         </property>
                         <property name="icon">
                          <iconset resource="rc.qrc">
                           <normaloff>:/images/find-icon.png</normaloff>:/images/find-icon.png</iconset>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLabel" name="labelResult">
+                        <property name="layoutDirection">
+                         <enum>Qt::LeftToRight</enum>
+                        </property>
+                        <property name="text">
+                         <string>Result:0</string>
                         </property>
                        </widget>
                       </item>
@@ -492,29 +470,53 @@
                      </layout>
                     </item>
                     <item>
-                     <widget class="QLabel" name="labelResultQ">
-                      <property name="layoutDirection">
-                       <enum>Qt::LeftToRight</enum>
-                      </property>
-                      <property name="text">
-                       <string>Result:0</string>
-                      </property>
-                     </widget>
-                    </item>
-                    <item>
-                     <spacer name="verticalSpacer">
-                      <property name="orientation">
-                       <enum>Qt::Vertical</enum>
-                      </property>
-                      <property name="sizeHint" stdset="0">
-                       <size>
-                        <width>20</width>
-                        <height>40</height>
-                       </size>
-                      </property>
-                     </spacer>
+                     <layout class="QHBoxLayout" name="horizontalLayout_5">
+                      <item>
+                       <widget class="QLabel" name="labelPage">
+                        <property name="text">
+                         <string>Page:</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QComboBox" name="comboBoxLimit">
+                        <property name="maximumSize">
+                         <size>
+                          <width>16777215</width>
+                          <height>16777215</height>
+                         </size>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <spacer name="horizontalSpacer_2">
+                        <property name="orientation">
+                         <enum>Qt::Horizontal</enum>
+                        </property>
+                        <property name="sizeHint" stdset="0">
+                         <size>
+                          <width>40</width>
+                          <height>20</height>
+                         </size>
+                        </property>
+                       </spacer>
+                      </item>
+                     </layout>
                     </item>
                    </layout>
+                  </item>
+                  <item>
+                   <spacer name="verticalSpacer">
+                    <property name="orientation">
+                     <enum>Qt::Vertical</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                     <size>
+                      <width>20</width>
+                      <height>40</height>
+                     </size>
+                    </property>
+                   </spacer>
                   </item>
                  </layout>
                 </widget>
@@ -554,14 +556,7 @@
                 </layout>
                </item>
                <item>
-                <widget class="QListWidget" name="list_Quran_Root">
-                 <property name="maximumSize">
-                  <size>
-                   <width>16777215</width>
-                   <height>16777215</height>
-                  </size>
-                 </property>
-                </widget>
+                <widget class="QListView" name="listViewRootList"/>
                </item>
                <item>
                 <widget class="QLabel" name="labelQuranRootResult">
@@ -569,6 +564,33 @@
                   <string>TextLabel</string>
                  </property>
                 </widget>
+               </item>
+               <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_6">
+                 <item>
+                  <widget class="QLabel" name="labelPageRoot">
+                   <property name="text">
+                    <string>TextLabel</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QComboBox" name="comboBoxLimitRoot"/>
+                 </item>
+                 <item>
+                  <spacer name="horizontalSpacer_5">
+                   <property name="orientation">
+                    <enum>Qt::Horizontal</enum>
+                   </property>
+                   <property name="sizeHint" stdset="0">
+                    <size>
+                     <width>40</width>
+                     <height>20</height>
+                    </size>
+                   </property>
+                  </spacer>
+                 </item>
+                </layout>
                </item>
               </layout>
              </item>
@@ -752,13 +774,20 @@
   <action name="actionMoshafView">
    <property name="icon">
     <iconset resource="rc.qrc">
-     <normaloff>:/images/app.png</normaloff>:/images/app.png</iconset>
+     <normaloff>:/images/kuran.png</normaloff>:/images/kuran.png</iconset>
    </property>
    <property name="text">
     <string>MoshafView</string>
    </property>
   </action>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QWebView</class>
+   <extends>QWidget</extends>
+   <header>QtWebKit/QWebView</header>
+  </customwidget>
+ </customwidgets>
  <resources>
   <include location="rc.qrc"/>
  </resources>

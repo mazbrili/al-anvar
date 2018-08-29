@@ -6,7 +6,7 @@ LangDialog::LangDialog(QWidget *parent) :
     ui(new Ui::LangDialog)
 {
     ui->setupUi(this);
-    QStringList com_LangItems =tool.GetLang(":/language");
+    QStringList com_LangItems =tool.GetLang(":/language/");
 
     foreach(QString str,com_LangItems)
       ui->comboBox->addItem(str.split(";").at(0),str.split(";").at(1));

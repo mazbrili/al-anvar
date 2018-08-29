@@ -23,8 +23,6 @@
 #ifndef SETTING_H
 #define SETTING_H
 
-#include <QColorDialog>
-#include <QDesktopWidget>
 #include "ui_setting.h"
 #include "tools.h"
 

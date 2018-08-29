@@ -54,6 +54,8 @@ public slots:
     void on_toolButtonPrevious_clicked();
     void on_toolButtoNext_clicked();
     void showSimilarSelected();
+    void addToSubjectsAtNoFound(QModelIndex item);
+
 private slots:
     void on_actionFindSelected_triggered();
 };

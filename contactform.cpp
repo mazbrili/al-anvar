@@ -1,5 +1,5 @@
 #include "contactform.h"
-
+#include "./sendermail/SmtpMime"
 ContactForm::ContactForm(QWidget *parent) :
     QDialog(parent)
 
@@ -15,6 +15,7 @@ ContactForm::ContactForm(QWidget *parent) :
     labelText->setText(tool.trlang("bodytext"));
     pushButtonSend->setText(tool.trlang("send"));
     pushButtonCancel->setText(tool.trlang("Cancel"));
+    setWindowTitle(tool.trlang("Contact Form"));
 }
 
 
@@ -40,8 +41,8 @@ void ContactForm::on_pushButtonSend_clicked()
     }
     lineEditMail->setStyleSheet("background-color: rgb(255, 255, 255);");
       pushButtonSend->setEnabled(false);
-        QString user;
-        QString pass;
+      QString user;
+      QString pass;
         if(user.isNull() || pass.isNull())
         {
             QMessageBox::warning(0,tool.trlang("SendMail"),tool.trlang("USER_PASS_IS_NULL"));

@@ -35,7 +35,7 @@ namespace Ui {
     class Addons;
 }
 
-class Addons : public QMainWindow, public Ui::Addons
+class Addons : public QDialog, public Ui::Addons
 {
     Q_OBJECT
 
@@ -48,12 +48,15 @@ signals:
 
 private slots:
     void on_pushButtonDownload_clicked();
-
     void on_pushButtonUpdate_clicked();
 
+protected:
+    virtual void closeEvent(QCloseEvent *e);
+
 private:
-    Downloader *downlod;  
+    Downloader *downlod;
     DataBase *db;
+    bool mostclose;
 };
 
 #endif // ADDONS_H

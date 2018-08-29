@@ -60,5 +60,6 @@ www.qtsoftware.com and Mac SDK from developer.apple.com
 
   cd  main directory
   qmake (or qmake-qt4)
-  make
+  make 
+  ./al-anvar
 

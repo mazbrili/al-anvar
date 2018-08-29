@@ -23,11 +23,12 @@
 #include "addons.h"
 
 Addons::Addons(DataBase *database,QWidget *parent) :
-    QMainWindow(parent)
+    QDialog(parent)
 
 {
     setupUi(this);
-    db=database;
+    db = database;
+    mostclose=false;
 
 
     QFont defultfont = db->ReadSettings("ProgFont","Tahoma,8,-1,5,50,0,0,0,0,0").value<QFont>();
@@ -59,6 +60,9 @@ void Addons::treeChargeAddons(QTreeWidget *view)
     view->setAutoExpandDelay(1000);
     view->setAlternatingRowColors(true);
    // view->setHeaderHidden(true);
+
+
+
     QXmlStreamReader xml;
     xml.setDevice(&file);
     while (!xml.atEnd()) {
@@ -97,7 +101,6 @@ void Addons::treeChargeAddons(QTreeWidget *view)
                 if(typep=="tr"){
                     if(db->getDatastr("SELECT name FROM sqlite_master WHERE name='"+text+"' ;")!=text)
                     {
-                        item->setFlags( Qt::ItemIsUserCheckable | Qt::ItemIsSelectable | Qt::ItemIsEnabled);
                         item->setCheckState(0,Qt::Unchecked);
                         item->setIcon(0,QIcon(":images/Download.png"));
 
@@ -106,7 +109,6 @@ void Addons::treeChargeAddons(QTreeWidget *view)
                 }else if(typep=="ex"){
                     if(db->getDatastr("SELECT count(id) FROM Explanation_Name where Name ='"+text+"' ;")=="0")
                         {
-                            item->setFlags( Qt::ItemIsUserCheckable | Qt::ItemIsSelectable | Qt::ItemIsEnabled);
                             item->setCheckState(0,Qt::Unchecked);
                             item->setIcon(0,QIcon(":images/Download.png"));
 
@@ -117,7 +119,6 @@ void Addons::treeChargeAddons(QTreeWidget *view)
                     QFile file(db->pathUser+"/"+dir+"/"+text);
                     if(!file.exists())
                     {
-                        item->setFlags( Qt::ItemIsUserCheckable | Qt::ItemIsSelectable | Qt::ItemIsEnabled);
                         item->setCheckState(0,Qt::Unchecked);
                         item->setIcon(0,QIcon(":images/Download.png"));
 
@@ -138,6 +139,32 @@ void Addons::treeChargeAddons(QTreeWidget *view)
         }
     }
     xml.clear();
+
+    //audio
+    rootItem= new QTreeWidgetItem(view);
+    rootItem->setIcon(0,QIcon(":images/audio.png"));
+
+    rootItem->setText(0,db->trlang("Reciter"));
+    rootItem->setText(1,"Reciter");
+    QList<QStringList> audioList = db->getUpListData("Select Name,dir_Name,Url From Audio order by ord;");
+    foreach (QStringList list,audioList)
+    {
+         item= new QTreeWidgetItem(rootItem);
+         item->setText(0,db->trlang(list.at(0)));
+         item->setText(1,"item");
+         item->setText(2,"Reciter");
+         item->setText(3,"");
+         item->setText(4,"");
+         item->setText(5,"");
+         item->setText(6,list.at(2));
+         item->setText(7,"");
+         item->setText(8,list.at(1));
+         item->setCheckState(0,Qt::Unchecked);
+         item->setIcon(0,QIcon(":images/Download.png"));
+
+
+
+    }
     view->setColumnHidden(1,true);
     view->setColumnHidden(2,true);
     view->setColumnHidden(6,true);
@@ -154,9 +181,9 @@ void Addons::treeChargeAddons(QTreeWidget *view)
     file.close();
 }
 
-
 void Addons::on_pushButtonDownload_clicked()
 {
+    mostclose = false;
    QList<QTreeWidgetItem *>items= treeWidget->findItems("item",Qt::MatchContains|Qt::MatchRecursive,1);
    int totalProgress=0;
    QStringList fileNameDownloaded;
@@ -174,19 +201,44 @@ void Addons::on_pushButtonDownload_clicked()
    progressTotal->setMaximum(totalProgress);
    int progress=1;
    foreach(QTreeWidgetItem *item,items){
+       if(mostclose)
+           return;
        if (item->checkState(0)==Qt::Checked)
        {
-           QUrl url(item->text(6));
-           QFileInfo fileInfo(url.path());
-           QString fileName = fileInfo.fileName();
-           fileName=db->pathUser+"/"+item->text(8)+"/"+fileName;
-           downlod->downloadFile(item->text(6),fileName);
-           if(downlod->downloded )
-           { if(item->text(2)=="tr" or  item->text(2)=="ex")
+           if(item->text(2)=="Reciter")
+           {
+              progressTotal->setVisible(true);
+              progressTotal->setMaximum(6236);
+              QStringList idus= db->getData("Select audio From Quran ;");
+              int i =0;
+              QString fileName;
+              foreach (QString id,idus)
+              {
+                  if(mostclose)
+                      return;
+                  fileName = db->pathUser+"/Audio"+item->text(8)+"/"+id+".mp3";
+                  if(!QFile::exists(fileName))
+                      downlod->downloadFile(item->text(6)+id+".mp3",fileName);
+
+                  i++;
+                  progressTotal->setValue(i);
+
+              }
+
+           }else{
+              QUrl url(item->text(6));
+              QFileInfo fileInfo(url.path());
+              QString fileName = fileInfo.fileName();
+              fileName=db->pathUser+"/"+item->text(8)+"/"+fileName;
+              downlod->downloadFile(item->text(6),fileName);
+              if(downlod->downloded )
+               {
+                  if(item->text(2)=="tr" or  item->text(2)=="ex")
                               fileNameDownloaded << fileName;
+               }
+             progressTotal->setValue(progress);
+             progress++;
            }
-           progressTotal->setValue(progress);
-           progress++;
        }
 
    }
@@ -195,6 +247,82 @@ void Addons::on_pushButtonDownload_clicked()
 
 }
 
+/*
+void Addons::on_pushButtonDownload_clicked()
+{
+    mostclose = false;
+   QList<QTreeWidgetItem *>items= treeWidget->findItems("item",Qt::MatchContains|Qt::MatchRecursive,1);
+   int totalProgress=0;
+   QStringList fileNameDownloaded;
+
+   foreach(QTreeWidgetItem *item,items)
+       if (item->checkState(0)==Qt::Checked)
+           totalProgress++;
+
+   if(totalProgress>1)
+       progressTotal->setVisible(true);
+   else
+       progressTotal->setVisible(false);
+
+
+   progressTotal->setMaximum(totalProgress);
+   int progress=1;
+   foreach(QTreeWidgetItem *item,items)
+   {
+       if (item->checkState(0)==Qt::Checked && item->text(2)!="Reciter" )
+       {
+              QUrl url(item->text(6));
+              QFileInfo fileInfo(url.path());
+              QString fileName = fileInfo.fileName();
+              fileName=db->pathUser+"/"+item->text(8)+"/"+fileName;
+              downlod->downloadFile(item->text(6),fileName);
+              if(downlod->downloded )
+               {
+                  if(item->text(2)=="tr" or  item->text(2)=="ex")
+                              fileNameDownloaded << fileName;
+               }
+             progressTotal->setValue(progress);
+             progress++;           
+       }
+   }
+   emit downlodFinishd(fileNameDownloaded);
+  // treeChargeAddons(treeWidget);
+   foreach (QTreeWidgetItem *item,items)
+   {
+       if(mostclose)
+             return;
+       if(item->checkState(0)==Qt::Checked && item->text(2)=="Reciter")
+       {
+           qDebug()<<item->text(0);
+
+          progressTotal->setVisible(true);
+          progressTotal->setMaximum(6236);
+          QStringList idus= db->getData("Select audio From Quran ;");
+          int i =0;
+          QString fileName;
+          QFile recFiles;
+          foreach (QString id,idus)
+          {
+              if(mostclose)
+                  return;
+              fileName = db->pathUser+"/Audio"+item->text(8)+"/"+id+".mp3";
+              recFiles.setFileName(fileName);
+              if(recFiles.exists())
+                  if(recFiles.size()==0){
+                      recFiles.remove();
+                      downlod->downloadFile(item->text(6)+id+".mp3",fileName);
+                  }
+              else
+                  downlod->downloadFile(item->text(6)+id+".mp3",fileName);
+              i++;
+              progressTotal->setValue(i);
+          }
+          //progressTotal->setVisible(false);
+      }
+   }
+}
+
+*/
 void Addons::on_pushButtonUpdate_clicked()
 {
     QString urlStr="http://al-anvar.sourceforge.net/addons/addonse-0.5.0.xml";
@@ -223,3 +351,9 @@ void Addons::on_pushButtonUpdate_clicked()
          QMessageBox::warning(this,db->trlang("Update Add-ons list"),db->trlang("Add-ons list was not updated Successfully"), QMessageBox::Ok);
 
 }
+void Addons::closeEvent(QCloseEvent *e)
+{
+  mostclose =true;
+  e->accept();
+
+ }

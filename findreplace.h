@@ -24,16 +24,6 @@
 #define FINDREPLACE_H
 
 #include "tools.h"
-#include <QFormLayout>
-#include <QTextEdit>
-#include <QLineEdit>
-#include <QCompleter>
-#include <QToolBar>
-#include <QToolButton>
-#include <QLabel>
-#include <QCheckBox>
-#include <QBoxLayout>
-#include <QHBoxLayout>
 
 class FindReplace : public QWidget
 {

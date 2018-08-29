@@ -6,7 +6,6 @@
         <file>images/filesave.png</file>
         <file>images/fileprint.png</file>
         <file>images/exportpdf.png</file>
-        <file>images/b_048.png</file>
         <file>images/subject.png</file>
         <file>images/comment_show.png</file>
         <file>images/comment_add.png</file>
@@ -66,35 +65,20 @@
         <file>images/previous-icon.png</file>
         <file>images/delete.png</file>
         <file>images/Download.png</file>
-        <file>Data.sql</file>
-        <file>language/English.xml</file>
-        <file>language/persian.xml</file>
         <file>images/add.png</file>
         <file>addonse-0.5.0.xml</file>
-        <file>language/Arabic.xml</file>
         <file>images/filteradd.png</file>
         <file>images/filterdelete.png</file>
         <file>images/update.png</file>
         <file>images/homepage.png</file>
         <file>images/newsletter.png</file>
         <file>images/tree.png</file>
-        <file>images/bot.png</file>
-        <file>images/bot_left.png</file>
-        <file>images/bot_right.png</file>
-        <file>images/left.png</file>
-        <file>images/right.png</file>
-        <file>images/top.png</file>
-        <file>images/top_left.png</file>
-        <file>images/top_right.png</file>
         <file>redist/ScheherazadeRegOT.ttf</file>
-        <file>doc/al-anvar-manual.English.html</file>
-        <file>doc/al-anvar-manual.Farsi.html</file>
         <file>images/tag.png</file>
         <file>images/pause.png</file>
         <file>images/playback.png</file>
         <file>images/hizb.png</file>
         <file>images/sorah.png</file>
-        <file>redist/irsans.ttf</file>
         <file>redist/noorehira.ttf</file>
         <file>Styles/default.css</file>
         <file>Styles/Pro.css</file>
@@ -107,5 +91,17 @@
         <file>images/expand.png</file>
         <file>images/exportXml.png</file>
         <file>images/books.png</file>
+        <file>images/al-anvar.png</file>
+        <file>images/kuran.png</file>
+        <file>images/bookmark.png</file>
+        <file>quranview.html</file>
+        <file>images/zoom-in.png</file>
+        <file>images/zoom-out.png</file>
+        <file>language/Arabic.xml</file>
+        <file>language/English.xml</file>
+        <file>language/Turkish.xml</file>
+        <file>images/bg1.png</file>
+        <file>language/persian.xml</file>
+        <file>Data.sql</file>
     </qresource>
 </RCC>

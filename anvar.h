@@ -25,23 +25,12 @@
 #define ANVAR_H
 
 #include <QMainWindow>
-#include <QScrollBar>
-#include <QToolBar>
-#include <QProgressBar>
-#include <QFormLayout>
-#include <QStyleFactory>
-#include <QPrintDialog>
-#include <QPrinter>
-#include <QFontDialog>
-#include <QTextDocument>
-#include <QTextEdit>
-#include <QStandardPaths>
-#include <QDesktopWidget>
 #include "setting.h"
 #include "quranwidget.h"
-#include "helpWindow.h"
 #include "ayeexplor.h"
 #include "addons.h"
+#include "intro.h"
+#include "search.h"
 
 
 namespace Ui {
@@ -54,46 +43,31 @@ class anvar : public QMainWindow
 public:
     explicit anvar(QWidget *parent = 0);
     void SetLanguage();
-    void addTab(QString title,QString sql,int verse=0,QString type="chapter");
+    void addTab(QString title,QString mainId,QString type,int verse=0);
     void connectToDataBase();
     void SetTree(QString sortBy);
     QString checkLatestVersion();
 
-
-
     ~anvar();
 
 private slots:
-
-    void doSearchQ();   
-    void showResultQ(const QModelIndex &index);
-    void showResultRoot(const QModelIndex &index);
-    void findRoot();
-    void findRootInList( QString str);
-    void on_tableResultQ_doubleClicked(const QModelIndex &index);
     void openAyeExplor(QString,int);
-    void bookTreeEvent();
-
-
-
     void restartApp();
-    void finder(QString searchString);
-    void installAddons(QStringList fileNames);
+    void installAddons(QStringList fileNames,bool report);
     void BackupOfSubjectAndComment();
+    bool BackupOfSubjectAndComment(QStringList table,QString BackupName);
     void installAddonsFormFile();
     void TreeEventHizb();
     void TreeEventJuz();
     void TreeEventQuran();
-    void SubjectEvent();   
+    void SubjectEvent();
     void showOptions();
     void AcAbout();
     void AcHelp();
     void AcSave();
     void AcPrint();
     void AcPdf();
-    void goToVerseFromSearch(QString);
     void on_tabWidgetQuran_tabCloseRequested(int index);
-    void on_tabWidgetQuran_currentChanged(int);
     void goToQuranTree(int value);
     void showHideLayoutChapter();
     void on_dockWidget_visibilityChanged(bool visible);
@@ -104,33 +78,43 @@ private slots:
     void on_actionUpdates_triggered();
     void on_actionSearch_triggered();
     void showRelated(QString,QString);
+    void openLastPage();
+    void OpenReseachTools();
+    void gotoTopics();
+    void bookmarkEvent(QListWidgetItem*);
+    void quranSearch();
+    void rootSearch(QModelIndex);
+    void showQuranFromSearch(QString);
+    void showQuranFromSearchRoot(QString);
+    void filterRoot(QString);
+    void getValue(QVariant);
+    void getValueRoot(QVariant);
 
-    void on_tableResultRoot_doubleClicked(const QModelIndex &index);
-
-    void on_actionMoshafView_triggered();
-
+    void addJavaScriptObject();
+    void addJavaScriptObjectRoot();
+    void on_comboBoxLimit_activated();
+    void on_comboBoxLimitRoot_activated();
 
 private:
     Ui::anvar *ui;
     DataBase *db;
     DbTreeViewSubJectQuran *dtree_;
     DBModelSubJectQuran *treeModel;
-
     tools tool;
-    int nextId;
-    QStringList langvalue;
+    int nextId,limitSearch,allrecordSearch,allrecordSearchRoot;
+    QStringList trTableSearch,trNameSearch,chapterList,tabListTitle,searchHistory;
     QuranWidget *quranWidget;
     Setting *stp;
-    QListWidget *listWidgetPrint;
-    QStringList tabListTitle;
-    QPointer<HelpWindow> helpWindow; 
     Addons *addonsForm;
     QuranModel *quranModel;
     AyeExplor *ayeExp;
     QList<QStringList> QuranRoot;
     DBSearch serPat;
-
-    bool fristSearchQ,fristSearchRoot;
+    Intro intro;
+    bool firstAddons,firstAyeExp;
+    QSortFilterProxyModel *rootSearchModelSF;
+    QString translationTable,searchText, fontType,startQuery,sampleText,rootstartQuery;
+    JsObject * sampleQObject,*sampleQObjectRoot;
 
 
 protected:

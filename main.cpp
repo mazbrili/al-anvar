@@ -24,7 +24,6 @@
 #include "anvar.h"
 #include "tools.h"
 #include "langdialog.h"
-#include <QStandardPaths>
 
 
 int main(int argc, char *argv[])
@@ -34,67 +33,71 @@ int main(int argc, char *argv[])
     app.setApplicationName( "Al-Anvar" );
     QFontDatabase::addApplicationFont(":/redist/ScheherazadeRegOT.ttf"); 
     QFontDatabase::addApplicationFont(":/redist/noorehira.ttf");//noorehira
-    if(!QFile::exists(QStandardPaths::StandardLocation(QStandardPaths::FontsLocation)+"/noorehira.ttf"))
+
+    if(!QFile::exists(QDesktopServices::storageLocation(QDesktopServices::FontsLocation)+"/noorehira.ttf"))
     {
-        QFile::copy(":/redist/noorehira.ttf",QStandardPaths::StandardLocation(QStandardPaths::FontsLocation)+"/noorehira.ttf");
-        QFile::copy(":/redist/ScheherazadeRegOT.ttf",QStandardPaths::StandardLocation(QStandardPaths::FontsLocation)+"/ScheherazadeRegOT.ttf");
+        QFile::copy(":/redist/noorehira.ttf",QDesktopServices::storageLocation(QDesktopServices::FontsLocation)+"/noorehira.ttf");
+        QFile::copy(":/redist/ScheherazadeRegOT.ttf",QDesktopServices::storageLocation(QDesktopServices::FontsLocation)+"/ScheherazadeRegOT.ttf");
+
     }
 
 
-       tools tool;
-             app.setApplicationName("Al-anvar");
-             app.setApplicationVersion("050");
-             QDir a_dirlang = tool.pathUser+"/language";
-                if (! a_dirlang.exists()){
-                   a_dirlang.mkdir(tool.pathUser+"/language");
-                   a_dirlang.mkdir(tool.pathUser+"/addonse");                
+    tools *tool = new tools();
 
-                    a_dirlang.mkdir(tool.pathUser+"/language/help");
-                    QFile::copy(":/doc/al-anvar-manual.English.html",tool.pathUser+"/language/help/al-anvar-manual.English.html");
-                    QFile::copy(":/doc/al-anvar-manual.Farsi.html",tool.pathUser+"/language/help/al-anvar-manual.Farsi.html");
-                    QFile::copy(":addonse-0.5.0.xml",tool.pathUser+"/addonse-0.5.0.xml");
+       bool internalavailable=false;
+       QStringList availableMimeTypes= Phonon::BackendCapabilities::availableMimeTypes();
+        if(availableMimeTypes.size()>0)
+           internalavailable=true;
+       tool->WriteSettings("internalavailable",internalavailable);
+
+             app.setApplicationName("Al-anvar");
+             app.setApplicationVersion("060");
+             QDir a_dirlang = tool->pathUser+"/language";
+                if (! a_dirlang.exists())
+                {
+                   a_dirlang.mkdir(tool->pathUser+"/language");
+                   a_dirlang.mkdir(tool->pathUser+"/addonse");
+                   QFile::copy(":/language/English.xml",tool->pathUser+"/language/English.xml");
+                   QFile::copy(":addonse-0.5.0.xml",tool->pathUser+"/addonse-0.5.0.xml");
 
                 }
 
- QFont font;
-
                 //for CD
                 /*
-                if(!QFile::exists(QDesktopServices::storageLocation(QDesktopServices::FontsLocation)+"/irsans.ttf"))
-                    QFile::copy(":/redist/irsans.ttf",QDesktopServices::storageLocation(QDesktopServices::FontsLocation)+"/irsans.ttf");
-
-            QFontDatabase::addApplicationFont(":/redist/irsans.ttf");//Iranian Sans
-
-            font.setFamily("Iranian Sans");
-            font.setPixelSize(14);
-            tool.WriteSettings("trfont",tool.ReadSettings("trfont",font).value<QFont>());
-            font.setPixelSize(12);
-            tool.WriteSettings("ProgFont",tool.ReadSettings("ProgFont",font).value<QFont>());
-
-                  QFile databaseFileName(tool.pathData+"/Data.db");
+                  QFile databaseFileName(tool->pathData+"/Data.db");
                   if(!databaseFileName.exists())
-                     QFile::copy("Data.db",tool.pathData+"/Data.db");
-                     tool.WriteSettings("lang",tool.ReadSettings("lang","persian").toString());
-                     tool.GetLangValue();
+                     QFile::copy("Data.db",tool->pathData+"/Data.db");
+                     tool->GetLangValue();
+                  tool->WriteSettings("ExternalPlayer",tool->ReadSettings("ExternalPlayer","C:\\Program Files\\Windows Media Player\\wmplayer.exe").toString());
+              */
+              //End
 
-            tool.WriteSettings("ExternalPlayer",tool.ReadSettings("ExternalPlayer","C:\\Program Files\\Windows Media Player\\wmplayer.exe").toString());
 
-
-                     */
-                     //End
-
+                     QFont font;
                      font.setFamily("noorehira");
-                     font.setPixelSize(18);
-                     tool.WriteSettings("Quranfont",tool.ReadSettings("Quranfont",font).value<QFont>());
+                     font.setPointSize(14);
+                     tool->WriteSettings("Quranfont",tool->ReadSettings("Quranfont",font).value<QFont>());
 
 
+                     QLocale locale;
+                     QString currentLocale = locale.name();
+                     QString currentKeyboardInputLocale =  QApplication::keyboardInputLocale().name();
+                     if(currentLocale =="fa_IR"|| currentKeyboardInputLocale=="fa_IR")
+                         tool->WriteSettings("lang",tool->ReadSettings("lang","persian").toString());
+                     else  if(currentLocale =="ar_AE"|| currentKeyboardInputLocale=="ar_AE")
+                         tool->WriteSettings("lang",tool->ReadSettings("lang","Arabic").toString());
+                     else  if(currentLocale =="tr_TR"|| currentKeyboardInputLocale=="tr_TR")
+                         tool->WriteSettings("lang",tool->ReadSettings("lang","Turkish").toString());
+                  //   else
+                   //      tool->WriteSettings("lang",tool->ReadSettings("lang","English").toString());
 
-             if(tool.ReadSettings("lang","").toString()=="")
+             if(tool->ReadSettings("lang","").toString()=="")
             {
                  LangDialog langDi;
                  if(langDi.exec())
-                     tool.GetLangValue();
+                     tool->GetLangValue();
             }
+             tool = new tools();
              QPixmap pixmap(":/images/logo.png");
              QLabel* aWidget = new QLabel(0, Qt::FramelessWindowHint|Qt::WindowStaysOnTopHint|Qt::WindowStaysOnTopHint );
              aWidget->setAttribute(Qt::WA_TranslucentBackground);
@@ -105,9 +108,8 @@ int main(int argc, char *argv[])
              int iYpos=qRect.height()/2-aWidget->height()/2;
              aWidget->move(iXpos,iYpos);
              aWidget->show();
-             if(tool.trlang("Align")=="Right")
+            if(tool->trlang("Align")=="Right")
              app.setLayoutDirection(Qt::RightToLeft);
-
              app.processEvents();
              anvar w;
              w.show();

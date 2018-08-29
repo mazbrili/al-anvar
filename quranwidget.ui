@@ -19,7 +19,7 @@
      <property name="maximumSize">
       <size>
        <width>16777215</width>
-       <height>55</height>
+       <height>60</height>
       </size>
      </property>
      <property name="verticalScrollBarPolicy">
@@ -33,28 +33,11 @@
        <rect>
         <x>0</x>
         <y>0</y>
-        <width>725</width>
-        <height>51</height>
+        <width>733</width>
+        <height>54</height>
        </rect>
       </property>
       <layout class="QHBoxLayout" name="horizontalLayout">
-       <item>
-        <widget class="QLabel" name="lableMakki">
-         <property name="text">
-          <string>Madani</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <layout class="QHBoxLayout" name="actionsLayout"/>
-       </item>
-       <item>
-        <widget class="Line" name="line">
-         <property name="orientation">
-          <enum>Qt::Vertical</enum>
-         </property>
-        </widget>
-       </item>
        <item>
         <widget class="QLabel" name="lableChapter">
          <property name="text">
@@ -144,53 +127,53 @@
         </widget>
        </item>
        <item>
+        <widget class="QComboBox" name="comboBoxTr">
+         <property name="maximumSize">
+          <size>
+           <width>150</width>
+           <height>16777215</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="checkBoxNoShowQuran">
+         <property name="text">
+          <string>No Show Quran</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="actionsLayout"/>
+       </item>
+       <item>
         <spacer name="horizontalSpacer">
          <property name="orientation">
           <enum>Qt::Horizontal</enum>
          </property>
          <property name="sizeHint" stdset="0">
           <size>
-           <width>145</width>
-           <height>18</height>
+           <width>85</width>
+           <height>39</height>
           </size>
          </property>
         </spacer>
        </item>
       </layout>
-      <zorder>lableChapter</zorder>
-      <zorder>line_Chapter</zorder>
-      <zorder>lableVerse</zorder>
-      <zorder>line_Verse</zorder>
-      <zorder>lablePage</zorder>
-      <zorder>line_Page</zorder>
-      <zorder>lableJuz</zorder>
-      <zorder>label_Juz</zorder>
-      <zorder>lableHizb</zorder>
-      <zorder>label_Hizb</zorder>
-      <zorder>lableMakki</zorder>
-      <zorder>horizontalSpacer</zorder>
-      <zorder>line</zorder>
      </widget>
     </widget>
    </item>
    <item>
     <layout class="QVBoxLayout" name="vLayout">
      <item>
-      <widget class="QListWidget" name="listWidget">
+      <widget class="QWebView" name="webView">
        <property name="contextMenuPolicy">
         <enum>Qt::ActionsContextMenu</enum>
        </property>
-       <property name="showDropIndicator" stdset="0">
-        <bool>false</bool>
-       </property>
-       <property name="selectionMode">
-        <enum>QAbstractItemView::SingleSelection</enum>
-       </property>
-       <property name="selectionBehavior">
-        <enum>QAbstractItemView::SelectRows</enum>
-       </property>
-       <property name="wordWrap">
-        <bool>true</bool>
+       <property name="url">
+        <url>
+         <string>about:blank</string>
+        </url>
        </property>
       </widget>
      </item>
@@ -207,6 +190,13 @@
   <zorder></zorder>
   <zorder></zorder>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QWebView</class>
+   <extends>QWidget</extends>
+   <header>QtWebKit/QWebView</header>
+  </customwidget>
+ </customwidgets>
  <resources/>
  <connections/>
 </ui>

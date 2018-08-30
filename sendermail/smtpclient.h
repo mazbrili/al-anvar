@@ -19,7 +19,6 @@
 
 #include <QObject>
 #include <QtNetwork/QSslSocket>
-#include <QTextCodec>
 
 #include "mimemessage.h"
 

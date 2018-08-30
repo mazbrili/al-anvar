@@ -1,4 +1,4 @@
-﻿/*
+/*
   Copyright (c) 2011 - Tőkés Attila
 
   This file is part of SmtpClient for Qt.
@@ -43,8 +43,8 @@ SmtpClient::SmtpClient(const QString & host, int port, ConnectionType ct) :
     this->port = port;
 
 
-    //QTextCodec::setCodecForCStrings(QTextCodec::codecForName("UTF-8"));
-    //QTextCodec::setCodecForTr(QTextCodec::codecForName("UTF-8"));
+    QTextCodec::setCodecForCStrings(QTextCodec::codecForName("UTF-8"));
+    QTextCodec::setCodecForTr(QTextCodec::codecForName("UTF-8"));
     stream.setCodec("UTF-8");
 
     // init text stream

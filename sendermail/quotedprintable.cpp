@@ -50,13 +50,13 @@ QByteArray& QuotedPrintable::decode(const QString &input)
 
     for (int i = 0; i < input.length(); ++i)
     {
-        if (input.at(i).toLatin1() == '=')
+        if (input.at(i).toAscii() == '=')
         {
-            output->append((hexVal[input.at(++i).toLatin1() - '0'] << 4) + hexVal[input.at(++i).toLatin1() - '0']);
+            output->append((hexVal[input.at(++i).toAscii() - '0'] << 4) + hexVal[input.at(++i).toAscii() - '0']);
         }
         else
         {
-            output->append(input.at(i).toLatin1());
+            output->append(input.at(i).toAscii());
         }
     }
 

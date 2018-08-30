@@ -1,255 +1,253 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
   <language author="" version="0.2.5">
-    <locale AUTHOR="" NAME="English" VERSION="AL-ANVAR-0.6.0"  ID="en_US" />
+    <locale AUTHOR="Atilla ÖNTAŞ - tarakbumba@gmail.com" NAME="Türkçe" VERSION="AL-ANVAR-0.6.0"  ID="tr_TR" />
       <words>
 		<text id="Align" value="Left" />
 
 <!-- Main Words -->
 
-		<text id="About" value="About" />
-		<text id="Abouttxt" value="Al-Anvar is a Quranic open-source free assistant for Quran researchers. Advanced search, word roots indexing, arbitrary verse indexing and online/offine recitation, are some of the features of this version. Most translations of Quran, in different languages, are also available. We express our special gratitude and thanks to tanzil.net and zekr.org for the text materials and also to everyayah.com for the recitations." />
-		<text id="Add Subject" value="New topic..." />
-		<text id="Add a Point" value="My notes" />
-		<text id="Add selected words to unwanted list" value="Add selected words to unwanted list" />
-		<text id="Add-ons" value="Add-ons" />
-		<text id="Add-ons Page" value="Add-ons" />
-		<text id="Add-ons list was not updated Successfully" value="Add-on list could NOT be updated!" />
-		<text id="Add-ons list was updated Successfully" value="Add-on list successfully updated!" />
-		<text id="Address" value="Address" />
-		<text id="Advanced Search" value="Advanced Search" />
-		<text id="Al-Anvar is up to date ;" value="Al-Anver is now up-to-date!" />
-		<text id="Are you sure to Remove those Subjects:" value="Are you sure you want to remove the following topics?" />
-		<text id="Audio Dir" value="Audio directory" />
-		<text id="Authentificated" value="Authentificated" />
-		<text id="Authentification Failed." value="Authentification Failed." />
-		<text id="Backup" value="Backup" />
-		<text id="Backup Subjects and Notes" value="Take a backup from topics and notes" />
-		<text id="Backup was create Successfully" value="Backup successful!" />
-		<text id="Backup was not create Successfully" value="Backup did NOT complete successfully!" />
-		<text id="Bookmark" value="bookmark this verse" />
-		<text id="Bookmarks" value="Bookmarks" />
-		<text id="Books" value="‌Books" />
-		<text id="Books Search" value="Search in the library" />
-		<text id="Cancel" value="Cancel" />
-		<text id="Change Color" value="Change Color" />
-		<text id="Change Fonts" value="Change Fonts" />
-		<text id="Chapter" value="Chapter" />
-		<text id="Check for updates" value="Check for the latest version" />
-		<text id="Close" value="Close" />
-		<text id="Connected" value="Connected" />
-		<text id="Connection Failed." value="Connection Failed." />
-		<text id="DataBase Dir" value="Database directory" />
-		<text id="Date" value="Date" />
-		<text id="Delete Permantly Selecteds" value="Delete Permantly Selecteds" />
-		<text id="Delete filter and show all" value="Delete filter and show all" />
-		<text id="Descent" value="Descent" />
-		<text id="Do Not Show Quran Text" value="Do nnot show Quran text" />
-		<text id="Double Clicked to" value="Double-click " />
-		<text id="Download And Install" value="Download and Install" />
-		<text id="Downloding" value="Downloading..." />
-		<text id="Edit Ordering" value="Edit ordering" />
-		<text id="Email" value="Email" />
-		<text id="EmptyTrash " value="Empty trash" />
-		<text id="Exit" value="Exit" />
-		<text id="File" value="File" />
-		<text id="File Name" value="Filename" />
-		<text id="Filter by current Similar Words" value="Filter on these words" />
-		<text id="Find" value="Find" />
-		<text id="Font of the Quran" value="Text font for Quran" />
-		<text id="Font of the Software" value="Interface text font" />
-		<text id="Font of the Translation" value="Text font for the translation" />
-		<text id="For Subscribe to our Newsletters and Email Updates" value="Subscribe for newsletters and email updates." />
-		<text id="Get Add-ons" value="Get add-ons" />
-		<text id="Help" value="Help" />
-		<text id="Hide chapter layout" value="Hide the sidebar" />
-		<text id="Hizb" value="Hizb" />
-		<text id="Install Add-ons" value="Install add-ons" />
-		<text id="Interpretation" value="Commentries" />
-		<text id="Lang" value="language" />
-		<text id="Language of the Program" value="Program language" />
-		<text id="Last Page Visited" value="Last Page Visited" />
-		<text id="Latest version is avalible" value="The latest version is available." />
-		<text id="Least verse" value="Verse count (ascendingly)" />
-		<text id="Mail sending failed." value="Mail sending failed." />
-		<text id="Make As Folder" value="Make as folder" />
+		<text id="About" value="Hakkında" />
+		<text id="Abouttxt" value="Al-Anvar, Kur'an araştırmacıları için açık kaynaklı serbest bir Kur' an yardımcısıdır.Gelişmiş arama, kelime kökü fihristleme, rastgele ayet fihristleme ve çevrimiçi/çevrimdışı tilavet bu sürümün bazı özellikleridir. Farklı dillerde bir çok meali de okuyabilirsiniz. Özel teşekkürlerimizi metinler için tanzil.net ve zekr.org ile tilavetler için everyayah.com' a sunmak isteriz." />
+		<text id="Add Subject" value="Yeni Başlık..." />
+		<text id="Add a Point" value="Notlarım" />
+		<text id="Add selected words to unwanted list" value="Seçili sözcükleri istenmeyenler listesine ekle" />
+		<text id="Add-ons" value="Eklentiler" />
+		<text id="Add-ons Page" value="Eklentiler" />
+		<text id="Add-ons list was not updated Successfully" value="Eklenti listesi GÜNCELLENEMİYOR!" />
+		<text id="Add-ons list was updated Successfully" value="Eklenti listesi başarıyla güncellendi!" />
+		<text id="Address" value="Adres" />
+		<text id="Advanced Search" value="Gelişmiş Arama" />
+		<text id="Al-Anvar is up to date ;" value="Al-Anver şimdi güncel!" />
+		<text id="Are you sure to Remove those Subjects:" value="Aşağıdaki başlıkları çıkarmak istiyor musunuz?" />
+		<text id="Audio Dir" value="Ses dizini" />
+		<text id="Authentificated" value="Yetkilendirildi" />
+		<text id="Authentification Failed." value="Yetkilendirilemedi." />
+		<text id="Backup" value="Yedekle" />
+		<text id="Backup Subjects and Notes" value="Başlıklardan ve notlardan yedek al" />
+		<text id="Backup was create Successfully" value="Yedekleme başarılı!" />
+		<text id="Backup was not create Successfully" value="Yedekleme başarıyla TAMAMLANAMADI!" />
+		<text id="Bookmark" value="PLEASE_COMPLETE_THIS" />
+		<text id="Bookmarks" value="PLEASE_COMPLETE_THIS" />
+		<text id="Books" value="Kitaplar" />
+		<text id="Books Search" value="Kütüphanede ara" />
+		<text id="Cancel" value="İptal" />
+		<text id="Change Color" value="Renk düzenini değiştir" />
+		<text id="Change Fonts" value="Yazıtiplerini değiştir" />
+		<text id="Chapter" value="Bölüm" />
+		<text id="Check for updates" value="Son sürümü denetle" />
+		<text id="Close" value="Kapat" />
+		<text id="Connected" value="Bağlandı" />
+		<text id="Connection Failed." value="Bağlantı Başarısız." />
+		<text id="DataBase Dir" value="Veritabanı dizini" />
+		<text id="Date" value="Tarih" />
+		<text id="Delete Permantly Selecteds" value="Seçilenleri kalıcı olarak sil" />
+		<text id="Delete filter and show all" value="Süzgeci sil ve tümünü göster" />
+		<text id="Descent" value="Köken" />
+		<text id="Do Not Show Quran Text" value="PLEASE_COMPLETE_THIS" />
+		<text id="Double Clicked to" value="Çift tıklama " />
+		<text id="Download And Install" value="İndir ve Kur" />
+		<text id="Downloding" value="İndiriliyor..." />
+		<text id="Edit Ordering" value="Sıralamayı düzenle" />
+		<text id="Email" value="E-Posta" />
+		<text id="EmptyTrash " value="Çöpü boşalt" />
+		<text id="Exit" value="Çıkış" />
+		<text id="File" value="Dosya" />
+		<text id="File Name" value="Dosya adı" />
+		<text id="Filter by current Similar Words" value="Bu sözcüklere göre süz" />
+		<text id="Find" value="Bul" />
+		<text id="Font of the Quran" value="Kur' an metin yazıtipi" />
+		<text id="Font of the Software" value="Arayüz metin yazıtipi" />
+		<text id="Font of the Translation" value="Meal metin yazıtipi" />
+		<text id="For Subscribe to our Newsletters and Email Updates" value="Mektuplar ve e-posta güncellemeleri için kaydolun." />
+		<text id="Get Add-ons" value="Eklentileri edinin" />
+		<text id="Help" value="Yardım" />
+		<text id="Hide chapter layout" value="Yan çubuğu sakla" />
+		<text id="Hizb" value="PLEASE_COMPLETE_THIS" />
+		<text id="Install Add-ons" value="Eklentileri kurun" />
+		<text id="Interpretation" value="Tefsirler" />
+		<text id="Lang" value="dil" />
+		<text id="Language of the Program" value="Uygulama dili" />
+		<text id="Last Page Visited" value="PLEASE_COMPLETE_THIS" />
+		<text id="Latest version is avalible" value="Son sürüm erişilebilir durumda." />
+		<text id="Least verse" value="Ayet sayısı (artan)" />
+		<text id="Mail sending failed." value="E-posta gönderilemedi." />
+		<text id="Make As Folder" value="Dizin olarak oluştur" />
 		<text id="Match Alifhamza" value="Match alifhamza" />
 		<text id="Match Case" value="Match case" />
-		<text id="Maximum verse" value="Verse count (descendingly)" />
-		<text id="Merge Subject" value="Merge topic" />
-		<text id="MoshafView" value="Show as Moshaf" />
-		<text id="Move Subject" value="Move topic to: " />
-		<text id="Move To Trash" value="Move to trash" />
-		<text id="Name" value="Name" />
-		<text id="Need Restart" value="Need restart" />
-		<text id="Next" value="Next" />
-		<text id="Next verse" value="Next verse" />
-		<text id="None" value="only Quran text" />
-		<text id="Ok" value="Ok" />
-		<text id="Options.." value="Preferences..." />
-		<text id="Ordering" value="Order" />
-		<text id="Orginal" value="Orginal" />
-		<text id="Page" value="Page" />
-		<text id="Play" value="Play" />
-		<text id="Play via Phonon" value="Play with Al-anver internal player" />
-		<text id="Playback" value="Player" />
-		<text id="Playing Icon" value="Play icon" />
-		<text id="Point was not saved Successfully." value="notes NOT saved successfully!" />
-		<text id="Preferences" value="Preferences" />
-		<text id="Previous" value="Previous" />
-		<text id="Previous verse" value="Previous verse" />
-		<text id="Print" value="Print" />
+		<text id="Maximum verse" value="Ayet sayısı (azalan)" />
+		<text id="Merge Subject" value="Başlığı birleştir" />
+		<text id="MoshafView" value="Mushaf sırasında göster" />
+		<text id="Move Subject" value="Başlığı şu konuma taşı: " />
+		<text id="Move To Trash" value="Çöpe gönder" />
+		<text id="Name" value="İsim" />
+		<text id="Need Restart" value="Yeniden başlatılması gerekiyor" />
+		<text id="Next" value="İleri" />
+		<text id="Next verse" value="Sonraki ayet" />
+		<text id="None" value="PLEASE_COMPLETE_THIS" />
+		<text id="Ok" value="Tamam" />
+		<text id="Options.." value="Seçenekler..." />
+		<text id="Ordering" value="Sıralama" />
+		<text id="Orginal" value="Özgün" />
+		<text id="Page" value="Sayfa" />
+		<text id="Play" value="Çal" />
+		<text id="Play via Phonon" value="Al-anvar' ı dahili oynatıcı ile oynat" />
+		<text id="Playback" value="Oynatıcı" />
+		<text id="Playing Icon" value="Oynatma simgesi" />
+		<text id="Point was not saved Successfully." value="notlar başarıyla KAYDEDİLEMEDİ!" />
+		<text id="Preferences" value="Seçenekler" />
+		<text id="Previous" value="Geri" />
+		<text id="Previous verse" value="Önceki ayet" />
+		<text id="Print" value="Yazdır" />
 		<text id="Pro" value="Modern" />
-		<text id="QuickAddons" value="Addons::inter:translations,interpretation:inter:books" />
-		<text id="QuickResearch" value="Research Tools::inter:notes,topics.similar verses.:inter:interpretations,translations" />
-		<text id="QuickTopic" value="Topics::inter:like verses about::inter:Allah,Islam,Pray ..." />
-		<text id="Quran Only" value="Qur'an only" />
-		<text id="Quran Translation was Installed Successfully" value="Translation successfully installed!" />
-		<text id="Quran Translations" value="Qur'an translations" />
-		<text id="Quran" value="Quran" />
-		<text id="Quran Border" value="Show Quran Border" />
-		<text id="Quran Root" value="Root" />
-		<text id="Reciter" value="Reciter" />
-		<text id="Remarking Icon" value="My notes" />
-		<text id="Repeat" value="Repeat" />
-		<text id="Research tools" value="Research tools" />
-		<text id="Restore Seleteds" value="Restore Seleteds" />
-		<text id="Results" value="Results" />
-		<text id="Save" value="Save" />
-		<text id="Save as pdf" value="Save as pdf" />
-		<text id="Save as.." value="Save as..." />
-		<text id="Save the Point" value="Save" />
-		<text id="Search" value="Search" />
-		<text id="Search in current text" value="Search in the current text" />
-		<text id="Search in:" value="Search in:" />
-		<text id="Section" value="Juz" />
-		<text id="Select for Move" value="Select for Move" />
-		<text id="Select the Interpretation" value="Commentary:" />
-		<text id="Select the Translation" value="Translation:" />
-		<text id="SendMail" value="Send Mail" />
-		<text id="SendMail ok." value="Sent." />
-		<text id="Set Top Level" value="Set Top Level item" />
-		<text id="Show Trash" value="Show Trash" />
-		<text id="Show and Edit the Notes" value="My notes" />
-		<text id="Show chapter layout" value="Show the sidebar" />
-		<text id="Show the Verses" value="Show the Verses" />
-		<text id="Similar Verses" value="Related topics: " />
-		<text id="Similar Words" value="Similar Words" />
-		<text id="Site" value="Site" />
-		<text id="Size" value="Size" />
-		<text id="Some Preferences need for restart Al-Anvar to apply." value="For some of changes to be applied, Al-Anvar should be restarted." />
-		<text id="Sort chapters by:" value="Sort chapters by:" />
-		<text id="Style" value="Style" />
-		<text id="Subject :" value="Topic:" />
-		<text id="Subject List:" value="Topic List:" />
-		<text id="Subject of the Verses" value="Topics" />
-		<text id="Subject of this Verse:" value="Topic of this Verse:" />
-		<text id="Subjects" value="Topics" />
-		<text id="Tel Me More about this verse:" value="Tel Me More about this verse:" />
-		<text id="The Point has been modified." value="The notes were modified." />
-		<text id="Theme and color" value="Theme and color" />
-		<text id="Those Subjects:" value="the following topics:" />
-		<text id="Title" value="Title" />
-		<text id="Tools" value="Tools" />
-		<text id="Translation Only" value="Translation only" />
-		<text id="Unbookmark" value="remove bookmark" />
-		<text id="Update Add-ons list" value="Update add-on list" />
-		<text id="Use external program:" value="Use external player:" />
-		<text id="Verse" value="Verse" />
-		<text id="Verses" value="Verses" />
-		<text id="Version" value="Version" />
-		<text id="Warning" value="Warning" />
-		<text id="add folder" value="add folder" />
-		<text id="add subject to Verse" value="to tag the verse(s) with the keyword." />
-		<text id="added before" value="added before" />
-		<text id="all Current Subject and Comment will be lost.." value="Current tagging and commenting data will be lost!" />
-		<text id="all these words" value="All these words:" />
-		<text id="all these words sequence" value="All these words, sequence preserved:" />
-		<text id="bodytext" value="questions:" />
-		<text id="check update failed" value="Update checking failed!" />
-		<text id="child of" value="child of: " />
-		<text id="click here to download Latest version" value="Click here to download." />
-		<text id="default" value="Default" />
-		<text id="done." value="done." />
-		<text id="export all to xml" value="export all to xml" />
-		<text id="export selected to xml" value="export selected to xml" />
-		<text id="export xml" value="export xml" />
-		<text id="first list" value="first list" />
-		<text id="for split words use / or ," value="To separate between words, use slash (/)" />
-		<text id="list of the Chapters" value="Chapters" />
-		<text id="list of the Hizb" value="Hizbs" />
-		<text id="list of the Section" value="Sections" />
-		<text id="moshaf" value="Moshaf" />
-		<text id="need Explanations" value="Send questions" />
-		<text id="none of these words" value="None of these words:" />
-		<text id="Note" value="your notes" />   
-		<text id="remove from Verse" value="remove the tag from the verse(s)." />
-		<text id="repeat with:" value="repeat playing with " />
-		<text id="send" value="send" />
-		<text id="simple" value="Simple" />
-		<text id="subjct" value="subjct:" />
-		<text id="update tree" value="update list" />
-		<text id="will Move to " value="will move with" />
-		<text id="your mail" value="Email:" />
-		<text id="your name" value="Name:" />
-		<text id="zoom in" value="zoom in" />
-		<text id="zoom out" value="zoom out" />
-		<text id="There already exists a file called %1 in the current directory. Overwrite?" value="There already exists a file called %1 in the current directory. Overwrite?" />
-		<text id="Unable to save the file %1: %2." value="Unable to save the file %1: %2." />
-		<text id="Download failed: %1." value="Download failed: %1." />
-		<text id="Redirect to %1 ?" value="Redirect to %1 ?" />
-		<text id="These files were Installed Successfully" value="These files were Installed Successfully" />
-                <text id="These files are invalid" value="These files are invalid" />
-                <text id="These files had already been Installed" value="These files had already been Installed" />
+		<text id="QuickAddons" value="PLEASE_COMPLETE_THIS" />
+		<text id="QuickResearch" value="PLEASE_COMPLETE_THIS" />
+		<text id="QuickTopic" value="PLEASE_COMPLETE_THIS" />
+		<text id="Quran Only" value="Sadece Kur' an" />
+		<text id="Quran Translation was Installed Successfully" value="Meal başarıyla indirildi!" />
+		<text id="Quran Translations" value="Kur' an mealleri" />
+		<text id="Quran" value="Kur'an" />
+		<text id="Quran Border" value="Kur'an kenarlığını göster" />
+		<text id="Quran Root" value="Kök" />
+		<text id="Reciter" value="Hafız" />
+		<text id="Remarking Icon" value="Notlarım" />
+		<text id="Repeat" value="Yinele" />
+		<text id="Research tools" value="Araştırma Araçları" />
+		<text id="Restore Seleteds" value="Seçilenleri geri yükle" />
+		<text id="Results" value="Sonuçlar" />
+		<text id="Save" value="Kaydet" />
+		<text id="Save as pdf" value="PDF biçimde kaydet" />
+		<text id="Save as.." value="Farklı kaydet..." />
+		<text id="Save the Point" value="Kaydet" />
+		<text id="Search" value="Ara" />
+		<text id="Search in current text" value="Geçerli metin içinde ara" />
+		<text id="Search in:" value="PLEASE_COMPLETE_THIS" />
+		<text id="Section" value="Cüz" />
+		<text id="Select for Move" value="Taşımak için seç" />
+		<text id="Select the Interpretation" value="Tefsir:" />
+		<text id="Select the Translation" value="Meal:" />
+		<text id="SendMail" value="E-posta gönder" />
+		<text id="SendMail ok." value="Gönderildi." />
+		<text id="Set Top Level" value="En üst seviye öğeyi ayarla" />
+		<text id="Show Trash" value="Çöpü göster" />
+		<text id="Show and Edit the Notes" value="Notlarım" />
+		<text id="Show chapter layout" value="Yan çubuğu göster" />
+		<text id="Show the Verses" value="Ayetleri göster" />
+		<text id="Similar Verses" value="İlgili başlıklar: " />
+		<text id="Similar Words" value="Benzer Sözcükler" />
+		<text id="Site" value="PLEASE_COMPLETE_THIS" />
+		<text id="Size" value="Boyut" />
+		<text id="Some Preferences need for restart Al-Anvar to apply." value="Bazı değişikliklerin etkili olması için Al-Anvar'ın yeniden başlatılması gerekiyor" />
+		<text id="Sort chapters by:" value="Bölümleri şu şekilde sırala:" />
+		<text id="Style" value="Biçim" />
+		<text id="Subject :" value="Konu:" />
+		<text id="Subject List:" value="Konu Listesi:" />
+		<text id="Subject of the Verses" value="Konular" />
+		<text id="Subject of this Verse:" value="Bu Ayetin Konusu:" />
+		<text id="Subjects" value="Konular" />
+		<text id="Tel Me More about this verse:" value="Bana bu ayet hakkında ayrıntılı bilgi ver:" />
+		<text id="The Point has been modified." value="Notlar değiştirildi." />
+		<text id="Theme and color" value="Tema ve renk" />
+		<text id="Those Subjects:" value="aşağıdaki konular:" />
+		<text id="Title" value="Başlık" />
+		<text id="Tools" value="Araçlar" />
+		<text id="Translation Only" value="Sadece Meâl" />
+		<text id="Unbookmark" value="PLEASE_COMPLETE_THIS" />
+		<text id="Update Add-ons list" value="Eklenti listesini güncelle" />
+		<text id="Use external program:" value="Harici bir oynatıcı kullan:" />
+		<text id="Verse" value="Ayet" />
+		<text id="Verses" value="Ayetler" />
+		<text id="Version" value="Sürüm" />
+		<text id="Warning" value="Uyarı" />
+		<text id="add folder" value="dizin ekle" />
+		<text id="add subject to Verse" value="ayetleri anahtar sözcüklerle etiketlemek için." />
+		<text id="added before" value="önceden eklenmiş" />
+		<text id="all Current Subject and Comment will be lost.." value="Geçerli etiketleme ve yorumlama verisi yitirilecek!" />
+		<text id="all these words" value="Bütün bu sözcükler:" />
+		<text id="all these words sequence" value="Bütün bu sözcükler, sıralama korunacak:" />
+		<text id="bodytext" value="sorular:" />
+		<text id="check update failed" value="Güncelleme denetimi başarısız!" />
+		<text id="child of" value="alt bölümü: " />
+		<text id="click here to download Latest version" value="İndirmek için tıklayın." />
+		<text id="default" value="Öntanımlı" />
+		<text id="done." value="tamamlandı." />
+		<text id="export all to xml" value="tümünü xml olarak dışarı aktar" />
+		<text id="export selected to xml" value="seçilenleri xml olarak dışarı aktar" />
+		<text id="export xml" value="xml olarak dışa aktar" />
+		<text id="first list" value="ilk liste" />
+		<text id="for split words use / or ," value="Sözcükleri ayırmak için yatık çizgi (/) kullanın" />
+		<text id="list of the Chapters" value="Bölümler" />
+		<text id="list of the Hizb" value="Hizbler" />
+		<text id="list of the Section" value="Kısımlar" />
+		<text id="moshaf" value="Mushaf" />
+		<text id="need Explanations" value="Soru gönder" />
+		<text id="none of these words" value="Bu sözcüklerin hiçbiri:" />
+	        <text id="Note" value="PLEASE_COMPLETE_THIS" />   
+		<text id="remove from Verse" value="ayetlerden etiketi kaldırmak için." />
+		<text id="repeat with:" value="çalmayı şununla yinele: " />
+		<text id="send" value="gönder" />
+		<text id="simple" value="Basit" />
+		<text id="subjct" value="konu:" />
+		<text id="update tree" value="listeyi güncelle" />
+		<text id="will Move to " value="şununla taşınacak: " />
+		<text id="your mail" value="E-posta:" />
+		<text id="your name" value="İsim:" />
+		<text id="zoom in" value="PLEASE_COMPLETE_THIS" />
+		<text id="zoom out" value="PLEASE_COMPLETE_THIS" />
+		<text id="There already exists a file called %1 in the current directory. Overwrite?" value="PLEASE_COMPLETE_THIS" />
+		<text id="Unable to save the file %1: %2." value="PLEASE_COMPLETE_THIS" />
+		<text id="Download failed: %1." value="PLEASE_COMPLETE_THIS" />
+		<text id="Redirect to %1 ?" value="PLEASE_COMPLETE_THIS" />
+		<text id="These files were Installed Successfully" value="PLEASE_COMPLETE_THIS" />
+                <text id="These files are invalid" value="PLEASE_COMPLETE_THIS" />
+                <text id="These files had already been Installed" value="PLEASE_COMPLETE_THIS" />
 		<text id="madani" value="Medeni" />
 		<text id="makki" value="Mekki" />
-		<text id="Contact Form" value="Contact Form" />
-		<text id="Upadate database" value="Upadate database" />
-		<text id="database most to update . please waite..." value="database most to update . please waite..." />
-		<text id="on" value="on" />
+		<text id="Contact Form" value="PLEASE_COMPLETE_THIS" />
+		<text id="Upadate database" value="PLEASE_COMPLETE_THIS" />
+		<text id="database most to update . please waite..." value="PLEASE_COMPLETE_THIS" />
+		<text id="on" value="PLEASE_COMPLETE_THIS" />
 
  <!-- QMl Versein -->
                 
-		<text id="Quran Size" value="Quran Size" />          
-	        <text id="Translation Size" value="Translation Size" />    
-	        <text id="App Size" value="App Size" />   
-		<text id="None" value="None" />     
-		<text id="Note" value="your note" />  
-		<text id="Go To" value="Go to verse" /> 	
-		<text id="RootSub" value="top level" /> 
-		<text id="Add Note" value="Add a note" /> 
-		<text id="Edit Note" value="Edit note" /> 
-		<text id="Add tag(topic,subject)" value="Add tag(topic,subject" /> 
-		<text id="Note for :" value="Note for :" /> 
-		<text id="Delete" value="Delete" /> 
+                <text id="Quran Size" value="PLEASE_COMPLETE_THIS" />
+                <text id="Translation Size" value="PLEASE_COMPLETE_THIS" />
+                <text id="App Size" value="PLEASE_COMPLETE_THIS" />
+                <text id="None" value="None" />
+                <text id="Note" value="PLEASE_COMPLETE_THIS" />
+                <text id="Go To" value="Go to verse" />
+                <text id="RootSub" value="top level" />
+                <text id="Add Note" value="Add a note" />
+                <text id="Edit Note" value="PLEASE_COMPLETE_THIS" />
+                <text id="Add tag(topic,subject)" value="PLEASE_COMPLETE_THIS" />
+                <text id="Note for :" value="PLEASE_COMPLETE_THIS" />
+                <text id="Delete" value="PLEASE_COMPLETE_THIS" />
                 <text id="ToTop" value="To top level" /> 
-                <text id="Rename" value="Rename" /> 
-                <text id="All" value="All" />
+                <text id="Rename" value="PLEASE_COMPLETE_THIS" /> 
+                <text id="All" value="PLEASE_COMPLETE_THIS" />
 		<text id="Local File" value="Local files" />
                 <text id="Tafsir for :" value="Interpretation for" />
                 <text id="Tr for :" value="Translation for" />
-                <text id="Compare with translations" value="Compare with translations" />
-                <text id="new subject" value="new subject" />
-                <text id="new folder" value="new folder" />
-                <text id="sourceforge page" value="PLEASE_COMPLETE_THIS" />                
-                <text id="Backup Subjects and Notes" value="Take a backup from topics and notes" />
-                <text id="Backup was create Successfully" value="Backup successful!" />
-                <text id="Backup was not create Successfully" value="Backup did NOT complete successfully!" />
-                <text id="Qur'an Translation was Installed Successfully" value="Translation successfully installed!" />
-                <text id="This Backup was Installed Successfully" value="Backup successfully restored!" />
-                <text id="This File is not Recognized as an add-on for the program" value="Invalid add-on file" />
-                <text id="This Interpretation has already been Installed" value="Interpretation already installed!" />
-                <text id="This Interpretation was Installed Successfully" value="Interpretation successfully installed!" />
-                <text id="This Translaton has already been Installed" value="Translaton already installed!" />
-                <text id="add subject to Verse" value="to tag the verse(s) with the keyword." />
-                <text id="all Current Subject and Comment will be lost.." value="Current tagging and commenting data will be lost!" />
+                <text id="Compare with translations" value="PLEASE_COMPLETE_THIS" />
+                <text id="new subject" value="PLEASE_COMPLETE_THIS" />
+                <text id="new folder" value="PLEASE_COMPLETE_THIS" />
+                <text id="sourceforge page" value="PLEASE_COMPLETE_THIS" />
+                <text id="Backup Subjects and Notes" value="Başlıklardan ve notlardan yedek al" />
+                <text id="Backup was create Successfully" value="Yedekleme başarılı!" />
+                <text id="Backup was not create Successfully" value="Yedekleme başarıyla TAMAMLANAMADI!" />
+                <text id="Qur'an Translation was Installed Successfully" value="Meal başarıyla indirildi!" />
+                <text id="This Backup was Installed Successfully" value="Yedekleme başarıyla geri yüklendi!" />
+                <text id="This File is not Recognized as an add-on for the program" value="Geçersiz eklenti dosyası" />
+                <text id="This Interpretation has already been Installed" value="Tefsir zaten kurulu!" />
+                <text id="This Interpretation was Installed Successfully" value="Tefsir başarıyla kuruldu!" />
+                <text id="This Translaton has already been Installed" value="Meâl zaten kurulu!" />
+                <text id="all Current Subject and Comment will be lost.." value="Geçerli etiketleme ve yorumlama verisi yitirilecek!" />
                 <text id="Installing" value="Installing..." />
-
-
-
 
 
 		
 
+		
+		
 
 		
 
@@ -258,120 +256,120 @@
 
 <!-- Chapters Name -->
 
-		<text id="Al-Fātiḥaħ" value="Al-Fātiḥaħ" />
-		<text id="Al-Baqaraħ" value="Al-Baqaraħ" />
-		<text id="'Āli `Imrān" value="'Āli `Imrān" />
-		<text id="An-Nisā'" value="An-Nisā'" />
-		<text id="Al-Mā'idaħ" value="Al-Mā'idaħ" />
-		<text id="Al-'An`ām" value="Al-'An`ām" />
-		<text id="Al-'A`rāf" value="Al-'A`rāf" />
-		<text id="Al-'Anfāl" value="Al-'Anfāl" />
-		<text id="At-Tawbaħ" value="At-Tawbaħ" />
-		<text id="Yūnus" value="Yūnus" />
-		<text id="Hūd" value="Hūd" />
-		<text id="Yūsuf" value="Yūsuf" />
-		<text id="Ar-Ra`d" value="Ar-Ra`d" />
-		<text id="'Ibrāhīm" value="'Ibrāhīm" />
-		<text id="Al-Ḥijr" value="Al-Ḥijr" />
-		<text id="An-Naḥl" value="An-Naḥl" />
-		<text id="Al-'Isrā'" value="Al-'Isrā'" />
-		<text id="Al-Kahf" value="Al-Kahf" />
-		<text id="Maryam" value="Maryam" />
-		<text id="Ṭā-Hā" value="Ṭā-Hā" />
-		<text id="Al-'Aɱbiyā'" value="Al-'Aɱbiyā'" />
-		<text id="Al-Ḥajj" value="Al-Ḥajj" />
-		<text id="Al-Mu'minūn" value="Al-Mu'minūn" />
-		<text id="An-Nūr" value="An-Nūr" />
-		<text id="Al-Furqān" value="Al-Furqān" />
-		<text id="Ash-Shu`arā'" value="Ash-Shu`arā'" />
-		<text id="An-Naml" value="An-Naml" />
-		<text id="Al-Qaṣaṣ" value="Al-Qaṣaṣ" />
-		<text id="Al-`Ankabūt" value="Al-`Ankabūt" />
-		<text id="Ar-Rūm" value="Ar-Rūm" />
-		<text id="Luqmān" value="Luqmān" />
-		<text id="As-Sajdaħ" value="As-Sajdaħ" />
-		<text id="Al-'Aḥzāb" value="Al-'Aḥzāb" />
-		<text id="Saba'" value="Saba'" />
-		<text id="Fāṭir" value="Fāṭir" />
-		<text id="Yā-Sīn" value="Yā-Sīn" />
-		<text id="Aṣ-Ṣāffāt" value="Aṣ-Ṣāffāt" />
-		<text id="Ṣād" value="Ṣād" />
-		<text id="Az-Zumar" value="Az-Zumar" />
-		<text id="Ghāfir" value="Ghāfir" />
-		<text id="Fuṣṣilat" value="Fuṣṣilat" />
-		<text id="Ash-Shūraá" value="Ash-Shūraá" />
-		<text id="Az-Zukhruf" value="Az-Zukhruf" />
-		<text id="Ad-Dukhān" value="Ad-Dukhān" />
-		<text id="Al-Jāthiyaħ" value="Al-Jāthiyaħ" />
-		<text id="Al-'Aḥqāf" value="Al-'Aḥqāf" />
-		<text id="Muḥammad" value="Muḥammad" />
-		<text id="Al-Fatḥ" value="Al-Fatḥ" />
-		<text id="Al-Ḥujurāt" value="Al-Ḥujurāt" />
-		<text id="Qāf" value="Qāf" />
-		<text id="Adh-Dhāriyāt" value="Adh-Dhāriyāt" />
-		<text id="Aṭ-Ṭūr" value="Aṭ-Ṭūr" />
-		<text id="An-Najm" value="An-Najm" />
-		<text id="Al-Qamar" value="Al-Qamar" />
-		<text id="Ar-Raḥmān" value="Ar-Raḥmān" />
-		<text id="Al-Wāqi`aħ" value="Al-Wāqi`aħ" />
-		<text id="Al-Ḥadīd" value="Al-Ḥadīd" />
-		<text id="Al-Mujādalaħ" value="Al-Mujādalaħ" />
-		<text id="Al-Ḥashr" value="Al-Ḥashr" />
-		<text id="Al-Mumtaḥanaħ" value="Al-Mumtaḥanaħ" />
-		<text id="Aṣ-Ṣaff" value="Aṣ-Ṣaff" />
-		<text id="Al-Jumu`aħ" value="Al-Jumu`aħ" />
-		<text id="Al-Munāfiqūn" value="Al-Munāfiqūn" />
-		<text id="At-Taghābun" value="At-Taghābun" />
-		<text id="Aṭ-Ṭalāq" value="Aṭ-Ṭalāq" />
-		<text id="At-Taḥrīm" value="At-Taḥrīm" />
-		<text id="Al-Mulk" value="Al-Mulk" />
-		<text id="Al-Qalam" value="Al-Qalam" />
-		<text id="Al-Ḥāqqaħ" value="Al-Ḥāqqaħ" />
-		<text id="Al-Ma`ārij" value="Al-Ma`ārij" />
-		<text id="Nūḥ" value="Nūḥ" />
-		<text id="Al-Jinn" value="Al-Jinn" />
-		<text id="Al-Muzzammil" value="Al-Muzzammil" />
-		<text id="Al-Muddaththir" value="Al-Muddaththir" />
-		<text id="Al-Qiyāmaħ" value="Al-Qiyāmaħ" />
-		<text id="Al-'Insān" value="Al-'Insān" />
-		<text id="Al-Mursalāt" value="Al-Mursalāt" />
-		<text id="An-Naba'" value="An-Naba'" />
-		<text id="An-Nāzi`āt" value="An-Nāzi`āt" />
-		<text id="`Abasa" value="`Abasa" />
-		<text id="At-Takwīr" value="At-Takwīr" />
-		<text id="Al-'Infiṭār" value="Al-'Infiṭār" />
-		<text id="Al-Muṭaffifīn" value="Al-Muṭaffifīn" />
-		<text id="Al-'Inshiqāq" value="Al-'Inshiqāq" />
-		<text id="Al-Burūj" value="Al-Burūj" />
-		<text id="Aṭ-Ṭāriq" value="Aṭ-Ṭāriq" />
-		<text id="Al-'A`laá" value="Al-'A`laá" />
-		<text id="Al-Ghāshiyaħ" value="Al-Ghāshiyaħ" />
-		<text id="Al-Fajr" value="Al-Fajr" />
-		<text id="Al-Balad" value="Al-Balad" />
-		<text id="Ash-Shams" value="Ash-Shams" />
-		<text id="Al-Layl" value="Al-Layl" />
-		<text id="Aḍ-Ḍuḥaá" value="Aḍ-Ḍuḥaá" />
-		<text id="Ash-Sharḥ" value="Ash-Sharḥ" />
-		<text id="At-Tīn" value="At-Tīn" />
-		<text id="Al-`Alaq" value="Al-`Alaq" />
-		<text id="Al-Qadr" value="Al-Qadr" />
-		<text id="Al-Bayyinaħ" value="Al-Bayyinaħ" />
-		<text id="Az-Zalzalaħ" value="Az-Zalzalaħ" />
-		<text id="Al-`Ādiyāt" value="Al-`Ādiyāt" />
-		<text id="Al-Qāri`aħ" value="Al-Qāri`aħ" />
-		<text id="At-Takāthur" value="At-Takāthur" />
-		<text id="Al-`Aṣr" value="Al-`Aṣr" />
-		<text id="Al-Humazaħ" value="Al-Humazaħ" />
-		<text id="Al-Fīl" value="Al-Fīl" />
-		<text id="Quraysh" value="Quraysh" />
-		<text id="Al-Mā`ūn" value="Al-Mā`ūn" />
-		<text id="Al-Kawthar" value="Al-Kawthar" />
-		<text id="Al-Kāfirūn" value="Al-Kāfirūn" />
-		<text id="An-Naṣr" value="An-Naṣr" />
-		<text id="Al-Masad" value="Al-Masad" />
-		<text id="Al-'Ikhlāṣ" value="Al-'Ikhlāṣ" />
-		<text id="Al-Falaq" value="Al-Falaq" />
-		<text id="An-Nās" value="An-Nās" />
+		<text id="Al-Fātiḥaħ" value="Fatiha" />
+		<text id="Al-Baqaraħ" value="Bakara" />
+		<text id="'Āli `Imrān" value="Âl-i İmrân" />
+		<text id="An-Nisā'" value="Nisâ" />
+		<text id="Al-Mā'idaħ" value="Mâide" />
+		<text id="Al-'An`ām" value="En'âm" />
+		<text id="Al-'A`rāf" value="Araf" />
+		<text id="Al-'Anfāl" value="Enfâl" />
+		<text id="At-Tawbaħ" value="Tevbe " />
+		<text id="Yūnus" value="Yûnus" />
+		<text id="Hūd" value="Hûd" />
+		<text id="Yūsuf" value="Yûsuf" />
+		<text id="Ar-Ra`d" value="Ra’d" />
+		<text id="'Ibrāhīm" value="'İbrahim" />
+		<text id="Al-Ḥijr" value="Hicr" />
+		<text id="An-Naḥl" value="Nahl" />
+		<text id="Al-'Isrā'" value="İsrâ" />
+		<text id="Al-Kahf" value="Kehf" />
+		<text id="Maryam" value="Meryem" />
+		<text id="Ṭā-Hā" value="Tâ-Hâ" />
+		<text id="Al-'Aɱbiyā'" value="Enbiyâ" />
+		<text id="Al-Ḥajj" value="Hac" />
+		<text id="Al-Mu'minūn" value="Mü’minûn" />
+		<text id="An-Nūr" value="Nûr" />
+		<text id="Al-Furqān" value="Furkân" />
+		<text id="Ash-Shu`arā'" value="Şu’arâ" />
+		<text id="An-Naml" value="Neml" />
+		<text id="Al-Qaṣaṣ" value="Kasas" />
+		<text id="Al-`Ankabūt" value="Ankebût" />
+		<text id="Ar-Rūm" value="Rûm" />
+		<text id="Luqmān" value="Lokman" />
+		<text id="As-Sajdaħ" value="Secde" />
+		<text id="Al-'Aḥzāb" value="Ahzâb" />
+		<text id="Saba'" value="Sebe'" />
+		<text id="Fāṭir" value="Fâtır" />
+		<text id="Yā-Sīn" value="Yâsîn" />
+		<text id="Aṣ-Ṣāffāt" value="Sâffât" />
+		<text id="Ṣād" value="Sâd" />
+		<text id="Az-Zumar" value="Zümer" />
+		<text id="Ghāfir" value="Mü’min" />
+		<text id="Fuṣṣilat" value="Fussilet" />
+		<text id="Ash-Shūraá" value="Şûrâ" />
+		<text id="Az-Zukhruf" value="Zuhruf" />
+		<text id="Ad-Dukhān" value="Duhân" />
+		<text id="Al-Jāthiyaħ" value="Câsiye" />
+		<text id="Al-'Aḥqāf" value="Ahkâf" />
+		<text id="Muḥammad" value="Muhammed" />
+		<text id="Al-Fatḥ" value="Fetih" />
+		<text id="Al-Ḥujurāt" value="Hucurât" />
+		<text id="Qāf" value="Kâf" />
+		<text id="Adh-Dhāriyāt" value="Zâriyât" />
+		<text id="Aṭ-Ṭūr" value="Tûr" />
+		<text id="An-Najm" value="Necm" />
+		<text id="Al-Qamar" value="Kamer" />
+		<text id="Ar-Raḥmān" value="Rahmân" />
+		<text id="Al-Wāqi`aħ" value="Vâkı’a" />
+		<text id="Al-Ḥadīd" value="Hadîd" />
+		<text id="Al-Mujādalaħ" value="Mücâdele" />
+		<text id="Al-Ḥashr" value="Haşr" />
+		<text id="Al-Mumtaḥanaħ" value="Mümtehine" />
+		<text id="Aṣ-Ṣaff" value="Saff" />
+		<text id="Al-Jumu`aħ" value="Cum’a" />
+		<text id="Al-Munāfiqūn" value="Münâfikûn" />
+		<text id="At-Taghābun" value="Teğâbun" />
+		<text id="Aṭ-Ṭalāq" value="Talâk" />
+		<text id="At-Taḥrīm" value="Tahrîm" />
+		<text id="Al-Mulk" value="Mülk" />
+		<text id="Al-Qalam" value="Kalem" />
+		<text id="Al-Ḥāqqaħ" value="Hâkka" />
+		<text id="Al-Ma`ārij" value="Me’âric" />
+		<text id="Nūḥ" value="Nûh" />
+		<text id="Al-Jinn" value="Cin" />
+		<text id="Al-Muzzammil" value="Müzzemmil" />
+		<text id="Al-Muddaththir" value="Müddessir" />
+		<text id="Al-Qiyāmaħ" value="Kıyâme" />
+		<text id="Al-'Insān" value="İnsan" />
+		<text id="Al-Mursalāt" value="Mürselât" />
+		<text id="An-Naba'" value="Nebe'" />
+		<text id="An-Nāzi`āt" value="Nâzi'ât" />
+		<text id="`Abasa" value="Abese" />
+		<text id="At-Takwīr" value="Tekvîr" />
+		<text id="Al-'Infiṭār" value="İnfitâr" />
+		<text id="Al-Muṭaffifīn" value="Mutaffifîn" />
+		<text id="Al-'Inshiqāq" value="İnşikâk" />
+		<text id="Al-Burūj" value="Bürûc" />
+		<text id="Aṭ-Ṭāriq" value="Târık" />
+		<text id="Al-'A`laá" value="A'lâ" />
+		<text id="Al-Ghāshiyaħ" value="Gâşiye" />
+		<text id="Al-Fajr" value="Fecr" />
+		<text id="Al-Balad" value="Beled" />
+		<text id="Ash-Shams" value="Şems" />
+		<text id="Al-Layl" value="Leyl" />
+		<text id="Aḍ-Ḍuḥaá" value="Duhâ" />
+		<text id="Ash-Sharḥ" value="İnşirâh" />
+		<text id="At-Tīn" value="Tîn" />
+		<text id="Al-`Alaq" value="Alak" />
+		<text id="Al-Qadr" value="Kadr" />
+		<text id="Al-Bayyinaħ" value="Beyyine" />
+		<text id="Az-Zalzalaħ" value="Zilzâl" />
+		<text id="Al-`Ādiyāt" value="Âdiyât" />
+		<text id="Al-Qāri`aħ" value="Kâri'a" />
+		<text id="At-Takāthur" value="Tekâsür" />
+		<text id="Al-`Aṣr" value="Asr" />
+		<text id="Al-Humazaħ" value="Hümeze" />
+		<text id="Al-Fīl" value="Fil" />
+		<text id="Quraysh" value="Kureyş" />
+		<text id="Al-Mā`ūn" value="Mâ'ûn" />
+		<text id="Al-Kawthar" value="Kevser" />
+		<text id="Al-Kāfirūn" value="Kâfirûn" />
+		<text id="An-Naṣr" value="Nasr" />
+		<text id="Al-Masad" value="Tebbet" />
+		<text id="Al-'Ikhlāṣ" value="İhlâs" />
+		<text id="Al-Falaq" value="Felâk" />
+		<text id="An-Nās" value="Nâs" />
 		
 <!-- Reciter -->
 
@@ -398,6 +396,9 @@
 		<text id="khalefa al-tunaiji" value="khalefa al-tunaiji" />
 		<text id="English Ibrahim Walk" value="English Ibrahim Walk" />
 
+
+		
+		
 
 <!-- Subjects -->
 

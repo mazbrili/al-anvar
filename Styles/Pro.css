@@ -1,3 +1,6 @@
+#bgwidget{
+  background-image: url(:/images/bg1.png);
+}
 QCheckBox {
      spacing: 5px;
  }

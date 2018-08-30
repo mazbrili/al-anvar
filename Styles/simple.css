@@ -1,3 +1,6 @@
+#bgwidget{
+  background-image: url(:/images/bg1.png);
+}
 QTextEdit,QListWidget
 {
      color: rgb(0, 0, 0);

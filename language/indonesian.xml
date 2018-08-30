@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
   <language author="" version="0.2.5">
-    <locale AUTHOR="" NAME="Indonesia" VERSION="AL-ANVAR-0.2.5"  ID="id" />
+    <locale AUTHOR="" NAME="Indonesia" VERSION="AL-ANVAR-0.2.5"  ID="ID_id" />
       <words>
 		<text id="Align" value="Left" />
 
@@ -65,12 +65,12 @@
 		<text id="Move Subject" value="Pindahkan topik ke: " />    
 		<text id="Move To Trash" value="Pindahkan ke sampah" />
 		<text id="Name" value="Name" />
-		<text id="Need Restart" value="Need restart" />
-		<text id="Next" value="Next" />
+		<text id="Need Restart" value="Membutuhkan restart" />
+		<text id="Next" value="Berikutnya" />
 		<text id="Ok" value="Ok" />
-		<text id="Options.." value="Preferences..." />
-		<text id="Ordering" value="Order" />    
-		<text id="Page" value="Page" />
+		<text id="Options.." value="Preferensi..." />
+		<text id="Ordering" value="Urutan" />    
+		<text id="Page" value="Halaman" />
 		<text id="Play via Phonon" value="Mainkan dengan internal player al-anvar" />
 		<text id="Playback" value="Pemutar" />
 		<text id="Playing Icon" value="Ikon Putar" />
@@ -85,9 +85,9 @@
 		<text id="Quran Search" value="Quran" />    
 		<text id="Quran setting" value="pengaturan Qurán" />
 		<text id="Quran" value="Quran" />
-		<text id="Reciter" value="Reciter" />
+		<text id="Reciter" value="Qori" />
 		<text id="Regular expression" value="Regular expression " />    
-		<text id="Remarking Icon" value="My notes" />
+		<text id="Remarking Icon" value="Ikon catatan" />
 		<text id="Repeat" value="Ulang" />    
 		<text id="Restore Seleteds" value="Kembalikan yang dipilih" />
 		<text id="Results" value="Hasil" />
@@ -128,10 +128,10 @@
 		<text id="This Interpretation was Installed Successfully" value="Tafsiran sukses terpasang!" />
 		<text id="This Translaton has already been Installed" value="Translaton already installed!" />    
 		<text id="Those Subjects:" value="the following topics:" />
-		<text id="Title" value="Title" />
-		<text id="Tools" value="Tools" />
+		<text id="Title" value="Judul" />
+		<text id="Tools" value="Alat" />
 		<text id="Translation Only" value="Hanya terjemahan" />
-		<text id="Trash" value="Trash" />
+		<text id="Trash" value="Sampah" />
 		<text id="Until Verse:" value="ke " />
 		<text id="Update Add-ons list" value="perbarui daftar Add-on" />
 		<text id="Use external program:" value="Gunakan pemutar eksternal:" />
@@ -142,10 +142,10 @@
 		<text id="add subject to Verse" value="to tag the verse(s) with the keyword." />
 		<text id="all Current Subject and Comment will be lost.." value="Current tagging and commenting data will be lost!" />
 		<text id="all these words" value="All these words:" />    
-		<text id="all these words(sequence)" value="All these words, sequence preserved:" />
+		<text id="all these words(sequence)" value="Semua kata ini,urutan dipertahankan:" />
 		<text id="audio" value="Audio" />
-		<text id="for split words use / or ," value="To separate between words, use slash (/)" />
-		<text id="index" value="index" />    
+		<text id="for split words use / or ," value="untuk memisah kata, gunakan slash (/) atau koma (,)" />
+		<text id="index" value="indeks" />    
 		<text id="interface" value="Interface" />    
 		<text id="list of the Chapters" value="Chapters" />
 		<text id="list of the Section" value="Sections" />
@@ -157,7 +157,7 @@
 		<text id="will merge to" value="will merge with" />    
 		<text id="madani" value="Madaniyah" />
 		<text id="makki" value="Makkiyah" />
-		<text id="default" value="Default" />
+		<text id="default" value="Standar" />
 		<text id="simple" value="Simple" />  
 		<text id="Pro" value="Modern" />
 		<text id="Lang" value="Bahasa" />          
@@ -186,38 +186,38 @@
 		<text id="Al-Anvar is up to date ;" value="Al-Anver is now up-to-date!" /> 
 		<text id="check update failed" value="Update checking failed!" /> 
 		<text id="Play" value="Play" /> 
-		<text id="Quran Border" value="Show Quran Border" /> 
-		<text id="repeat with:" value="repeat playing with " /> 		
+		<text id="Quran Border" value="Tampilan batas Quran" /> 
+		<text id="repeat with:" value="Ulangi dengan " /> 		
 		<text id="need Explanations" value="Send questions"/>
 		<text id="send" value="send"/>               
-		<text id="Tel Me More about this verse:" value="Tel Me More about this verse:"/>                
-		<text id="bodytext" value="questions:"/>            
-		<text id="subjct" value="subjct:"/>
+		<text id="Tel Me More about this verse:" value="Ceritakan lebih banyak tengang ayat ini:"/>                
+		<text id="bodytext" value="Pertanyaan:"/>            
+		<text id="subjct" value="Judul:"/>
 		<text id="your mail" value="Email:"/>
-		<text id="your name" value="Name:"/>
-		<text id="SendMail" value="Send Mail"/>
-		<text id="SendMail ok." value="Sent."/>
-		<text id="Mail sending failed." value="Mail sending failed."/>
-		<text id="Authentificated" value="Authentificated"/>
-		<text id="Authentification Failed." value="Authentification Failed."/>
+		<text id="your name" value="Nama:"/>
+		<text id="SendMail" value="kirim imel"/>
+		<text id="SendMail ok." value="Terkirim."/>
+		<text id="Mail sending failed." value="Kirim email gagal."/>
+		<text id="Authentificated" value="Terotentikasi"/>
+		<text id="Authentification Failed." value="Otentikasi gagal."/>
 		<text id="Connected" value="Connected"/>
-		<text id="Connection Failed." value="Connection Failed."/>		
-		<text id="MoshafView" value="Show as Moshaf"/>
+		<text id="Connection Failed." value="Koneksi gagal."/>		
+		<text id="MoshafView" value="Tampilkan mushaf"/>
 		<text id="moshaf" value="Moshaf"/>
 		<text id="Result astekhare" value="Result astekhare"/>
 		<text id="export xml" value="export xml"/>
 		<text id="done." value="done."/>
 		<text id="added before" value="added before"/>
 		
-		<text id="add folder" value="add folder"/>
-		<text id="update tree" value="update list"/>
-		<text id="export all to xml" value="export all to xml"/>
-		<text id="export selected to xml" value="export selected to xml"/>
+		<text id="add folder" value="tambah Pelipat"/>
+		<text id="update tree" value="perbarui daftar"/>
+		<text id="export all to xml" value="ekspor semua ke xml"/>
+		<text id="export selected to xml" value="export terpilih ke xml"/>
 		<text id="first list" value="first list"/>
 		<text id="child of" value="child of: "/>
 		<text id="Books" value="‌Books" />      
-		<text id="Next Page" value="Next Page" />
-		<text id="Back Page" value="Previous Page" />   
+		<text id="Next Page" value="hal berikut" />
+		<text id="Back Page" value="hal sebelum" />   
 		<text id="Biblegraphi" value="Biblegraphi" />
 
 
@@ -345,76 +345,76 @@
 
 <!-- Subjects -->
 
-		<text id="عقل" value="Intellect"/>
-		<text id="علم و حکمت" value="Science and Wisdom"/>
-		<text id="توحید" value="Monotheism"/>
-		<text id="عدل" value="Justice"/>
-		<text id="معاد" value="Resurrection or Day of JudgmentIntellect"/>
-		<text id="نبوت" value="Prophecy"/>
-		<text id="ولایت" value="Sainthood"/>
-		<text id="موجودات" value="Creatures"/>
-		<text id="ایمان و فضائل" value="Faith and virtues"/>
-		<text id="کفر و رذائل" value="Blasphemy and vices"/>
-		<text id="حقوق و آداب معاشرت" value="Rights and etiquette"/>
-		<text id="کتب آسمانی" value="Scriptures"/>
-		<text id="ذکر و دعا" value="Commemoration of god and prayer"/>
-		<text id="احکام , عبادات" value="Commandments, worships"/>
-		<text id="تعقل و ارزش آن" value="Intellection and its value"/>
-		<text id="چگونگی تعقل" value="How to thinking"/>
-		<text id="شرع و عقل" value="Religious law and Intellect"/>
-		<text id="مذمت تقلید کورکورانه" value="Scorn for blind imitation"/>
-		<text id="الهامات غیبی" value="Occult inspiration"/>
-		<text id="اختلافات علماء" value="Scholars disputes"/>
-		<text id="حکمت" value="Wisdom"/>
-		<text id="صفات و خصوصیات علماء" value="Scholars traits and characteristics"/>
-		<text id="راسخون در علم" value="Firmly rooted in knowledge"/>
-		<text id="اثبات توحید" value="Monotheism proof"/>
-		<text id="احتجاجات قرآنی" value="Giving logical proof of Quran"/>
-		<text id="احتجاجات بر نفی تثلیث و اولوهیت مسیح" value="Giving logical proof to deny the Trinity and Christ divine"/>
-		<text id="احتجاجات حضرت ابراهیم" value="Giving logical proof of Ibrahim"/>
-		<text id="احتجاج علیه بت پرستان" value="Giving logical proof against idol worshipers"/>
-		<text id="احتجاجات حضرت نوح" value="Giving logical proof of Noah presence"/>
-		<text id="احتجاجات حضرت هود" value="Giving logical proof of Houd presence"/>
-		<text id="شفاعت" value="Intercession"/>
-		<text id="اعتقاد به شفاعت شرک نیست" value="Belief to Intercession is not dualism"/>
-		<text id="شفیعان روز قیامت" value="Intercessors resurrection day"/>
-		<text id="شفاعت شوندگان" value="Intercessors"/>
-		<text id="احتجاج بر توحید خداوند" value="Giving logical proof on the monotheism of God"/>
-		<text id="احتجاجات بر ربوبیت خداوند" value="Giving logical proof on supernal condition of divinity"/>
-		<text id="احتجاجات بر وحدانیت خداوند" value="Giving logical proof on uniqueness of god"/>
-		<text id="نشانه ها و آیات تکوینی" value="Ontological Signs and verses"/>
-		<text id="ولایت الهی" value="Divine Sainthood"/>
-		<text id="خلقت آسمانهاو زمین" value="Creation of heavens and land"/>
-		<text id="خلقت انسانها و جانداران و گیاهان" value="Creation of humans and animals and plants"/>
-		<text id="فطرت" value="Nature"/>
-		<text id="فطرت و خداشناسی" value="Nature and theology"/>
-		<text id="فطرت هدایتگر" value="Nature navigation"/>
-		<text id="صفات جمالیه" value="Attributes of beauty"/>
-		<text id="صفات جلالیه" value="Attributes of majestic"/>
-		<text id="صفات رحیمه" value="Attributes of merciful"/>
-		<text id="علم خداوند" value="God Science"/>
-		<text id="قدرت خداوند" value="God's power"/>
-		<text id="اسماء الهی" value="Divine Names"/>
-		<text id="جبر و اختیار" value="Compulsion and choice"/>
-		<text id="عدالت الهی" value="Divine Justice"/>
-		<text id="قضا و قدر" value="Divine ordination"/>
-		<text id="هدایت و اضلال الهی" value="Divine guidance and obliquity"/>
-		<text id="امتحان و ابتلا" value="Test and tribulation"/>
-		<text id="حق" value="Real"/>
-		<text id="باطل" value="Void"/>
-		<text id="هدف خلقت" value="The purpose of creation"/>
-		<text id="حبط و تکفیر" value="Commination ​​and atone"/>
-		<text id="عفو و غفران خداوند" value="Lordship pardon or remission and forgiveness"/>
-		<text id="کسانیکه توبه آنان قبول نمیشود" value="Those will not accept their repentance"/>
-		<text id="سنت های الهی" value="Divine traditions"/>
-		<text id="توبه و آمرزش الهی" value="Divine Repentance and Forgiveness"/>
-		<text id="شرایط توبه" value="Conditions of Repentance"/>
-		<text id="معارف قرآنی" value="Quranic higher teachings"/>
-		<text id="حیات" value="Life"/>
-		<text id="احتجاج با قوم یهود" value="Giving logical proof with the Jewish people"/>
-		<text id="قیامت" value="Resurrection"/>
-		<text id="بهشت" value="paradise or heaven"/>
-		<text id="دوزخ" value="Hell"/>
+		<text id="عقل" value="Akal"/>
+		<text id="علم و حکمت" value="ilmu dan hikmah"/>
+		<text id="توحید" value="Tauhid"/>
+		<text id="عدل" value="Keadilan"/>
+		<text id="معاد" value="Hari akhir"/>
+		<text id="نبوت" value="Nubuwah"/>
+		<text id="ولایت" value="Kewalian"/>
+		<text id="موجودات" value="Makhluk"/>
+		<text id="ایمان و فضائل" value="Iman dan kebaikan"/>
+		<text id="کفر و رذائل" value="Kufur dan kejelekan"/>
+		<text id="حقوق و آداب معاشرت" value="Hak dan adab"/>
+		<text id="کتب آسمانی" value="Kitab samawi"/>
+		<text id="ذکر و دعا" value="Dzikr dan doa"/>
+		<text id="احکام , عبادات" value="Hukum dan ibadah"/>
+		<text id="تعقل و ارزش آن" value="Kecerdasan dan nilainya"/>
+		<text id="چگونگی تعقل" value="Cara berfikir"/>
+		<text id="شرع و عقل" value="Syariah dan akal"/>
+		<text id="مذمت تقلید کورکورانه" value="Celaan taklid buta"/>
+		<text id="الهامات غیبی" value="Cita-cita yang tinggi"/>
+		<text id="اختلافات علماء" value="Perbedaan pendapat ulama"/>
+		<text id="حکمت" value="hikmah"/>
+		<text id="صفات و خصوصیات علماء" value="Ciri dan karakteristik ulama"/>
+		<text id="راسخون در علم" value="Mumpuni dalam ilmu"/>
+		<text id="اثبات توحید" value="Bukti tauhid"/>
+		<text id="احتجاجات قرآنی" value="Bukti akal tentang Quran"/>
+		<text id="احتجاجات بر نفی تثلیث و اولوهیت مسیح" value="pembuktian kekeliruan trinitas dan ketuhanan isa"/>
+		<text id="احتجاجات حضرت ابراهیم" value="Pembuktian ibrahim"/>
+		<text id="احتجاج علیه بت پرستان" value="Bantahan pada penyembah berhala"/>
+		<text id="احتجاجات حضرت نوح" value="Bukti kehadiran nuh"/>
+		<text id="احتجاجات حضرت هود" value="Bukti kehadiran hud"/>
+		<text id="شفاعت" value="Syafaat"/>
+		<text id="اعتقاد به شفاعت شرک نیست" value="mempercayai adanya syafaat bukanlah kesyirikan"/>
+		<text id="شفیعان روز قیامت" value="Hari kebangkitan"/>
+		<text id="شفاعت شوندگان" value="Pemberi syafaat"/>
+		<text id="احتجاج بر توحید خداوند" value="Bukti logis keesaan Alloh"/>
+		<text id="احتجاجات بر ربوبیت خداوند" value="bukti logis ketuhanan (rububiyah) Alloh"/>
+		<text id="احتجاجات بر وحدانیت خداوند" value="Bukti logis keesaan Alloh"/>
+		<text id="نشانه ها و آیات تکوینی" value="tanda dan ayat-ayat kauniyah"/>
+		<text id="ولایت الهی" value="Kesucian Alloh"/>
+		<text id="خلقت آسمانهاو زمین" value="Penciptaan langit dan bumi"/>
+		<text id="خلقت انسانها و جانداران و گیاهان" value="penciptaan manusia,hewan dan tumbuhan"/>
+		<text id="فطرت" value="Fitrah"/>
+		<text id="فطرت و خداشناسی" value="Fitrah dan ilmu agama"/>
+		<text id="فطرت هدایتگر" value="ilmu alam navigasi"/>
+		<text id="صفات جمالیه" value="Sifat keindahan"/>
+		<text id="صفات جلالیه" value="Sifat keagungan"/>
+		<text id="صفات رحیمه" value="Sifat pemurah"/>
+		<text id="علم خداوند" value="Ilmu Alloh"/>
+		<text id="قدرت خداوند" value="Kekuatan tuhan"/>
+		<text id="اسماء الهی" value="Asmau'ul husna"/>
+		<text id="جبر و اختیار" value="Paksaan dan pilihan"/>
+		<text id="عدالت الهی" value="Keadilan ilahi"/>
+		<text id="قضا و قدر" value="Qodo dan Qodar"/>
+		<text id="هدایت و اضلال الهی" value="Hidayah dan kesesatan"/>
+		<text id="امتحان و ابتلا" value="ujian dan bala"/>
+		<text id="حق" value="Kebenaran"/>
+		<text id="باطل" value="Kebatilan"/>
+		<text id="هدف خلقت" value="Tujuan penciptaan"/>
+		<text id="حبط و تکفیر" value="Taubat dan kekufuran"/>
+		<text id="عفو و غفران خداوند" value="Ampunan Alloh atau pengampunan dan pemaafan"/>
+		<text id="کسانیکه توبه آنان قبول نمیشود" value="Yang tidak diterima taubatnya"/>
+		<text id="سنت های الهی" value="Tradisi ilahi(edit-me)"/>
+		<text id="توبه و آمرزش الهی" value="Pertobatan Ilahi dan Pengampunan"/>
+		<text id="شرایط توبه" value="Syarat taubat"/>
+		<text id="معارف قرآنی" value="Pendidikan quran"/>
+		<text id="حیات" value="Kehidupan"/>
+		<text id="احتجاج با قوم یهود" value="pembuktian kepada kaum yahudi"/>
+		<text id="قیامت" value="Kebangkitan"/>
+		<text id="بهشت" value="Surga"/>
+		<text id="دوزخ" value="Neraka"/>
 		<text id="علائم قیامت" value="Signs of Resurrection"/>
 		<text id="استدلال بر معاد" value="Reasoning on the resurrection"/>
 		<text id="احتجاج بر معاد" value="Giving logical proof on Resurrection or Day of Judgment"/>

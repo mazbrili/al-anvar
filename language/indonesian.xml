@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
   <language author="" version="0.2.5">
-    <locale AUTHOR="" NAME="Indonesia" VERSION="AL-ANVAR-0.2.5"  ID="ID_id" />
+    <locale AUTHOR="" NAME="Indonesia" VERSION="AL-ANVAR-0.6.0"  ID="ID_id" />
       <words>
 		<text id="Align" value="Left" />
 

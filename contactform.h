@@ -2,6 +2,8 @@
 #define CONTACTFORM_H
 
 #include <QDialog>
+#include <QMessageBox>
+#include <QStatusBar>
 #include "ui_contactform.h"
 #include "tools.h"
 namespace Ui {

@@ -27,7 +27,8 @@
 #include <QNetworkAccessManager>
 #include <QNetworkReply>
 #include <QAbstractTextDocumentLayout>
-
+#include <QProgressBar>
+#include <QLabel>
 
 class Downloader : public QObject
  {
@@ -57,3 +58,4 @@ signals:
 };
 
 #endif // DOWNLOADER_H
+application/x-vnd.Be-text_run_array

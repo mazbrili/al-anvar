@@ -66,10 +66,16 @@ public:
         WriteSettings("ExternalPlayer",ReadSettings("ExternalPlayer","mplayer").toString());
       #endif
         defultPath  = QApplication::applicationDirPath();
-      #ifdef  Q_OS_LINUX
+      #if defined(Q_OS_LINUX) and !defined(Q_OS_HAIKU)
         defultPath =QDir::homePath()+"/.al-anvar";
+      #elif defined(Q_OS_HAIKU)
+       QDir homeDir(QDir::home().absolutePath() + QDir::separator() + 
+        "config" + QDir::separator() + "settings");
+         homeDir.mkdir("Al-anvar");
+   	 defultPath = homeDir.absolutePath() +
+     	 QDir::separator() + "Al-anvar";
       #endif
-
+      
 
         if(cdMode)
         {
